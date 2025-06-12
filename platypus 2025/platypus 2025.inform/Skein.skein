@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x55c6b5a34500" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7</generator>
+  <activeNode nodeId="node-0x55c6b403f900"/>
+  <item nodeId="node-0x55c6b5a34500">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+platypus 2025
+An Interactive Fiction by Chase Anderson
+Release 1 / Serial number 250611 / Inform 7 v10.1.2 / D
+
+Apartment
+  You are awoken by the shriek of your alarm. Your paw slaps around for the snooze button, condensation collecting on the webbings. Finally, you find your mark, and the whistling steam quiets.
+
+You&apos;re tempted to fall back asleep, but you recall the tenuous status you have with your boss. So, you pull yourself out of your bed to view your single-room home once more. It isn&apos;t much, but you don&apos;t want to lose it.
+
+ There&apos;s a corner for your bathroom-slash-kitchen, complete with a washing basin atop a pie safe. There&apos;s also a brick fireplace, a small bookshelf, your bed, and your alarm clock. There is an additional steam hookup, currently unused. And, of course, the door that leads you OUTSIDE your apartment. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b5acd350"/>
+      <child nodeId="node-0x55c6b41a21d0"/>
+      <child nodeId="node-0x55c6b48f8d90"/>
+      <child nodeId="node-0x55c6b41af840"/>
+      <child nodeId="node-0x55c6b5a69c30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b5acd350">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Apartment
+  There&apos;s a corner for your bathroom-slash-kitchen, complete with a washing basin atop a pie safe. There&apos;s also a brick fireplace, a small bookshelf, your bed, and your alarm clock. There is an additional steam hookup, currently unused. And, of course, the door that leads you OUTSIDE your apartment. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3b57890"/>
+      <child nodeId="node-0x55c6b3772b80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3b57890">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+Street
+this is placeholder for street.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3b7db30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3b7db30">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Office
+this is placeholder for office.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b4fe3ad0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b4fe3ad0">
+    <command xml:space="preserve">where</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b4b09190"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b4b09190">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Office
+this is placeholder for office.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b48ec6b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b48ec6b0">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">
+Cyberspace
+this is placeholder for cyberspace.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b4af7b30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b4af7b30">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+Office
+this is placeholder for office.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3b2fe70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3b2fe70">
+    <command xml:space="preserve">go  south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b4c4c410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b4c4c410">
+    <command xml:space="preserve">go office</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x55c6b3772b80">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You bump into the wall. You are swiftly reminded of how sensitive your beak is, and why it isn&apos;t a good idea to run into walls.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3c9e120"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3c9e120">
+    <command xml:space="preserve">outside</command>
+    <result xml:space="preserve">
+Street
+  When you first saw the listing for an apartment on Telegraph Ave, you thought it was a wonderful idea. Night markets! Plays! All the bars a young platypus could ever want to visit!
+
+That was before you got your night shift job. Now, all the activity is merely a reminder of all the things you are no longer able to do. Most of the other nocturnal animals in your city had chosen elsewhere to live, where most of the inhabitants were away at work and they could sleep in peace.
+
+Telegraph was busy at all hours, which made finding sleep difficult.
+
+  A tram stops and a stream of creatures jump off, scattering in each direction as they headed to their evening activities. You plan to jump on yourself, but it takes off before you have the chance.
+
+It seems like you&apos;ll need to walk to work tonight.
+
+ Across the street to the WEST is the cafe you often frequent. If you continue SOUTH, you&apos;ll reach your office building. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b4912d90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b4912d90">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Street
+   A young bat stumbles on the sidewalk, calling out for buyers for the evening edition of the paper. He&apos;s emoting with his wings, which draws attention, but gives everyone reason to avoid him to stay out of range.
+
+You decide to do the same.
+
+ Across the street to the WEST is the cafe you often frequent. If you continue SOUTH, you&apos;ll reach your office building. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3c8c2e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3c8c2e0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Street
+   A tram stops and a stream of creatures jump off, scattering in each direction as they headed to their evening activities. You plan to jump on yourself, but it takes off before you have the chance.
+
+It seems like you&apos;ll need to walk to work tonight.
+
+ Across the street to the WEST is the cafe you often frequent. If you continue SOUTH, you&apos;ll reach your office building. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3cf9150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3cf9150">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Street
+   A young bat stumbles on the sidewalk, calling out for buyers for the evening edition of the paper. He&apos;s emoting with his wings, which draws attention, but gives everyone reason to avoid him to stay out of range.
+
+You decide to do the same.
+
+ Across the street to the WEST is the cafe you often frequent. If you continue SOUTH, you&apos;ll reach your office building. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3dd98a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3dd98a0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">  You walk for a short while, but are stopped by a road closure. It seems that some hapless laborer had dug without consulting city hall first, resulting in a damaged steam line...and most of the road being torn up.
+
+You turn around and go back to your previous position.
+
+ 
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3e33170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3e33170">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">  You decide this would be a great evening to look for a shortcut to the office. You slip down an alleyway, but don&apos;t make it very far, as someone had decided this would make an excellent dumping ground for old furniture.
+
+You make a note to tell your vulture friend later, and then turn around and return to the street.
+
+ 
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3e2dc80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3e2dc80">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">  You&apos;re running out of directions to go that are not the office. While slipping into the nearby bar for a drink is a compelling option, paying your rent takes priority.
+
+You dejectedly shove your paws into your pockets and turn around.
+
+ 
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3e91c70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3e91c70">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">  You&apos;re running out of directions to go that are not the office. While slipping into the nearby bar for a drink is a compelling option, paying your rent takes priority.
+
+You dejectedly shove your paws into your pockets and turn around.
+
+ 
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3e7d1b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3e7d1b0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Cafe
+ The bell above the door tinkles as you step inside.
+
+ &quot;G&apos;day,&quot; says the clerk behind the counter, with a big smile.
+
+A couple patrons glance at you, likely wondering if the weasel was making fun of you. But you&apos;ve been going here for years, so you chalk it up to fitting the &quot;Australis&quot; theme than anything else.
+
+ While you were indeed hungry, you didn&apos;t have the time to kick your webs up and relax, so you better get going if you planned on not angering your boss.
+
+The cafe has several patrons sitting at different tables, a clerk standing behind the counter, and the door to leave in the EAST. You can&apos;t help but notice the leyline jack is left unguarded. You&apos;re so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items). 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3dae1d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3dae1d0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Cafe
+ The bell above the door tinkles as you step inside.
+
+ &quot;G&apos;day again,&quot; the clerk chirps, and then giggles. &quot;Changed your mind, huh? What can I get you?&quot;
+
+Unfortunately, you have still never learned how to speak, so you cannot answer her.
+
+ While you were indeed hungry, you didn&apos;t have the time to kick your webs up and relax, so you better get going if you planned on not angering your boss.
+
+The cafe has several patrons sitting at different tables, a clerk standing behind the counter, and the door to leave in the EAST. You can&apos;t help but notice the leyline jack is left unguarded. You&apos;re so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items). 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3ebfd30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3ebfd30">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Cafe
+ The bell above the door tinkles as you step inside.
+
+ &quot;Hey,&quot; the clerk says. &quot;You feeling okay? If you need a glass of water or something, you can just ask.&quot;
+
+You still don&apos;t answer her, which she acknowledges by glancing away nervously. She busies herself with something behind the counter you can&apos;t see.
+
+ While you were indeed hungry, you didn&apos;t have the time to kick your webs up and relax, so you better get going if you planned on not angering your boss.
+
+The cafe has several patrons sitting at different tables, a clerk standing behind the counter, and the door to leave in the EAST. You can&apos;t help but notice the leyline jack is left unguarded. You&apos;re so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items). 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3f42660"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3f42660">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Cafe
+ The bell above the door tinkles as you step inside.
+
+ &quot;Oh.&quot; The clerk glances up at you, gives you a moment to respond, and then turns her back to deal with something you can&apos;t see.
+
+You won&apos;t be able to speak to her like this.
+
+ While you were indeed hungry, you didn&apos;t have the time to kick your webs up and relax, so you better get going if you planned on not angering your boss.
+
+The cafe has several patrons sitting at different tables, a clerk standing behind the counter, and the door to leave in the EAST. You can&apos;t help but notice the leyline jack is left unguarded. You&apos;re so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items). 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3fa9710"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3fa9710">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Cafe
+ The bell above the door tinkles as you step inside.
+
+ The clerk glances over her shoulder at you, but quickly returns to her work, ignoring you.
+
+You have the feeling you&apos;ve lost your chance to speak to her.
+
+ While you were indeed hungry, you didn&apos;t have the time to kick your webs up and relax, so you better get going if you planned on not angering your boss.
+
+The cafe has several patrons sitting at different tables, a clerk standing behind the counter, and the door to leave in the EAST. You can&apos;t help but notice the leyline jack is left unguarded. You&apos;re so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items). 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3fbc630"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3fbc630">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Cafe
+ The bell above the door tinkles as you step inside.
+
+ The clerk glances over her shoulder at you, but quickly returns to her work, ignoring you.
+
+You have the feeling you&apos;ve lost your chance to speak to her.
+
+ While you were indeed hungry, you didn&apos;t have the time to kick your webs up and relax, so you better get going if you planned on not angering your boss.
+
+The cafe has several patrons sitting at different tables, a clerk standing behind the counter, and the door to leave in the EAST. You can&apos;t help but notice the leyline jack is left unguarded. You&apos;re so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items). 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3fdc760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3fdc760">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You consider it, but decide not to. It would be unwise to plow into someone&apos;s table and ruin their supper.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3f9bd00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3f9bd00">
+    <command xml:space="preserve">inside</command>
+    <result xml:space="preserve">
+Network
+  You&apos;ll probably never get used to the feeling of tumbling inside-out that always happens whenever you connect to the network...with your mind, because you&apos;re so amazing that you don&apos;t need items.
+
+ The leyline network is an abstract space, colors and intent swirling in place until a current of energy might rush by and take it from one place to another.
+
+You&apos;re one of the lucky few that is able to visualize this space...but not lucky enough to have the aptitude to actually create the spells yourself. Instead, you&apos;re nothing more than a glorified guard, poking at suspicious-looking tidepools to find anything that might not supposed to be there.
+
+There are various areas of color you could inspect, but you don&apos;t seem to recall how to do that. The only action you&apos;re able to leave is by going OUTSIDE of the network. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3f830f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3f830f0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Network
+  The leyline network is an abstract space, colors and intent swirling in place until a current of energy might rush by and take it from one place to another.
+
+You&apos;re one of the lucky few that is able to visualize this space...but not lucky enough to have the aptitude to actually create the spells yourself. Instead, you&apos;re nothing more than a glorified guard, poking at suspicious-looking tidepools to find anything that might not supposed to be there.
+
+There are various areas of color you could inspect, but you don&apos;t seem to recall how to do that. The only action you&apos;re able to leave is by going OUTSIDE of the network. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b403f900"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b403f900">
+    <command xml:space="preserve">outside</command>
+    <result xml:space="preserve">
+Office
+  You&apos;re able to punch in just in time; your boss won&apos;t be able to accuse you of being late this time!
+
+ As you were never taught how to speak, you do not run into any creatures on the way to your closet. Lucky you!
+
+Unlike other animals, you don&apos;t mind the dark, enclosed space of the networking closet. The softly-glowing cords of the leyline network create glittering afterimages if you look at one spot for too long.
+
+You have tasks that are your duty to perform, but you aren&apos;t capable of remembering what they are.
+
+You&apos;re so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items.). You can also leave the office by going NORTH. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x55c6b41a21d0">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+Street
+this is placeholder for street.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b4a53260"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b4a53260">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Office
+this is placeholder for office.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b41b67a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b41b67a0">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">
+Cyberspace
+this is placeholder for cyberspace.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b50e9e90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b50e9e90">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+Office
+this is placeholder for office.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b4a80720"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b4a80720">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Street
+this is placeholder for street.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b45190e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b45190e0">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">
+Apartment
+  There&apos;s a corner for your bathroom-slash-kitchen, complete with a washing basin atop a pie safe. There&apos;s also a brick fireplace, a small bookshelf, your bed, and your alarm clock. There is an additional hookup, currently unused. And, of course, the door that leads you OUTSIDE your apartment. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b36aef80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b36aef80">
+    <command xml:space="preserve">outside</command>
+    <result xml:space="preserve">
+Street
+this is placeholder for street.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b47f7660"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b47f7660">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Cafe
+this is placeholder for cafe.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b443fa80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b443fa80">
+    <command xml:space="preserve">inside</command>
+    <result xml:space="preserve">
+Cyberpsace
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x55c6b48f8d90">
+    <command xml:space="preserve">outside</command>
+    <result xml:space="preserve">
+Street
+  When you first saw the listing for an apartment on Telegraph Ave, you thought it was a wonderful idea. Night markets! Plays! All the bars a young platypus could ever want to visit!
+
+That was before you got your night shift job. Now, all the activity is merely a reminder of all the things you are no longer able to do. Most of the other nocturnal animals in your city had chosen elsewhere to live, where most of the inhabitants were away at work and they could sleep in peace.
+
+Telegraph was busy at all hours, which made finding sleep difficult.
+
+ Across the street to the WEST is the cafe you often frequent. If you continue SOUTH, you&apos;ll reach your office building. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b483f6d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b483f6d0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Cafe
+ The bell above the door tinkles as you step inside.
+
+ &quot;G&apos;day,&quot; says the clerk behind the counter, with a big smile.
+
+A couple patrons glance at you, likely wondering if the weasel was making fun of you. But you&apos;ve been going here for years, so you chalk it up to fitting the &quot;Australis&quot; theme than anything else.
+
+ While you were indeed hungry, you didn&apos;t have the time to kick your webs up and relax, so you better get going if you planned on not angering your boss.
+
+The cafe has several patrons sitting at different tables, a clerk standing behind the counter, and the door to leave in the EAST. You can&apos;t help but notice the leyline jack is left unguarded. You&apos;re so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items). 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b47c2910"/>
+      <child nodeId="node-0x55c6b3622be0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b47c2910">
+    <command xml:space="preserve">inside</command>
+    <result xml:space="preserve">
+Cyberspace
+this is placeholder for cyberspace.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b4ecd380"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b4ecd380">
+    <command xml:space="preserve">outside</command>
+    <result xml:space="preserve">
+Office
+this is placeholder for office.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b4aca970"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b4aca970">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">
+Cyberspace
+this is placeholder for cyberspace.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b4850ca0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b4850ca0">
+    <command xml:space="preserve">go outside cafe</command>
+    <result xml:space="preserve">I only understood you as far as wanting to go outside.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3a158f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3a158f0">
+    <command xml:space="preserve">go to cafe</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3796e20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3796e20">
+    <command xml:space="preserve">go  outside</command>
+    <result xml:space="preserve">
+Office
+this is placeholder for office.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b5209f50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b5209f50">
+    <command xml:space="preserve">inside</command>
+    <result xml:space="preserve">
+Cyberspace
+this is placeholder for cyberspace.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x55c6b3622be0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Cafe
+ The bell above the door tinkles as you step inside.
+
+ While you were indeed hungry, you didn&apos;t have the time to kick your webs up and relax, so you better get going if you planned on not angering your boss.
+
+The cafe has several patrons sitting at different tables, a clerk standing behind the counter, and the door to leave in the EAST. You can&apos;t help but notice the leyline jack is left unguarded. You&apos;re so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items). 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b5b0aa10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b5b0aa10">
+    <command xml:space="preserve">inside</command>
+    <result xml:space="preserve">
+Cyberspace
+this is placeholder for cyberspace.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b523b4b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b523b4b0">
+    <command xml:space="preserve">outside</command>
+    <result xml:space="preserve">
+Office
+this is placeholder for office.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x55c6b41af840">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">Sorry, that can&apos;t be corrected.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b38abc00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b38abc00">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">
+Street
+  When you first saw the listing for an apartment on Telegraph Ave, you thought it was a wonderful idea. Night markets! Plays! All the bars a young platypus could ever want to visit!
+
+That was before you got your night shift job. Now, all the activity is merely a reminder of all the things you are no longer able to do. Most of the other nocturnal animals in your city had chosen elsewhere to live, where most of the inhabitants were away at work and they could sleep in peace.
+
+Telegraph was busy at all hours, which made finding sleep difficult.
+
+ Across the street to the WEST is the cafe you often frequent. If you continue SOUTH, you&apos;ll reach your office building. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b36ed540"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b36ed540">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Cafe
+ The bell above the door tinkles as you step inside.
+
+ &quot;G&apos;day,&quot; says the clerk behind the counter, with a big smile.
+
+A couple patrons glance at you, likely wondering if the weasel was making fun of you. But you&apos;ve been going here for years, so you chalk it up to fitting the &quot;Australis&quot; theme than anything else.
+
+ While you were indeed hungry, you didn&apos;t have the time to kick your webs up and relax, so you better get going if you planned on not angering your boss.
+
+The cafe has several patrons sitting at different tables, a clerk standing behind the counter, and the door to leave in the EAST. You can&apos;t help but notice the leyline jack is left unguarded. You&apos;re so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items). 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b4172e40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b4172e40">
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">
+Network
+  You&apos;ll probably never get used to the feeling of tumbling inside-out that always happens whenever you connect to the network...with your mind, because you&apos;re so amazing that you don&apos;t need items.
+
+ The leyline network is an abstract space, colors and intent swirling in place until a current of energy might rush by and take it from one place to another.
+
+You&apos;re one of the lucky few that is able to visualize this space...but not lucky enough to have the aptitude to actually create the spells yourself. Instead, you&apos;re nothing more than a glorified guard, poking at suspicious-looking tidepools to find anything that might not supposed to be there.
+
+There are various areas of color you could inspect, but you don&apos;t seem to recall how to do that. The only action you&apos;re able to leave is by going OUTSIDE of the network.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b36105f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b36105f0">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">
+Office
+  You&apos;re able to punch in just in time; your boss won&apos;t be able to accuse you of being late this time!
+
+ As you were never taught how to speak, you do not run into any creatures on the way to your closet. Lucky you!
+
+Unlike other animals, you don&apos;t mind the dark, enclosed space of the networking closet. The softly-glowing cords of the leyline network create glittering afterimages if you look at one spot for too long.
+
+You have tasks that are your duty to perform, but you aren&apos;t capable of remembering what they are.
+
+You&apos;re so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items.). You can also leave the office by going NORTH. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b36c70b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b36c70b0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Street
+  Across the street to the WEST is the cafe you often frequent. If you continue SOUTH, you&apos;ll reach your office building. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3750810"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3750810">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Office
+  As you were never taught how to speak, you do not run into any creatures on the way to your closet. Lucky you!
+
+Unlike other animals, you don&apos;t mind the dark, enclosed space of the networking closet. The softly-glowing cords of the leyline network create glittering afterimages if you look at one spot for too long.
+
+You have tasks that are your duty to perform, but you aren&apos;t capable of remembering what they are.
+
+You&apos;re so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items.). You can also leave the office by going NORTH. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b38e08d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b38e08d0">
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">
+Network
+  The leyline network is an abstract space, colors and intent swirling in place until a current of energy might rush by and take it from one place to another.
+
+You&apos;re one of the lucky few that is able to visualize this space...but not lucky enough to have the aptitude to actually create the spells yourself. Instead, you&apos;re nothing more than a glorified guard, poking at suspicious-looking tidepools to find anything that might not supposed to be there.
+
+There are various areas of color you could inspect, but you don&apos;t seem to recall how to do that. The only action you&apos;re able to leave is by going OUTSIDE of the network.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3707090"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3707090">
+    <command xml:space="preserve">outside</command>
+    <result xml:space="preserve">
+Office
+  As you were never taught how to speak, you do not run into any creatures on the way to your closet. Lucky you!
+
+Unlike other animals, you don&apos;t mind the dark, enclosed space of the networking closet. The softly-glowing cords of the leyline network create glittering afterimages if you look at one spot for too long.
+
+You have tasks that are your duty to perform, but you aren&apos;t capable of remembering what they are.
+
+You&apos;re so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items.). You can also leave the office by going NORTH. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3d02110"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3d02110">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Street
+  Across the street to the WEST is the cafe you often frequent. If you continue SOUTH, you&apos;ll reach your office building. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b4fb26e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b4fb26e0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Cafe
+ The bell above the door tinkles as you step inside.
+
+ While you were indeed hungry, you didn&apos;t have the time to kick your webs up and relax, so you better get going if you planned on not angering your boss.
+
+The cafe has several patrons sitting at different tables, a clerk standing behind the counter, and the door to leave in the EAST. You can&apos;t help but notice the leyline jack is left unguarded. You&apos;re so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items). 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3e709d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3e709d0">
+    <command xml:space="preserve">inside</command>
+    <result xml:space="preserve">
+Network
+  The leyline network is an abstract space, colors and intent swirling in place until a current of energy might rush by and take it from one place to another.
+
+You&apos;re one of the lucky few that is able to visualize this space...but not lucky enough to have the aptitude to actually create the spells yourself. Instead, you&apos;re nothing more than a glorified guard, poking at suspicious-looking tidepools to find anything that might not supposed to be there.
+
+There are various areas of color you could inspect, but you don&apos;t seem to recall how to do that. The only action you&apos;re able to leave is by going OUTSIDE of the network.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x55c6b5a69c30">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You bump into the wall. You are swiftly reminded of how sensitive your beak is, and why it isn&apos;t a good idea to run into walls.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b377a780"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b377a780">
+    <command xml:space="preserve">outside</command>
+    <result xml:space="preserve">
+Street
+  When you first saw the listing for an apartment on Telegraph Ave, you thought it was a wonderful idea. Night markets! Plays! All the bars a young platypus could ever want to visit!
+
+That was before you got your night shift job. Now, all the activity is merely a reminder of all the things you are no longer able to do. Most of the other nocturnal animals in your city had chosen elsewhere to live, where most of the inhabitants were away at work and they could sleep in peace.
+
+Telegraph was busy at all hours, which made finding sleep difficult.
+
+ Across the street to the WEST is the cafe you often frequent. If you continue SOUTH, you&apos;ll reach your office building. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b375cfa0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b375cfa0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You walk for a short while, but are stopped by a road closure. It seems that some hapless laborer had dug without consulting city hall first, resulting in a damaged steam line...and most of the road being torn up.
+
+You turn around and go back to your previous position.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3668560"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3668560">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Cafe
+ The bell above the door tinkles as you step inside.
+
+ &quot;G&apos;day,&quot; says the clerk behind the counter, with a big smile.
+
+A couple patrons glance at you, likely wondering if the weasel was making fun of you. But you&apos;ve been going here for years, so you chalk it up to fitting the &quot;Australis&quot; theme than anything else.
+
+ While you were indeed hungry, you didn&apos;t have the time to kick your webs up and relax, so you better get going if you planned on not angering your boss.
+
+The cafe has several patrons sitting at different tables, a clerk standing behind the counter, and the door to leave in the EAST. You can&apos;t help but notice the leyline jack is left unguarded. You&apos;re so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items). 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b37bb1b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b37bb1b0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You consider it, but decide not to. It would be unwise to plow into someone&apos;s table and ruin their supper.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b5a64fa0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b5a64fa0">
+    <command xml:space="preserve">inside</command>
+    <result xml:space="preserve">
+Network
+  You&apos;ll probably never get used to the feeling of tumbling inside-out that always happens whenever you connect to the network...with your mind, because you&apos;re so amazing that you don&apos;t need items.
+
+ The leyline network is an abstract space, colors and intent swirling in place until a current of energy might rush by and take it from one place to another.
+
+You&apos;re one of the lucky few that is able to visualize this space...but not lucky enough to have the aptitude to actually create the spells yourself. Instead, you&apos;re nothing more than a glorified guard, poking at suspicious-looking tidepools to find anything that might not supposed to be there.
+
+There are various areas of color you could inspect, but you don&apos;t seem to recall how to do that. The only action you&apos;re able to leave is by going OUTSIDE of the network. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b3e6f660"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b3e6f660">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">As the network is an abstract space, it really doesn&apos;t conform to concepts such as &quot;up&quot; and &quot;down.&quot; You waste time thinking about movement that isn&apos;t possible.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b5b26070"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b5b26070">
+    <command xml:space="preserve">outside</command>
+    <result xml:space="preserve">
+Office
+  You&apos;re able to punch in just in time; your boss won&apos;t be able to accuse you of being late this time!
+
+ As you were never taught how to speak, you do not run into any creatures on the way to your closet. Lucky you!
+
+Unlike other animals, you don&apos;t mind the dark, enclosed space of the networking closet. The softly-glowing cords of the leyline network create glittering afterimages if you look at one spot for too long.
+
+You have tasks that are your duty to perform, but you aren&apos;t capable of remembering what they are.
+
+You&apos;re so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items.). You can also leave the office by going NORTH. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55c6b377e490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55c6b377e490">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You move in the dark, but the faint crackle of magic tingles your beak. You remember that continuing in such a direction would result in becoming entangled with the cords and cause quite a mess for yourself.
+
+You, wisely, decide not to.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>
