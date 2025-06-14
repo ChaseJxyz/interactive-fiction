@@ -1,6 +1,9 @@
 "platypus 2025" by "Chase Anderson"
 
-[apartment][TODO: figure out how to get 2nd P for unvisited to line up w/1st P of each assertion.]
+[
+-----------------------------------APARTMENT-----------------------------
+]
+[-]
 
 Apartment is a room. "
 [if unvisited]
@@ -12,7 +15,11 @@ You're tempted to fall back asleep, but you recall the tenuous status you have w
 There's a corner for your bathroom-slash-kitchen, complete with a washing basin atop a safe. There's also a brick fireplace, a small bookshelf, your bed, and your alarm clock. There is an additional steam hookup, currently unused. And, of course, the door that leads you OUTSIDE your apartment.
 "
 
-[apartment items][TODO: make alarm do things when on. make the bed? sleep bed. use basin/ewer (wash). just the using of shit/custom verbs in gen FIXME: is there an if unvisited for items?]
+[
+--------------------------apartment items--------------------------------
+]
+[TODO: make the bed? sleep bed. use basin/ewer (wash). just the using of shit/custom verbs in gen FIXME: is there an if unvisited for items?]
+
 [alarm clock]
 alarm clock is a scenery device in Apartment.
 
@@ -24,12 +31,24 @@ Your neighbors aren't super appreciative of this modern convenience, though. Pro
 [end if]
 "
 
+After switching on alarm clock:
+    say "You reset your alarm. Now at least you won't need to worry about doing it when you get home after work."
+
+After switching off alarm clock:
+    say "You enjoy the click of the clockwork, but you'll need to turn it back on eventually. Or maybe you'll enjoy the risk of sleeping in tomorrow."
+
+Instead of eating alarm clock:
+    say "While a very caprine idea, the steam burns wouldn't be very appetizing, so you decline the idea."
+
 [bed]
 bed is a enterable scenery container in Apartment.
 
 Understand "your bed" and "the bed" and "nest" and "your nest" and "the nest" as bed.
 
 The description of bed is "Your bed, big enough for one not-too-large creature. The covers are askew, but, as you were never taught how to make the bed, it will need to remain messy for the time being."
+
+Instead of eating bed:
+    say "While you had a dream like this once, it wasn't a very pleasant one. Besides, you already have food available."
 
 [safe]
 safe is a closed, unlocked, openable scenery container in Apartment.
@@ -38,12 +57,18 @@ Understand "pie safe" as safe.
 
 The description of safe is "A pie safe. The tin panels on the front have holes punched in the design of eucalyptus trees."
 
+Instead of eating safe:
+    say "Pie safes are for storing food, not being food!"
+
 [pie]
 pie is a edible thing in safe.
 
 Understand "worm pie" and "mealworm pie" and "meal worm pie" and "pot pie" and "worm pot pie" and "mealworm pit pie" and "meal worm pot pie" and "potpie" and "worm potpie" and "mealworm potpie" and "meal worm potpie" as pie.
 
 The description of pie is "A personal-sized mealworm pot pie. Makes a perfect start for your day-slash-night."
+
+After eating pie:
+    say "Yum! Protein is the best way to start the day, as your mum always said."
 
 [wash basin]
 basin is a scenery container in Apartment.
@@ -52,12 +77,18 @@ Understand "wash basin" and "sink" and "washing basin" as basin.
 
 The description of basin is "A shallow-ish bowl and matching ewer. Perfect for washing your face in the morning. Or, evening, depending on when you wake up."
 
+Instead of eating basin:
+    say "While a very caprine idea, the porcelain wouldn't be very appetizing, so you decline the idea."
+
 [ewer]
 ewer is in basin.
 
 Understand "jug" and "jar" as ewer.
 
 The description of ewer is "A simple porcelain jug filled with water."
+
+Instead of eating ewer:
+    say "While a very caprine idea, the porcelain wouldn't be very appetizing, so you decline the idea."
 
 [fireplace]
 
@@ -67,6 +98,9 @@ Understand "fire place" as fireplace.
 
 The description of fireplace is "A brick fireplace. It's the summer, so you won't be needing to use it anytime soon."
 
+Instead of eating fireplace:
+    say "While a very caprine idea, the brick wouldn't be very appetizing, so you decline the idea."
+
 [bookshelf]
 
 bookshelf is a scenery container in Apartment.
@@ -74,6 +108,9 @@ bookshelf is a scenery container in Apartment.
 Understand "book shelf" as bookshelf.
 
 The description of bookshelf is "A small, rickety-looking bookshelf. Would be the perfect place to store your knick-knacks, if you had any."
+
+Instead of eating bookshelf:
+    say "While a very caprine idea, the splinters wouldn't be very appetizing, so you decline the idea."
 
 [bookshelf items]
 
@@ -87,11 +124,17 @@ You remind yourself to stop accepting 'gifts' from your vulture friend.
 [end if]
 "
 
+Instead of eating books:
+    say "While a very caprine idea, the paper cuts wouldn't be very appetizing, so you decline the idea."
+
 newspaper is a thing in bookshelf.
 
 Understand "paper" and "news paper" and "news" as newspaper.
 
 The description of newspaper is "Months-old newspapers that you're only holding on to for lighting the fireplace. You haven't needed to in some time, so they're beginning to yellow."
+
+Instead of eating newspaper:
+    say "While a very caprine idea, the paper cuts wouldn't be very appetizing, so you decline the idea."
 
 [hookup]
 
@@ -106,10 +149,20 @@ Some engineer surely lost many nights worth of sleep to design a connection that
 [end if]
 "
 
+Instead of eating hookup:
+    say "While a very caprine idea, the steam burns wouldn't be very appetizing, so you decline the idea."
+
+[
+-------------------------apartment rules---------------------------------
+]
+
 Instead of going nowhere from Apartment:
     say "You bump into the wall. You are swiftly reminded of how sensitive your beak is, and why it isn't a good idea to run into walls."
 
-[street][]
+[
+------------------------------street-------------------------------------
+]
+[]
 
 Street is outside of Apartment. "
 [if unvisited]
@@ -134,15 +187,20 @@ You decide to do the same.
 If you continue SOUTH, you'll reach your office building.
 "
 
-[Street items]
+[
+----------------------------Street items---------------------------------
+]
 [apt building]
 apartmentBuilding is a backdrop.
 
 apartmentBuilding is in Street and Cafe.
 
-Understand "apartment" and "your building" and "apartment building" as apartmentBuilding.
+Understand "apartment" and "your building" and "apartment building" and "building" as apartmentBuilding.
 
 The description of apartmentBuilding is "Your apartment building. It used to be a sizable home, but has since been divided into smaller units."
+
+Instead of eating apartmentBuilding:
+    say "While a very caprine idea, the concrete wouldn't be very appetizing, so you decline the idea."
 
 [crowd]
 crowd is a scenery in Street.
@@ -151,10 +209,19 @@ Understand "crowd" and "riders" and "people" and "beings" and "animals" as crowd
 
 The description of crowd is "An ever-moving throng of animals going about their day. There're beings from nearly every part of the world who live here, but you don't spot anyone else from Australis."
 
+[[instead of eating the crowd:]][[FIXME:]]
+    [[if the pie is in the nowhere:
+        say "Platypi aren't known for being apex predators...besides you're not hungry.";]]
+    [[otherwise:
+        say "Platypi aren't known for being apex predators...besides, you have food at home.";]]
+
 [tram]
 tram is a scenery in Street.
 
 The description of tram is "The tram is long gone, but its tracks and the pneumatic tube that powers it remain. If you weren't sensitive to magic, you'd like to think that you'd be a tram operator instead."
+
+Instead of eating tram:
+    say "While a very caprine idea, the steel wouldn't be very appetizing, so you decline the idea."
 
 [cafeFront]
 cafeFront is a fixed in place thing in Street. "Across the street to the WEST is the cafe you often frequent."
@@ -162,6 +229,13 @@ cafeFront is a fixed in place thing in Street. "Across the street to the WEST is
 Understand "cafe" as cafeFront.
 
 The description of cafeFront is "A popular cafe. There's several tables out front and animals enjoying an evening meal. A quick peak through the windows shows that, while busy, there's still a few open tables and no line."
+
+Instead of eating cafeFront:
+    say "While a very caprine idea, the concrete wouldn't be very appetizing, so you decline the idea."
+
+[
+------------------------------street rules-------------------------------
+]
 [-]
 Instead of going nowhere from Street:
     say "
@@ -183,7 +257,9 @@ Instead of going nowhere from Street:
     [stopping]
     "
 
-[cafe][TODO: dif if you came in thru The Network. ability to order? hongry/thorsty if not eat at home? talk to ppl? make the jack usable w/item. make bell only go off if ur entering it (not a look)]
+[
+------------------------------cafe---------------------------------------
+][TODO: dif if you came in thru The Network. ability to order? hongry/thorsty if not eat at home? talk to ppl? make the jack usable w/item. make bell only go off if ur entering it (not a look)]
 
 Cafe is west of Street. "
 The bell above the door tinkles as you step inside.
@@ -216,13 +292,20 @@ You have the feeling you've lost your chance to speak to her.
 [stopping]
 While you were indeed hungry, you didn't have the time to kick your webs up and relax, so you better get going if you planned on not angering your boss.
 
-The cafe has several patrons sitting at different tables, a clerk standing behind the counter, and the door to leave in the EAST. You can't help but notice the leyline jack is left unguarded. You're so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items).
+The cafe has several patrons sitting at different tables, a clerk standing behind the counter, and the door to leave in the EAST.
 "
 
-[cafe items]
+[
+----------------------------cafe items-----------------------------------
+]
+
+[counter]
 counter is scenery supporter in Cafe.
 
 The description of counter is "A long wooden counter with a clerk standing behind. A pastry case filled with treats invitingly displays its wares."
+
+Instead of eating counter:
+    say "While a very caprine idea, the splinters wouldn't be very appetizing, so you decline the idea."
 
 [pastry case]
 pastry case is a locked transparent scenery container in Cafe.
@@ -230,6 +313,9 @@ pastry case is a locked transparent scenery container in Cafe.
 Understand "case" and "display case" as pastry case.
 
 The description of pastry case is "A glass case with shiny brass fittings, both displaying and protecting the delectable treats within."
+
+Instead of eating pastry case:
+    say "While a very caprine idea, the glass wouldn't be very appetizing, so you decline the idea."
 
 [pastries]
 [another pie is a edible thing in pastry case.
@@ -244,11 +330,28 @@ Understand "tart" as pepper tart.
 
 The description of pepper tart is "A flaky pastry shell filled with bright-red peppers. Extremely spicy, and only suitable for an avian palate."
 
+After eating pepper tart:
+    say "You are cruelly reminded that you aren't actually a bird. The heat is so extreme that it blocks your ability to breathe, which is essential for survival.";
+    end the story finally saying "To think that your story would end from a mere pastry!"
+
 wax bottle is a edible thing in pastry case.
 
 Understand "bottle" and "juice bottle" as wax bottle.
 
 The description of wax bottle is "Edible wax formed in the shape of a bottle. Inside is a pale yellow liquid. The nectar is a favorite of hummingbirds, lories, and bears."
+
+After eating wax bottle:
+    say "It is a shocking dichotomy of tasteless wax and mouth-puckeringly sweet nectar. You inelegantly pull the ball of chewed wax from your beak and shove it in your pocket.";
+    now player has ball of wax.
+
+ball of wax is a thing.
+
+Understand "wax" and "ball" as ball of wax.
+
+The description of ball of wax is "An inedible mass of 'edible' wax."
+
+Instead of eating ball of wax:
+    say "The fact that you cannot is the reason you posses it in the first place."
 
 grass galette is a edible thing in pastry case.
 
@@ -256,23 +359,52 @@ Understand "galette" as grass galette.
 
 The description of grass galette is "Folded pastry around artfully arranged grasses. Aggressively herbaceous and rough on the teeth. Luckily for you, you have none."
 
+After eating grass galette:
+    say "Who would have guessed that eating a mass of grass was unpleasant? Your stomach will remember this (and remind you later)."
+
 stargazy roll is a edible thing in pastry case.
 
 Understand "stargazy pie" and "roll" and "fish pie" and "fish roll" as stargazy roll.
 
 The description of stargazy roll is "Flaky pastry rolled around a fish, leaving its head exposed. Probably an unnerving sight for herbivores."
 
+After eating stargazy roll:
+    say "Yum! All that remains is the head of the fish, which you slip discretely into your pocket.";
+    now player has fish head.
+
+fish head is a thing.
+
+Understand "head" and "fish" as fish head.
+
+The description of fish head is "The severed and cooked head of a medium-small fish. Some other animal might appreciate it more than you would."
+
+Instead of eating fish head:
+    say "The fact that you cannot is the reason you posses it in the first place."
+
 [leyline jack]
-leyline jack is a scenery thing in Cafe.
+[leyline jack is a scenery thing in Cafe.]
+leyline jack is a openable, closed, lockable, locked door.
+
+leyline jack is south of Cafe and north of The Network."[if leyline jack is closed]You can't help but notice the leyline jack is left unguarded on the SOUTH wall.[else] A leyline jack is available on the SOUTH wall."
+
+The description of leyline jack is "[if leyline jack is closed]A small, squarish port that can be used to connect to the leyline network, if one possessed the proper cable. Probably not a good idea that anyone can access it, but not everyone has the capacity to do so.[else]A small, squarish port that awaits you to connect to the leyline network."
 
 Understand "jack" as leyline jack.
 
-The description of leyline jack is "A port to the leyline network. Probably not a good idea that anyone can access it, but not everyone has the capacity to do so."
+Instead of eating  leyline jack:
+    say "You cannot eat something inserted into the wall."
+
+[
+-----------------------------cafe rules----------------------------------
+]
 
 Instead of going nowhere from Cafe:
     say "You consider it, but decide not to. It would be unwise to plow into someone's table and ruin their supper."
 
-[office][TODO: sp. descript for entering from street/network, look. chars to talk to. items/things/stuff to do]
+[
+---------------------------------office----------------------------------
+]
+[TODO: sp. descript for entering from street/network, look. chars to talk to. items/things/stuff to do]
 
 Office is south of Street. "
 [if unvisited]
@@ -285,10 +417,13 @@ Unlike other animals, you don't mind the dark, enclosed space of the networking 
 
 You have tasks that are your duty to perform, but you aren't capable of remembering what they are.
 
-You're so amazing that you can go INSIDE the leyline network without an item (as you have yet to learn how to use items.). You can also leave the office by going NORTH.
+When you're ready to begin, you can go INSIDE the network. You can also leave the office by going NORTH.
 "
 
-[office items]
+[
+----------------------------office items---------------------------------
+]
+[TODO: needs the rj45 cord will be "key" for nw]
 [timeclock]
 time clock is scenery in Office.
 
@@ -296,12 +431,30 @@ Understand "timeclock" and "clock" as time clock.
 
 The description of time clock is "A clockwork device used to mark your timecard and log your hours. A necessary evil of the office."
 
+Instead of eating time clock:
+    say "While it would resolve your issues with the device itself, you would then need to greet your boss to manage your hours. As you have yet to learn how to speak, this is impossible, so it'd be best to table this idea."
+
 [cords]
 cords is scenery thing in Office.
 
 Understand "leyline cords" and "cord" and "leyline cord" as cords.
 
 The description of cords is "Thin filaments spun from materials harvested from monsters that allow magical energy to be transferred from one place to another. You had to memorize all the colors and the best materials for your certification exam, but you've yet to need to craft your own cables."
+
+Instead of eating cords:
+    say "While a very caprine idea, the hairs and heartstrings wouldn't be very appetizing, so you decline the idea."
+
+[connector]
+connector is a thing in Office. "The leyline connector is awaiting the start of your shift."
+
+Understand "leyline cable" and "cable" and "leyline connector" as connector.
+
+The description of connector is "A thick cable coated in rubber, not unlike your beak. This allows anyone with the aptitude to connect to the leyline network."
+
+Instead of eating connector:
+    say "This singular cable is worth more than your yearly salary, so that would be a very unwise decision."
+
+connector unlocks leyline jack.
 
 [network]
 
@@ -311,15 +464,37 @@ Understand "leyline network" and "leyline net" and "the network" and "the leylin
 
 The description of leylineNetwork is "The carefully-stacked and organized magitek that makes up they leyline network...or at least part of it. Like steam, a complex series of devices step down magic to an amount and strength that can be used by smaller businesses and homes."
 
+Instead of eating leylineNetwork:
+    say "As it is many times your volume and mass, this would be impossible."
+
+[
+---------------------------office rules----------------------------------
+]
 Instead of going nowhere from Office:
     say "You move in the dark, but the faint crackle of magic tingles your beak. You remember that continuing in such a direction would result in becoming entangled with the cords and cause quite a mess for yourself.
     
     You, wisely, decide not to."
 
-Instead of going north when player is in Office:
-    say "If you clock out now, that'll surely cause issues with your boss. Unfortunately, you are stuck here for the time being."
+[Instead of going north when player is in Office:
+    say "If you clock out now, that'll surely cause issues with your boss. Unfortunately, you are stuck here for the time being."][TODO: put in plot reason/resolution for this]
 
-[The Network][FIXME: cant go to office from cafe thru The Network; for some reason it only works if the final " isn't on its own line??? TODO: diff descripts based on where u went in? interactables]
+[[instead of going x when the player is in y:
+    if the player is carrying z:
+        say "test.";]]
+
+
+[///][FIXME:]
+[[instead of going inside when the player is in the Office:
+    if the player is carrying the connector:
+        say "You take a moment to prepare yourself. You wrap one paw around the cable's end, close your eyes, and then plug it into the hardware.";
+        now player is in The Network;
+    else:
+        say "You cannot enter the leyline network without the cable to do so."]]
+
+[
+---------------------------The Network-----------------------------------
+]
+[FIXME: cant go to office from cafe thru The Network; for some reason it only works if the final " isn't on its own line??? TODO: diff descripts based on where u went in? interactables]
 
 The Network is inside of Office. "
 [if unvisited]
@@ -333,13 +508,18 @@ You're one of the lucky few that is able to visualize this space...but not lucky
 There are various areas of color you could inspect, but you don't seem to recall how to do that. The only action you're able to leave is by going OUTSIDE of the network.
 "
 
-[the network items]
+[
+-------------------------the network items-------------------------------
+]
 [red]
 red pool is a fixed in place closed container in The Network. "A red pool of energy quietly swirls."
 
 Understand "red" as red pool.
 
 The description of red pool is "A deep pool of tomato-bright energy. You can gauge that there's just about the right amount that had accumulated since your last shift."
+
+Instead of eating red pool:
+    say "You cannot eat an abstract concept."
 
 [red info]
 [figure this out once there can be better interactables. this is normal log data]
@@ -350,6 +530,9 @@ blue pool is a fixed in place container in The Network. "A blue pool of energy g
 Understand "blue" as blue pool.
 
 The description of blue pool is "A shallow pool of jay-blue energy. Like the bird, there's a wealth of barely-contained momentum just underneath the surface."
+
+Instead of eating blue pool:
+    say "You cannot eat an abstract concept."
 
 [blue info]
 [see red info. this has some malevolent stuff in it]
@@ -362,10 +545,15 @@ Understand "green" as green pool.
 
 The description of green pool is "A deep, deep well of energy. It's more like a river, or an ocean current, and is the backbone of the leyline network...or at least the corner of it that exists within your closet."
 
+Instead of eating green pool:
+    say "You cannot eat an abstract concept."
+
 [green info]
 [see red info. this is network activity]
 
-The Network is inside of Cafe.
+[
+-----------------------------the network rules---------------------------
+]
 
 Instead of going nowhere from The Network:
     say "As the network is an abstract space, it really doesn't conform to concepts such as 'up' and 'down.' You waste time thinking about movement that isn't possible."
