@@ -1,0 +1,83 @@
+{
+	// Place your interactive-fiction workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"staaahp":{
+		"scope": "inform7",
+		"prefix": "stop",
+		"body": [
+			"stop the action;",
+		],
+		"description": "stops action chain"
+	},
+	"long description":{
+		"scope": "inform7",
+		"prefix": "lDescription",
+		"body": [
+			"The description of ",
+		],
+		"description": "Longer description for examines"
+	},
+	"instead of":{
+		"scope": "inform7",
+		"prefix": "instO",
+		"body": [
+			"Instead of "
+		],
+		"description": "stops action chain before doing anything"
+	},
+	"reassign verb":{
+		"scope": "inform7",
+		"prefix": "reassVerb",
+		"body": [
+			"Understand the command \"...\" as something new."
+		],
+		"description": "un-assigns default verb so it can be reassigned"
+	},
+	"new attribute":{
+		"scope": "inform7",
+		"prefix": "newAttr",
+		"body": [
+			"A thing can be X or unX.",
+			"A thing is usually unX."
+		],
+		"description": "create a new attribute for nouns"
+	},
+	"new verb handling":{
+		"scope": "inform7",
+		"prefix": "verbHandl",
+		"body": [
+			"Understand \"X [something]\" as Xing",
+			"Check Xing:",
+			"	if noun is unX:",
+			"
+			",
+			"Carry out Xing:",
+			"
+			",
+			"Report Xing:"
+		],
+		"description": "handling functions for a new verb"
+	},
+	"printed name":{
+		"scope": "inform7",
+		"prefix": "printName",
+		"body": [
+			"The printed name of X is \"Y\"."
+	],
+		"description": "make the reader-viewable string diff than the var name (which must be unique)"
+	},
+}

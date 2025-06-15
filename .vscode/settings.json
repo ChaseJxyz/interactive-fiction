@@ -1,11 +1,16 @@
 {
     "cSpell.words": [
-        "galette",
-        "knick",
-        "leyline",
-        "magitek",
-        "stargazy",
-        "tidepools",
-        "timeclock"
-    ]
+		"galette",
+		"inspectable",
+		"knick",
+		"leyline",
+		"magitek",
+		"stargazy",
+		"tidepools",
+		"timeclock",
+		"uninspectable",
+		"uninspected"
+	],
+    "editor.insertSpaces": false,
+    "editor.detectIndentation": false
 }
