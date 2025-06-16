@@ -12,7 +12,69 @@ verb - SENSE (works w/ppl in a room attr); detects magic, focus on beaky;
 attr - ppl in a room
 prolly other items in the room(s) that are magical
 a plot
-the way out of the office being "unlocked" once all 3 pools' info is inspected]
+the way out of the office being "unlocked" once all 3 pools' info is inspected
+friendlynesS? for the other animals
+interrogate tables]
+
+[the player]
+Platypus is a animal.
+
+Platypus is proper-named.
+
+The player is Platypus.
+
+The printed name of Platypus is "the platypus."
+
+Understand "the platypus" as Platypus.
+
+The description of Platypus is "You are a platypus, one of the two kinds of egg-laying mammals. Like all mammals, you stand tall on two legs and can manipulate objects with your paws.
+
+You, though, have webbed paws, which can make manipulations difficult. But you do have a sensitive beak."
+
+Beak is a part of Platypus.
+
+Understand "my beak" as beak.
+
+The description of beak is "A slightly-rubbery blunt beak makes up the end of your face. It's a little like a duck's, but dark and highly sensitive.
+
+Your ancient ancestors used their beaks to hunt for prey in the water, sensing the magic that's within all living things. This isn't very useful for city living, but it does mean you have a natural aptitude for magic...and the lucrative careers that brings."
+
+Webs is part of Platypus.
+
+Understand "web" and "webbing" and "webbings" and "paws" as webs.
+
+The description of webs is "Thin membranes stretch between each digit of your paws, making you very good at swimming and scooping water.
+
+Unfortunately, it also means that you can't buy factory-made gloves and certain tools. You're able to manipulate items well enough, but every so often you encounter a situation where you're reminded this city wasn't designed for animals like you."
+
+[talking rules]
+
+Talking to is an action applying to one visible thing.
+
+Understand "talk to [someone]" and "talk to [something]" and "chat with [someone]" as talking to.
+
+Check talking to:
+	if noun is not a person:
+		say "You try to strike up a conversation with [noun], but it seems to be quite one-sided.";
+		stop the action;
+
+
+
+[throw rules]
+
+instead of throwing:
+	say "You attempt to get a good grip on [noun], but your webbings prevent it. You'd rather not make a fool of yourself, so you put [noun] back into your pocket instead."
+
+[attack rules]
+
+instead of attacking someone:
+	say "You are a civilized animal and know better than to attack others."
+
+[give rules]
+
+Before giving something to someone:
+	if noun is not enclosed by the player:
+		say "Your ability to use magic is minor, so you cannot summon an object you do not currently possess." instead.
 
 [sleep rules]
 instead of sleeping when player is in Apartment:
@@ -343,7 +405,7 @@ Instead of going nowhere from Apartment:
 [
 ------------------------------street-------------------------------------
 ]
-[]
+[TODO: buy paper]
 
 Street is outside of Apartment. "
 [if unvisited]
@@ -386,7 +448,9 @@ Instead of eating apartmentBuilding:
 	say "While a very caprine idea, the concrete wouldn't be very appetizing, so you decline the idea."
 
 [crowd]
-crowd is a scenery in Street.
+crowd are people in Street.
+
+crowd are scenery.
 
 Understand "crowd" and "riders" and "people" and "beings" and "animals" as crowd.
 
@@ -397,6 +461,9 @@ instead of eating the crowd:
 		say "Platypi aren't known for being apex predators...besides you're not hungry.";
 	otherwise:
 		say "Platypi aren't known for being apex predators...besides, you have food at home.";
+
+Instead of talking to crowd:
+	say "You try to catch the attention of several animals, but they're all too busy with their evening plans, ignoring you."
 
 [tram]
 tram is a scenery in Street.
@@ -415,6 +482,44 @@ The description of cafeFront is "A popular cafe. There's several tables out fron
 
 Instead of eating cafeFront:
 	say "While a very caprine idea, the concrete wouldn't be very appetizing, so you decline the idea."
+
+
+[the bat]
+
+Bat is a animal in Street.
+
+Bat is male.
+
+The printed name of Bat is "paperbat".
+
+Understand "the bat" and "paper bat" and "paperboy" and "paper boy" and "paperbat" and "fruitbat" and "fruit bat" as Bat.
+
+The description of Bat is "A young fruitbat wearing ink-stained overalls and a sling filled with rolled-up newspapers.
+
+Due to his wings, he only has one long, thumb-like appendage to work with, but he only really needs a powerful pair of lungs to convince other animals to buy his wares."
+
+Instead of giving something to Bat:
+	say "He looks at you questioningly.
+	'How'm I supposed to take that, sir?'
+	He gestures at you with his wing, showing his lack of hands."
+
+Instead of talking to Bat:
+	say "The paperbat's ears perk up.
+
+	'You want a paper, sir? Fresh off the presses!'
+	
+	Buying things hasn't been implemented yet, so you'll just have to deal lol.
+	"
+
+[evening edition]
+evening edition is a thing.
+
+Bat is carrying evening edition.
+
+Understand "evening paper" and "evening news" and "evening newspaper" as evening edition.
+
+The description of evening edition is "This evening's edition of the daily news. It mostly has tallies of the day's business dealings...which isn't of much interest to you. You're not quite sure why you even bought this."
+
 
 [
 ------------------------------street rules-------------------------------
@@ -481,6 +586,23 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
 [
 ----------------------------cafe items-----------------------------------
 ]
+
+[clerk]
+
+Clerk is a animal in Cafe.
+
+Clerk is female.
+
+Understand "the clerk" and "the cashier" and "the waittress" and "the weasel" and "weasel" as Clerk.
+
+The description of Clerk is "A brown weasel in her summer fur. She looks to be in her early 20s and is wearing an apron."
+
+Instead of giving something to Clerk:
+	say "'On, no, there's no need for that!' the clerk says. You should be buying from me, really."
+
+Instead of talking to Clerk:
+	say "'Would you like to buy something instead?' she asks."
+
 
 [counter]
 counter is scenery supporter in Cafe.
