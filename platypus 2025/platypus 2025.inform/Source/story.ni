@@ -8,8 +8,6 @@
 [things are all lower]
 
 [TODO: AT SOME POINT:
-verb - SENSE (works w/ppl in a room attr); detects magic, focus on beaky;
-attr - ppl in a room
 prolly other items in the room(s) that are magical
 a plot
 the way out of the office being "unlocked" once all 3 pools' info is inspected
@@ -27,9 +25,9 @@ The printed name of Platypus is "the platypus."
 
 Understand "the platypus" as Platypus.
 
-The description of Platypus is "You are a platypus, one of the two kinds of egg-laying mammals. Like all mammals, you stand tall on two legs and can manipulate objects with your paws.
+The description of Platypus is "You are a platypus, one of the two kinds of egg-laying mammals known to exist. Like all mammals, you stand tall on two legs, can think, speak, and manipulate objects with your paws.
 
-You, though, have webbed paws, which can make manipulations difficult. But you do have a sensitive beak."
+You, as a platypus, posses webbed paws, which can make manipulating items difficult. But you do sport a sensitive beak, even if the other kids teased you for it in primary school."
 
 Beak is a part of Platypus.
 
@@ -37,7 +35,7 @@ Understand "my beak" as beak.
 
 The description of beak is "A slightly-rubbery blunt beak makes up the end of your face. It's a little like a duck's, but dark and highly sensitive.
 
-Your ancient ancestors used their beaks to hunt for prey in the water, sensing the magic that's within all living things. This isn't very useful for city living, but it does mean you have a natural aptitude for magic...and the lucrative careers that brings."
+Your ancient ancestors used their beaks to hunt for prey in the water, sensing the magic that flows in all living things. This ability isn't very useful for the urban animal with no need to hunt, but it does mean you posses a natural aptitude for magic...and the lucrative careers that brings."
 
 Webs is part of Platypus.
 
@@ -45,7 +43,33 @@ Understand "web" and "webbing" and "webbings" and "paws" as webs.
 
 The description of webs is "Thin membranes stretch between each digit of your paws, making you very good at swimming and scooping water.
 
-Unfortunately, it also means that you can't buy factory-made gloves and certain tools. You're able to manipulate items well enough, but every so often you encounter a situation where you're reminded this city wasn't designed for animals like you."
+Unfortunately, it also means that you can't buy factory-made gloves and certain tools. You're able to manipulate items well enough, but every so often, you encounter a situation where you're reminded that this city wasn't designed for animals such as yourself."
+
+[occupado rules]
+A thing can be occupied or unoccupied.
+
+A thing is usually unoccupied.
+
+[sense rules]
+
+Sensing is an action applying to nothing.
+
+Understand "sense" as sensing
+
+Check sensing:
+	if room is occupied:
+		if player is in Office:
+			say "You can sense the magic flowing through the leyline network hardware. If you pay attention to it for too long, it might give you a mighty headache.";
+			stop the action;
+		if player is in The Network:
+			say "The only reason you're able to visualize the leyline network in this manner is BECAUSE you are currently sensing it. You cannot sense it any harder than you are now.";
+			stop the action;
+		else:
+			say "You can sense the life energies that fuel magic from the beings in the room. As the room is lighted and your eyes are functional, you are also able to see the other animals within the room";
+			stop the action;
+	if room is unoccupied:
+		say "You're unable to sense any magic nearby, as their are neither other beings in the room or magical items.";
+		stop the action;
 
 [talking rules]
 
@@ -55,20 +79,18 @@ Understand "talk to [someone]" and "talk to [something]" and "chat with [someone
 
 Check talking to:
 	if noun is not a person:
-		say "You try to strike up a conversation with [noun], but it seems to be quite one-sided.";
+		say "You try to strike up a conversation with [noun], but it seems to be quite one-sided, for obvious reasons.";
 		stop the action;
-
-
 
 [throw rules]
 
 instead of throwing:
-	say "You attempt to get a good grip on [noun], but your webbings prevent it. You'd rather not make a fool of yourself, so you put [noun] back into your pocket instead."
+	say "You attempt to get a good grip on the [noun], but your webbings prevent it. You'd rather not make a fool of yourself, so you put the [noun] back into your pocket instead."
 
 [attack rules]
 
 instead of attacking someone:
-	say "You are a civilized animal and know better than to attack others."
+	say "You are a civilized animal and know better than to attack others. Besides, platypi aren't known for their combat abilities, so you would surely end up the loser in this fight."
 
 [give rules]
 
@@ -78,7 +100,7 @@ Before giving something to someone:
 
 [sleep rules]
 instead of sleeping when player is in Apartment:
-	say "You are not sleepy. Besides, you need to go to work, so sleeping is a poor choice."
+	say "You are not sleepy. Besides, you need to go to work, so sleeping now is a poor choice."
 
 instead of sleeping when player is not in Apartment:
 	say "This isn't a suitable place to fall asleep."
@@ -130,7 +152,7 @@ A thing is usually uninspected.
 
 Check inspecting:
 	if noun is uninspectable:
-		say "You can only inspect magic.";
+		say "You can only inspect magic visualized within the leyline network.";
 		stop the action;
 	if noun is inspected:
 		try examining noun instead;
@@ -161,13 +183,13 @@ Check using:
 			say "There's nothing to pour out.";
 			stop the action;
 		if noun is basin:
-			say "You've already use this. Splashing dirty water onto your face wouldn't be very productive.";
+			say "You've already washed your face. Splashing the dirty water back on wouldn't be very productive.";
 			stop the action;
 		if noun is fireplace:
 			say "It's too warm out to justify using the [noun].";
 			stop the action;
 		if noun is bookshelf:
-			say "This would be the perfect place to store your collect--er, knick knacks, if you had any. Unfortunately, this is not a complete game, so there are no silly little collectibles to collect.";
+			say "This would be the perfect place to store your collect--er, knick knacks, if you had any. Unfortunately, this is not a complete game, so there are no silly little trinkets for you to collect and display.";
 			stop the action;
 		if noun is books:
 			say "You're tempted to read, but you have somewhere important to be. You'll get to it later.";
@@ -176,13 +198,13 @@ Check using:
 			say "There's not much use in reading old newspapers.";
 			stop the action;
 		if noun is hookup:
-			say "You neither have the tools nor the courage to fiddle with the device holding back highly-pressurized steam.";
+			say "You possess neither the tools nor the courage to fiddle with the device holding highly-pressurized steam.";
 			stop the action;
 		if noun is tram:
-			say "You better go catch it! But platypi are not known for their sprinting ability, so you decide to give it up.";
+			say "You better go catch it! But platypi are not known for their sprinting ability, so you decide to walk instead.";
 			stop the action;
 		if noun is crowd:
-			say "The concept of a 'crowd' is an inherently abstract one. What would 'using' it truly entail? As you are not a political agitator, you cannot think of a way to use the crowd, and so do not.";
+			say "The concept of a 'crowd' is an inherently abstract one. What would 'using' it truly entail? As you are not a political agitator, you cannot think of a way to use the crowd, and, so, you do not.";
 			stop the action;
 		if noun is apartmentBuilding:
 			say "Do you mean you want to go INSIDE your building?";
@@ -191,7 +213,7 @@ Check using:
 			say "Do you mean you want to go WEST into the cafe?";
 			stop the action;
 		if noun is pastry case:
-			say "You need to buy something first.";
+			say "You need to buy something first, otherwise, that would be stealing.";
 			stop the action;
 		if noun is leyline jack:
 			if leyline jack is unlocked:
@@ -210,7 +232,7 @@ Check using:
 			say "This is merely a cable, so it needs to be used to 'unlock' access to a leyline jack.";
 			stop the action;
 		if noun is leylineNetwork:
-			say "As the network is an abstract layering of magic and hardware, it itself cannot be 'used.' You need to interact with the hardware to access it.";
+			say "As the network is an abstract layering of magic and hardware, it int itself cannot be 'used.' You need to interact with the hardware to access it.";
 			stop the action;
 		else:
 			say "You cannot use [noun].";
@@ -228,8 +250,7 @@ You are awoken by the shriek of your alarm. Your paw slaps around for the snooze
 You're tempted to fall back asleep, but you recall the tenuous status you have with your boss. So, you pull yourself out of your bed to view your single-room home once more. It isn't much, but you don't want to lose it.
 
 [end if]
-There's a corner for your bathroom-slash-kitchen, complete with a washing basin atop a safe. There's also a brick fireplace, a small bookshelf, your bed, and your alarm clock. There is an additional steam hookup, currently unused. And, of course, the door that leads you OUTSIDE your apartment.
-"
+There's a corner for your bathroom-slash-kitchen, complete with a washing basin atop a safe. There's also a brick fireplace, a small bookshelf, your bed, and your alarm clock. There is an additional steam hookup, currently unused. And, of course, the door that leads you OUTSIDE your apartment."
 
 [
 --------------------------apartment items--------------------------------
@@ -241,14 +262,14 @@ alarm clock is a scenery device in Apartment.
 
 Understand "alarm" and "clock" as alarm clock.
 
-The description of alarm clock is "A steam-powered alarm clock. The newest model, it costed you a pretty penny, but it means you always wake up in time for work.
+The description of alarm clock is "A steam-powered alarm clock. The newest model, it cost you a pretty penny, but it means you always wake up in time for work.
 [if unvisited]
-Your neighbors aren't super appreciative of this modern convenience, though. Probably because they keep entirely different hours than you do.
+Your neighbors aren't super appreciative of this modern convenience, however. Probably because they keep entirely different hours than you do.
 [end if]
 "
 
 After switching on alarm clock:
-	say "You reset your alarm. Now at least you won't need to worry about doing it when you get home after work."
+	say "You reset your alarm. Now at least you won't need to worry about remembering to do it when you get home from work."
 
 After switching off alarm clock:
 	say "You enjoy the click of the clockwork, but you'll need to turn it back on eventually. Or maybe you'll enjoy the risk of sleeping in tomorrow."
@@ -264,7 +285,12 @@ bed is a enterable scenery container in Apartment. bed is makable.
 
 Understand "your bed" and "the bed" and "nest" and "your nest" and "the nest" as bed.
 
-The description of bed is "Your bed, big enough for one not-too-large creature. The covers are askew, and you are reminded how often you were scolded for never making your bed."
+check examining bed:
+	if bed is makable:
+		The description of bed is "Your bed, big enough for one not-too-large creature. The covers are askew, and you are reminded how often you were scolded for never making your bed.";
+		stop the action;
+	else:
+		The description of bed is "Your bed, big enough for one not-too-large creature. The covers are neatly made."
 
 Instead of eating bed:
 	say "While you had a dream like this once, it wasn't a very pleasant one. Besides, you already have food available."
@@ -361,9 +387,9 @@ books is a thing in bookshelf.
 
 Understand "book" as books.
 
-The description of books is "Several books, none notable. There's dime novels, old almanacs, and random volumes of encyclopedias on obscure subjects.
+The description of books is "Several books, none of any notability. There's dime novels, old almanacs, and random volumes of encyclopedias on obscure subjects.
 [if unvisited]
-You remind yourself to stop accepting 'gifts' from your vulture friend.
+You remind yourself to stop accepting 'gifts' from your vulture friend, lest you start drowning in useless books.
 [end if]
 "
 
@@ -388,7 +414,7 @@ Understand "steam hookup" and "steam hook up" and "hook up" as hookup.
 The description of hookup is "One of the ingenious inventions of modern living, it permits pressurized steam into compatible appliances to give them kinetic power.
 
 [if unvisited]
-Some engineer surely lost many nights worth of sleep to design a connection that only allows the emission of steam when a authorized connecting cable is used. Granted, only the utility company has the tools to add or remove the connections, as well as hold the patent for the cables. You understand the issue with this, but you're also not interested in designing your own tools and risking steam burns.
+Some engineer surely lost many nights worth of sleep to design a connection that only allows the emission of steam when a authorized connecting cable is used. Granted, only the utility company has the tools to add or remove the connections, as well as hold the patent for the cables. You understand the issue with this, but you're also not interested in designing your own tools, nor the likely steam burns.
 [end if]
 "
 
@@ -429,6 +455,8 @@ You decide to do the same.
 [at random]
 If you continue SOUTH, you'll reach your office building. You can also go back INSIDE your apartment.
 "
+
+Street is occupied.
 
 [
 ----------------------------Street items---------------------------------
@@ -582,6 +610,8 @@ While you were indeed hungry, you didn't have the time to kick your webs up and 
 
 The cafe has several patrons sitting at different tables, a clerk standing behind the counter, and the door to leave in the EAST.
 "
+
+Cafe is occupied.
 
 [
 ----------------------------cafe items-----------------------------------
