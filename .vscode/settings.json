@@ -8,8 +8,10 @@
 		"stargazy",
 		"tidepools",
 		"timeclock",
+		"unbuyable",
 		"uninspectable",
-		"uninspected"
+		"uninspected",
+		"unmakable"
 	],
     "editor.insertSpaces": false,
     "editor.detectIndentation": false
