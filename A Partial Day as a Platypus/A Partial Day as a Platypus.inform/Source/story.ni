@@ -1,4 +1,5 @@
-"platypus 2025" by "Chase Anderson"
+"A (Partial) Day as a Platypus" by "Chase Anderson"
+["platypus 2025" by "Chase Anderson"]
 
 [
 -----------------------------GLOBAL ZONE---------------------------------
@@ -13,7 +14,8 @@ a plot
 the way out of the office being "unlocked" once all 3 pools' info is inspected
 friendlynesS? for the other animals
 interrogate tables
-vulture fren?]
+vulture fren?
+set the in world time to evening]
 
 [the player]
 Platypus is a animal.
@@ -454,7 +456,7 @@ Instead of going nowhere from Apartment:
 [
 ------------------------------street-------------------------------------
 ]
-[-]
+[TODO: buying]
 
 Street is outside of Apartment. "
 [if unvisited]
@@ -558,6 +560,8 @@ Instead of talking to Bat:
 	say "The paperbat's ears perk up.
 
 	'You want a paper, sir? Fresh off the presses!'
+
+	Unfortunately, the programmer was not able to figure out how to make buying possible, so you cannot do so.
 	"
 
 [evening edition]
@@ -605,12 +609,10 @@ The bell above the door tinkles as you step inside.
 [one of]
 'G'day,' says the clerk behind the counter, with a big smile.
 
-A couple patrons glance at you, likely wondering if the weasel was making fun of you. But you've been going here for years, so you chalk it up to fitting the 'Australis' theme than anything else.
+A couple patrons glance at you, likely wondering if the weasel was making fun of you. But you've been going here for years, so you chalk it up to fitting the 'Australis' theme more than anything else.
 
 [or]
 'G'day again,' the clerk chirps, and then giggles. 'Changed your mind, huh? What can I get you?'
-
-Unfortunately, you have still never learned how to speak, so you cannot answer her.
 
 [or]
 'Hey,' the clerk says. 'You feeling okay? If you need a glass of water or something, you can just ask.'
@@ -628,7 +630,7 @@ The clerk glances over her shoulder at you, but quickly returns to her work, ign
 You have the feeling you've lost your chance to speak to her.
 
 [stopping]
-While you were indeed hungry, you didn't have the time to kick your webs up and relax, so you better get going if you planned on not angering your boss.
+While you were indeed hungry, you don't have the time to kick up your webs up and relax, so you better get going if you plan on not angering your boss.
 
 The cafe has several patrons sitting at different tables, a clerk standing behind the counter, and the door to leave in the EAST.
 "
@@ -645,21 +647,23 @@ Clerk is a animal in Cafe.
 
 Clerk is female.
 
-Understand "the clerk" and "the cashier" and "the waittress" and "the weasel" and "weasel" as Clerk.
+Understand "the clerk" and "the cashier" and "the waitress" and "the weasel" and "weasel" as Clerk.
 
 The description of Clerk is "A brown weasel in her summer fur. She looks to be in her early 20s and is wearing an apron."
 
 Instead of giving something to Clerk:
-	say "'On, no, there's no need for that!' the clerk says. You should be buying from me, really."
+	say "'Oh, no, there's no need for that!' the clerk says. 'You should be buying from me, instead!'"
 
 Instead of talking to Clerk:
-	say "'Would you like to buy something instead?' she asks."
+	say "'Would you like to buy something instead?' she asks.
+	
+	But as the programmer couldn't figure out how to make this feature work, you cannot. Why not look at all the nice pastries instead? Go ahead, the pastry case is transparent!"
 
 
 [counter]
 counter is scenery supporter in Cafe.
 
-The description of counter is "A long wooden counter with a clerk standing behind. A pastry case filled with treats invitingly displays its wares."
+The description of counter is "A long wooden counter with a clerk standing behind. Atop it is a pastry case, invitingly displaying its wares."
 
 Instead of eating counter:
 	say "While a very caprine idea, the splinters wouldn't be very appetizing, so you decline the idea."
@@ -685,6 +689,8 @@ pepper tart is a edible thing in pastry case.
 
 Understand "tart" as pepper tart.
 
+pepper tart is buyable.
+
 The description of pepper tart is "A flaky pastry shell filled with bright-red peppers. Extremely spicy, and only suitable for an avian palate."
 
 Instead of using pepper tart:
@@ -695,6 +701,8 @@ After eating pepper tart:
 	end the story finally saying "To think that your story would end from a mere pastry!"
 
 wax bottle is a edible thing in pastry case.
+
+wax bottle is buyable.
 
 Understand "bottle" and "juice bottle" as wax bottle.
 
@@ -721,6 +729,8 @@ Instead of eating ball of wax:
 
 grass galette is a edible thing in pastry case.
 
+grass galette is buyable.
+
 Understand "galette" as grass galette.
 
 The description of grass galette is "Folded pastry around artfully arranged grasses. Aggressively herbaceous and rough on the teeth. Luckily for you, you have none."
@@ -729,9 +739,11 @@ Instead of using grass galette:
 	try eating grass galette.
 
 After eating grass galette:
-	say "Who would have guessed that eating a mass of grass was unpleasant? Your stomach will remember this (and remind you later)."
+	say "Who would have guessed that eating a mass of grass was unpleasant? Your stomach will remember this (and surely remind you of this injustice later)."
 
 stargazy roll is a edible thing in pastry case.
+
+stargazy roll is buyable.
 
 Understand "stargazy pie" and "roll" and "fish pie" and "fish roll" as stargazy roll.
 
@@ -760,9 +772,10 @@ Instead of eating fish head:
 [leyline jack is a scenery thing in Cafe.]
 leyline jack is a openable, closed, lockable, locked door.
 
+[FIXME: diff descript in network]
 leyline jack is south of Cafe and north of The Network."[if leyline jack is closed]You can't help but notice the leyline jack is left unguarded on the SOUTH wall.[else] A leyline jack is available on the SOUTH wall."
 
-The description of leyline jack is "[if leyline jack is closed]A small, squarish port that can be used to connect to the leyline network, if one possessed the proper cable. Probably not a good idea that anyone can access it, but not everyone has the capacity to do so.[else]A small, squarish port that awaits you to connect to the leyline network."
+The description of leyline jack is "[if leyline jack is closed]A small, squarish port that can be used to connect to the leyline network, if one possessed the proper cable. Probably not a good idea that anyone can access it, but not just anyone has the capacity to exploit it.[else]A small, squarish port ready to connect you to the leyline network."
 
 Understand "jack" as leyline jack.
 
@@ -783,16 +796,16 @@ Instead of going nowhere from Cafe:
 
 Office is south of Street. "
 [if unvisited]
-You're able to punch in just in time; your boss won't be able to accuse you of being late this time!
+You're able to punch in just in time; your boss won't be able to accuse you of being late now!
 
 [end if]
 As you were never taught how to speak, you do not run into any creatures on the way to your closet. Lucky you!
 
-Unlike other animals, you don't mind the dark, enclosed space of the networking closet. The softly-glowing cords of the leyline network create glittering afterimages if you look at one spot for too long.
+Unlike other animals, you don't mind the dark, enclosed space of the networking closet. The softly-glowing cords of the leyline network create glittering afterimages if you stare at one spot for too long.
 
 You have tasks that are your duty to perform, but you aren't capable of remembering what they are.
 
-When you're ready to begin, you can go INSIDE the network. You can also leave the office by going NORTH.
+Once you're prepared, you can go INSIDE the network. You can also leave the office by going NORTH.
 "
 
 [
@@ -807,14 +820,14 @@ Understand "timeclock" and "clock" as time clock.
 The description of time clock is "A clockwork device used to mark your timecard and log your hours. A necessary evil of the office."
 
 Instead of eating time clock:
-	say "While it would resolve your issues with the device itself, you would then need to greet your boss to manage your hours. As you have yet to learn how to speak, this is impossible, so it'd be best to table this idea."
+	say "While it would resolve your issues with the device itself, you would then need to greet your boss to manage your hours, so it'd be best to table this idea."
 
 [cords]
 cords is scenery thing in Office.
 
 Understand "leyline cords" and "cord" and "leyline cord" as cords.
 
-The description of cords is "Thin filaments spun from materials harvested from monsters that allow magical energy to be transferred from one place to another. You had to memorize all the colors and the best materials for your certification exam, but you've yet to need to craft your own cables."
+The description of cords is "Thin filaments spun from materials harvested from monsters that allow magical energy to be transferred from one place to another. You had to memorize all the colors and the best materials for your certification exam, but you've yet to craft your own cables."
 
 Instead of eating cords:
 	say "While a very caprine idea, the hairs and heartstrings wouldn't be very appetizing, so you decline the idea."
@@ -870,9 +883,7 @@ instead of going inside when the player is in the Office:
 
 The Network is inside of Office. "
 [if unvisited]
-You'll probably never get used to the feeling of tumbling inside-out that always happens whenever you connect to the network...with your mind, because you're so amazing that you don't need items.
-
-[end if]
+You'll probably never get used to the feeling of tumbling inside-out that always happens whenever you connect to the network. [end if]
 The leyline network is an abstract space, colors and intent swirling in place until a current of energy might rush by and take it from one place to another.
 
 You're one of the lucky few that is able to visualize this space...but not lucky enough to have the aptitude to actually create the spells yourself. Instead, you're nothing more than a glorified guard, inspecting suspicious-looking tidepools to find anything that might not supposed to be there.
@@ -895,13 +906,13 @@ Instead of using redPool:
 	else if redPool is inspected:
 		try examining redPool instead;
 	else:
-		say "idfk."
+		say "idfk this is an error."
 
 Understand "red" and "red pool" as redPool.
 
 The printed name of redPool is "red pool".
 
-The description of redPool is "A deep pool of tomato-bright energy. You can gauge that there's just about the right amount that had accumulated since your last shift."
+The description of redPool is "A deep pool of tomato-bright energy. You can gauge that there's just about the right amount had accumulated since your last shift."
 
 Instead of eating redPool:
 	say "You cannot eat an abstract concept."
@@ -909,7 +920,7 @@ Instead of eating redPool:
 [red info]
 red magic is a fixed in place thing in redPool.
 
-The description of red magic is "You imagine your paw dipping into the red magic. Each drop feels as it should; they accumulate, like dewdrops on a spiderweb, as magic moves through the leylines. Too much or too little would be a sign that something is wrong, but there's just the amount that you'd expect between your shifts."
+The description of red magic is "You imagine your paw dipping into the red magic. Each mote feels as it should; they accumulate, like dewdrops on a spiderweb, as magic moves through the leylines. Too much or too little would be a sign that something is wrong, but there's just the amount that you'd expect between your shifts."
 
 [this is normal log data]
 
@@ -924,7 +935,7 @@ Instead of using blue pool:
 	else if blue pool is inspected:
 		try examining blue pool instead;
 	else:
-		say "idfk."
+		say "idfk this is a error message."
 
 Understand "blue" as blue pool.
 
@@ -936,7 +947,9 @@ Instead of eating blue pool:
 [blue info]
 blue magic is a fixed in place thing in blue pool.
 
-The description of blue magic is "aaaaaaaaa."
+The description of blue magic is "The blue magic is quite active, eager to jump from one place to another. You keep your distance from the pool to keep from being a stepping stone for the magic.
+
+There's something more you should be doing with this...but it hasn't been implemented yet, sorry!"
 [this has some malevolent stuff in it]
 
 [green]
@@ -951,7 +964,7 @@ Instead of using green pool:
 	else if green pool is inspected:
 		try examining green pool instead;
 	else:
-		say "idfk."
+		say "idfk this is a error message."
 
 Understand "green" as green pool.
 
@@ -963,7 +976,9 @@ Instead of eating green pool:
 [green info]
 green magic is a fixed in place thing in green pool.
 
-The description of green magic is "bbbbbbbbbb."
+The description of green magic is "The pool is more like a porthole, allowing you to see the constant rush of magic that moves through the network. Because of its speed and volume, it's difficult to gauge when there's changes.
+
+Unless it stops entirely, but then many other things would break, and you wouldn't need to inspect it to find out."
 [this is network activity]
 
 [
