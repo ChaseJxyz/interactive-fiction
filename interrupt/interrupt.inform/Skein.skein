@@ -1,0 +1,2581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x5dae4c722a00" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7</generator>
+  <activeNode nodeId="node-0x5dae4b671010"/>
+  <item nodeId="node-0x5dae4c722a00">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+interrupt
+An Interactive Fiction by Chase Anderson
+Release 1 / Serial number 250618 / Inform 7 v10.1.2 / D
+
+Restaurant
+Turns out the &quot;bottomless mimosas&quot; have a bottom. It&apos;s when the servers keep finding convenient reasons to never swing by your table again.
+
+It&apos;s a real shame, because you really want to drain your current drink right now.
+
+Granted, they might also be giving you a wide bearth because your friend is crying and they don&apos;t want to get involved. You, honestly, would rather not be involved, either, but this isn&apos;t a situation you can easily remove yourself from.
+
+But you can only say &quot;I&apos;m sorry&quot; so many times before it sounds like you don&apos;t actually care. descrip for no matter what.
+
+Szofia1 init.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a5a0580"/>
+      <child nodeId="node-0x5dae4b0de510"/>
+      <child nodeId="node-0x5dae4ba79d50"/>
+      <child nodeId="node-0x5dae4bc9fe60"/>
+      <child nodeId="node-0x5dae4b503640"/>
+      <child nodeId="node-0x5dae49f5d2e0"/>
+      <child nodeId="node-0x5dae4b8db880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a5a0580">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  blazer (being worn and closed)
+  testWidget1
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b48aec0"/>
+      <child nodeId="node-0x5dae4afa09c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b48aec0">
+    <command xml:space="preserve">open blazer</command>
+    <result xml:space="preserve">You open blazer, revealing pillCase.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b0a7ad0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b0a7ad0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">before test string.
+
+TestRoom2
+This is TestRoom2 init descript.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b0db930"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b0db930">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  jacket (being worn and closed)
+  testWidget
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b0eea90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b0eea90">
+    <command xml:space="preserve">open jacket</command>
+    <result xml:space="preserve">You open jacket.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4afa09c0">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">TODO: self descri. Needs blazer + chest/hands. needs if to be diff from room 1.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a6ede70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a6ede70">
+    <command xml:space="preserve">inspect testWidget1</command>
+    <result xml:space="preserve">TODO: You inspect the testWidget1, so now it&apos;s inspected.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b6325d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b6325d0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Restaurant
+This is the Restaurant init descript.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4996f590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4996f590">
+    <command xml:space="preserve">scene</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4baed7b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4baed7b0">
+    <command xml:space="preserve">inspect testWidget1</command>
+    <result xml:space="preserve">You see nothing special about testWidget1.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4b0de510">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">TODO: self descri. Needs blazer + chest/hands. needs if to be diff from room 1.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b0e0c10"/>
+      <child nodeId="node-0x5dae4b10cd30"/>
+      <child nodeId="node-0x5dae4b10f430"/>
+      <child nodeId="node-0x5dae4958b100"/>
+      <child nodeId="node-0x5dae4998d5a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b0e0c10">
+    <command xml:space="preserve">x blazer</command>
+    <result xml:space="preserve">TODO: blazer descri.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b0e3310"/>
+      <child nodeId="node-0x5dae4b0f6950"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b0e3310">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  blazer (being worn and closed)
+  jacket (being worn and closed)
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4b0f6950">
+    <command xml:space="preserve">open blazer</command>
+    <result xml:space="preserve">You open blazer, revealing pill case, your phone and your notebook.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b0f9050"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b0f9050">
+    <command xml:space="preserve">x notebook</command>
+    <result xml:space="preserve">TODO: notebook1 descri.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b0fb750"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b0fb750">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">before test string.
+
+TestRoom2
+This is TestRoom2 init descript.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b0fe330"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b0fe330">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart? </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b100a30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b100a30">
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve">
+
+
+
+interrupt
+An Interactive Fiction by Chase Anderson
+Release 1 / Serial number 250618 / Inform 7 v10.1.2 / D
+
+TestRoom
+This is the test room init descript.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b103610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b103610">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  blazer (being worn and closed)
+  testWidget1
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b105d10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b105d10">
+    <command xml:space="preserve">o blazer</command>
+    <result xml:space="preserve">Sorry, that can&apos;t be corrected.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b108410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b108410">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart? </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b10ab10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b10ab10">
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve">
+
+
+
+interrupt
+An Interactive Fiction by Chase Anderson
+Release 1 / Serial number 250618 / Inform 7 v10.1.2 / D
+
+TestRoom
+This is the test room init descript.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b10d210"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b10d210">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  blazer (being worn and closed)
+  testWidget1
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b10f910"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b10f910">
+    <command xml:space="preserve">open blazer</command>
+    <result xml:space="preserve">You open blazer, revealing pill case, your phone and your notebook.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bc26300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bc26300">
+    <command xml:space="preserve">x notebook</command>
+    <result xml:space="preserve">TODO: notebook1 descri.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bb04540"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bb04540">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">before test string.
+
+TestRoom2
+This is TestRoom2 init descript.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4ba5d5c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4ba5d5c0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  testWidget2
+  jacket (being worn and closed)
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4ba3a8e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4ba3a8e0">
+    <command xml:space="preserve">open jacket</command>
+    <result xml:space="preserve">You open jacket, revealing your phone, pill case and your notebook.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4ba59a40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4ba59a40">
+    <command xml:space="preserve">x notebook</command>
+    <result xml:space="preserve">TODO: notebook2 descri.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4b10cd30">
+    <command xml:space="preserve">x hands</command>
+    <result xml:space="preserve">TODO: hand descri.needs if to be diff from room 1.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b6e3e80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b6e3e80">
+    <command xml:space="preserve">x chest</command>
+    <result xml:space="preserve">TODO: chest descrineeds if to be diff from room 1..
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b1266b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b1266b0">
+    <command xml:space="preserve">open blazer</command>
+    <result xml:space="preserve">You open blazer, revealing pill case, your phone and your notebook.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b124e50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b124e50">
+    <command xml:space="preserve">x pill case</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b1155b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b1155b0">
+    <command xml:space="preserve">o pill case</command>
+    <result xml:space="preserve">&quot;Oops&quot; can only correct a single word.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4caeaec0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4caeaec0">
+    <command xml:space="preserve">open pill case</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a57f540"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a57f540">
+    <command xml:space="preserve">take pill case</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a5fdbf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a5fdbf0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a2b50f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a2b50f0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae496e3670"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae496e3670">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4c8a3410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4c8a3410">
+    <command xml:space="preserve">turn</command>
+    <result xml:space="preserve">What do you want to turn?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4aa2a760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4aa2a760">
+    <command xml:space="preserve">time</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b0c4fc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b0c4fc0">
+    <command xml:space="preserve">check time</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4afeb1f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4afeb1f0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Restaurant
+This is the Restaurant init descript.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4ba28a00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4ba28a00">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b9d1960"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b9d1960">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bb91d60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bb91d60">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4ab01dc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4ab01dc0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bb6a4b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bb6a4b0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a7c8b00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a7c8b00">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4ba04370"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4ba04370">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b17c600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b17c600">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4af2cea0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4af2cea0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Restaurant
+This is the Restaurant init descript.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bb395f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bb395f0">
+    <command xml:space="preserve">time</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a5ca470"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a5ca470">
+    <command xml:space="preserve">check time</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4b10f430">
+    <command xml:space="preserve">x chest</command>
+    <result xml:space="preserve">TODO: chest descrineeds if to be diff from room 1..
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b3e8210"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b3e8210">
+    <command xml:space="preserve">open blazer</command>
+    <result xml:space="preserve">You open blazer, revealing pill case, your phone and your notebook.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bc727d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bc727d0">
+    <command xml:space="preserve">open pill case</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4aea35f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4aea35f0">
+    <command xml:space="preserve">take pill case</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae49764750"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae49764750">
+    <command xml:space="preserve">take pillCase</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b8086a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b8086a0">
+    <command xml:space="preserve">open pillCase</command>
+    <result xml:space="preserve">You open pill case, revealing the blue pill and pain pills.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4abe1390"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4abe1390">
+    <command xml:space="preserve">eat blue pill</command>
+    <result xml:space="preserve">(first taking the blue pill)
+You eat the blue pill. Not bad.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4aee10c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4aee10c0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b0ee5b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b0ee5b0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b0f6e30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b0f6e30">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae496f3c70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae496f3c70">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a9bae00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a9bae00">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bcd5da0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bcd5da0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Restaurant
+This is the Restaurant init descript.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b181e50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b181e50">
+    <command xml:space="preserve">turn count</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b695380"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b695380">
+    <command xml:space="preserve">turns</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4958b100">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  blazer (being worn and closed)
+  testWidget1
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a625900"/>
+      <child nodeId="node-0x5dae4aa6c9c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a625900">
+    <command xml:space="preserve">x testWidget1</command>
+    <result xml:space="preserve">You see nothing special about testWidget1.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4affa780"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4affa780">
+    <command xml:space="preserve">insepct testWidget1</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b8e52a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b8e52a0">
+    <command xml:space="preserve">inspect</command>
+    <result xml:space="preserve">What do you want to inspect?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b1deab0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b1deab0">
+    <command xml:space="preserve">inspect blazer</command>
+    <result xml:space="preserve">TODO: this is uninspectable
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b129500"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b129500">
+    <command xml:space="preserve">inspect testWidget1</command>
+    <result xml:space="preserve">TODO: this is uninspectable
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4aa6c9c0">
+    <command xml:space="preserve">inspect testWidget1</command>
+    <result xml:space="preserve">
+*** Run-time problem P10: Since testWidget1 is not allowed the property &quot;open&quot;, it is against the rules to try to use it.
+
+
+TODO: You inspect the testWidget1, so now it&apos;s inspected.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4ac36a20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4ac36a20">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Restaurant
+This is the Restaurant init descript.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b3e8880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b3e8880">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  blazer (being worn and closed)
+  testWidget1
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4998d5a0">
+    <command xml:space="preserve">inspect testWidget1</command>
+    <result xml:space="preserve">TODO: You inspect the testWidget1, so now it&apos;s inspected.
+
+now youre moving ooooo.
+
+Car
+This is car init descript.
+
+this is driving time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4ba79d50">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b286770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b286770">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b127070"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b127070">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a9ed9e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a9ed9e0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b912b10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b912b10">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bcfddf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bcfddf0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b832020"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b832020">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4af65a90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4af65a90">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4ab608c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4ab608c0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bbe0830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bbe0830">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+Szofia sighs, a heavy, exaggerated motion that makes her body shudder.
+
+&quot;I&apos;m sorry to have dragged you into this, it&apos;s just that&quot;
+Car
+ This is car init descript but fucky.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a6862c0"/>
+      <child nodeId="node-0x5dae4b1dc520"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a6862c0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is driving time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b974430"/>
+      <child nodeId="node-0x5dae4aa6c660"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b974430">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Restaurant
+This is the Restaurant init descript.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae49910270"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae49910270">
+    <command xml:space="preserve">[scene &apos;Brunch&apos; ends]</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a289980"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a289980">
+    <command xml:space="preserve">scene &apos;Brunch&apos; ends</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4aa6c660">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae497f5040"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae497f5040">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">TODO: self descri. Needs blazer + chest/hands. needs if to be diff from room 1.
+
+this is driving time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4abba2d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4abba2d0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  testWidget2
+  jacket (being worn and closed)
+
+this is driving time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4aab1080"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4aab1080">
+    <command xml:space="preserve">open jacket</command>
+    <result xml:space="preserve">You open jacket, revealing your phone, pill case and your notebook.
+
+this is driving time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4b1dc520">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Car
+ this should be the second card innit.
+
+this is driving time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b52e290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b52e290">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Car
+ this should be the second card innit.
+
+this is driving time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4bc9fe60">
+    <command xml:space="preserve">ask szofia about test1</command>
+    <result xml:space="preserve">test1 response.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b863960"/>
+      <child nodeId="node-0x5dae4ae4c6a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b863960">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Restaurant
+This is the Restaurant init descript.
+
+Szofia1 init.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b611140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b611140">
+    <command xml:space="preserve">talk to Szofia about testWidget2</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b4362b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b4362b0">
+    <command xml:space="preserve">ask Szofia about testWidget1</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4aacc990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4aacc990">
+    <command xml:space="preserve">talk to Szofia</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4ae4c6a0">
+    <command xml:space="preserve">ask szofia about testWidget2</command>
+    <result xml:space="preserve">i dont care for test widget one.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4af354e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4af354e0">
+    <command xml:space="preserve">ask szofia about testWidget1</command>
+    <result xml:space="preserve">i dont care for test widget one.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b1c3a30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b1c3a30">
+    <command xml:space="preserve">ask szofia about boyfriend</command>
+    <result xml:space="preserve">&quot;I think this might be it for us,&quot; Szofia says. &quot;I know he&apos;s told me so many times to not talk about my work with him, but...it&apos;s difficult when I get excited. Do you understand?
+
+You don&apos;t really, but you still nod an affirmative. You&apos;ve dealt with your fair share of dead bodies over the course of both of your careers, but interacting with them is never a pleasant experience. You can at least tolerate them.
+
+Szofia is something different, however. But an ME that didn&apos;t find corpses fascinating wouldn&apos;t get very far in the field, you think.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a6bf820"/>
+      <child nodeId="node-0x5dae4b15ddc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a6bf820">
+    <command xml:space="preserve">ask szofia about me</command>
+    <result xml:space="preserve">(Szofia Meszaros)
+You ask Szofia Meszaros about Szofia Meszaros and got this TODO: text.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a6cc010"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a6cc010">
+    <command xml:space="preserve">ask szofia about amira</command>
+    <result xml:space="preserve">You ask Szofia Meszaros about yourself and got this TODO: text.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bab1160"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bab1160">
+    <command xml:space="preserve">ask szofia about yourself</command>
+    <result xml:space="preserve">You ask Szofia Meszaros about your former self and got this TODO: text.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b935a90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b935a90">
+    <command xml:space="preserve">ask szofia about szofia</command>
+    <result xml:space="preserve">You ask Szofia Meszaros about Szofia Meszaros and got this TODO: text.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4b15ddc0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b4cc2b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b4cc2b0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b08e150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b08e150">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a5c95f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a5c95f0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4ca198c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4ca198c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b53e2d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b53e2d0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b69a0e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b69a0e0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b7c1ea0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b7c1ea0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae49f23f60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae49f23f60">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+Szofia sighs, a heavy, exaggerated motion that makes her body shudder.
+
+&quot;I&apos;m sorry to have dragged you into this, it&apos;s just that&quot;
+Car
+ This is car init descript but fucky.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4b503640">
+    <command xml:space="preserve">x szofia</command>
+    <result xml:space="preserve">She easily could have easily been a model, or a princess at a theme park, but Dr. Szofia Meszaros decided she&apos;d rather make a career from examining dead bodies instead.
+
+There are multiple MEs who work out of your field office, but you prefer working with Szofia. Happy, upbeat, doesn&apos;t ask too many questions about what, exactly, it is you do and why you ask such specific questions.
+
+She&apos;s the closest thing you have to a friend, and, with her name already attached to so many of your reports, being seen in public with her shouldn&apos;t make her any more likely a target.
+
+At least she doesn&apos;t have kids that would miss her if the worst happens, just the boyfriend who doesn&apos;t seem like he&apos;ll last.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b4961c0"/>
+      <child nodeId="node-0x5dae4ba805b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b4961c0">
+    <command xml:space="preserve">talk to szofia about test1</command>
+    <result xml:space="preserve">test1 response.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b4c6070"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b4c6070">
+    <command xml:space="preserve">ask szofia about testWidget2</command>
+    <result xml:space="preserve">i dont care for test widget one.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b5155e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b5155e0">
+    <command xml:space="preserve">talk to szofia about testWidget2</command>
+    <result xml:space="preserve">i dont care for test widget one.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b0aabe0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b0aabe0">
+    <command xml:space="preserve">talk to szofia about testWidget1</command>
+    <result xml:space="preserve">i dont care for test widget one.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4ca9dfc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4ca9dfc0">
+    <command xml:space="preserve">talk to szofia about testWidget2</command>
+    <result xml:space="preserve">i dont care for test widget one.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b833750"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b833750">
+    <command xml:space="preserve">x testWidget1</command>
+    <result xml:space="preserve">You see nothing special about testWidget1.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b7f1fe0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b7f1fe0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4af13850"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4af13850">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae49559f60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae49559f60">
+    <command xml:space="preserve">wwait</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bbb0620"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bbb0620">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+this is brunch time.
+
+now youre moving ooooo.
+
+Car
+This is car init descript.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4babf170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4babf170">
+    <command xml:space="preserve">x testWidget2</command>
+    <result xml:space="preserve">You see nothing special about testWidget2.
+
+this is driving time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4ba805b0">
+    <command xml:space="preserve">talk to sophia about ME</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b5fcbd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b5fcbd0">
+    <command xml:space="preserve">talk to szofia about boyfriend</command>
+    <result xml:space="preserve">&quot;I think this might be it for us,&quot; Szofia says. &quot;I know he&apos;s told me so many times to not talk about my work with him, but...it&apos;s difficult when I get excited. Do you understand?
+
+You don&apos;t really, but you still nod an affirmative. You&apos;ve dealt with your fair share of dead bodies over the course of both of your careers, but interacting with them is never a pleasant experience. You can at least tolerate them.
+
+Szofia is something different, however. But an ME that didn&apos;t find corpses fascinating wouldn&apos;t get very far in the field, you think.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b4ec2a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b4ec2a0">
+    <command xml:space="preserve">talk to szofia about faily</command>
+    <result xml:space="preserve">That noun did not make sense in this context.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b6a00d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b6a00d0">
+    <command xml:space="preserve">talk to szofia about family</command>
+    <result xml:space="preserve">At this, Szofia visibly deflates.
+
+&quot;He hasn&apos;t shown any interest in seeing mine... Even after I told him I&apos;d pay for everything! But that started another fight...&quot;
+
+&quot;Perhaps he&apos;s not a fan of the cold?&quot; you offer.
+
+&quot;Which is why I suggested we go for midsummer. It would make up for the lack of sun we get here.&quot; Szofia gestures skyward, despite the unusually sunny day out.
+
+Perhaps he had seen the movie and gotten the wrong idea. Or perhaps he didn&apos;t want to spend seventeen-plus hours in an airplane to travel to an obscure Nordic region most have never heard of.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b4aa7c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b4aa7c0">
+    <command xml:space="preserve">talk to szofia about family amira</command>
+    <result xml:space="preserve">I only understood you as far as wanting to talk to Szofia Meszaros about family.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bb5f310"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bb5f310">
+    <command xml:space="preserve">talk to szofia about amira</command>
+    <result xml:space="preserve">Szofia blinks, waits a moment, and then laughs.
+
+&quot;You always ask me the strangest questions, Amira! I don&apos;t think I can tell you anything about yourself that you don&apos;t already know.&quot;
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae49967390"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae49967390">
+    <command xml:space="preserve">talk to szofia about szofia</command>
+    <result xml:space="preserve">(Szofia Meszaros)
+She blinks.
+
+&quot;What a strange question,&quot; she says. &quot;I&apos;m the same Dr. Meszaros that you&apos;ve always known.&quot;
+
+You have to suppress your smile. All things in the universe are in a constant state of change, moment by moment, so no two things are ever quite the same as they once were. But brunch is hardly the place to discuss the realities of metaphysics.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a670fd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a670fd0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Restaurant
+ else descrip.  descrip for no matter what.
+
+Szofia1 init.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b4a9db0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b4a9db0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Restaurant
+ else descrip.  descrip for no matter what.
+
+Szofia1 init.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b455700"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b455700">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">TODO: self descri. Needs blazer + chest/hands. needs if to be diff from room 1.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b657fe0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b657fe0">
+    <command xml:space="preserve">open blazer</command>
+    <result xml:space="preserve">You open blazer, revealing pill case, your phone and your notebook.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b9939e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b9939e0">
+    <command xml:space="preserve">x blazer</command>
+    <result xml:space="preserve">TODO: blazer descri.
+
+In blazer are pill case, your phone and your notebook.
+
+this is brunch time.
+
+Szofia sighs, a heavy, exaggerated motion that makes her body shudder.
+
+&quot;I&apos;m sorry to have dragged you into this, it&apos;s just that&quot;
+Car
+ &quot;versary was today and-AIEEEEE!&quot;
+
+The shriek snapps your attention to the present, the oncoming car. A visceral reaction jerks the steering wheel to the right, landing you both past the dirt shoulder and into the grass. The other car zooms by, unbothered.
+
+&quot;Sorry, I...&quot; The patter of heavy rain resounds off of the car&apos;s roof.Between the trees and the mist, you can&apos;t make out any landmarks or signs to denote where you are. You are in the middle of nowhere.
+
+szofia 2 innit descrip.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b7e5860"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b7e5860">
+    <command xml:space="preserve">x trees</command>
+    <result xml:space="preserve">Thick trees line either side of the road. The coniferous rainforest&apos;s trees and rain block the existence of any other humans that might have ever existed.
+
+It&apos;s the perfect setting for countless strange tales, when an FBI agent is called out to the middle of nowhere to investigate an unsolvable murder. You&apos;ve always suspected that this might happen to you, and it seems that the universe has decided today would be that day.
+
+this is driving time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bb55bb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bb55bb0">
+    <command xml:space="preserve">outside</command>
+    <result xml:space="preserve">
+SideOfRoad
+outside of the car innit descrip.
+
+this is driving time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bb43840"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bb43840">
+    <command xml:space="preserve">inside</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+this is driving time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bb6df10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bb6df10">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+this is driving time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b671010"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b671010">
+    <command xml:space="preserve">inside</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+this is driving time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae49f5d2e0">
+    <command xml:space="preserve">ask szofia about boyfriend</command>
+    <result xml:space="preserve">&quot;I think this might be it for us,&quot; Szofia says. &quot;I know he&apos;s told me so many times to not talk about my work with him, but...it&apos;s difficult when I get excited. Do you understand?
+
+You don&apos;t really, but you still nod an affirmative. You&apos;ve dealt with your fair share of dead bodies over the course of both of your careers, but interacting with them is never a pleasant experience. You can at least tolerate them.
+
+Szofia is something different, however. But an ME that didn&apos;t find corpses fascinating wouldn&apos;t get very far in the field, you think.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bb8e5c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bb8e5c0">
+    <command xml:space="preserve">ask szofia about your partner</command>
+    <result xml:space="preserve">&quot;What would you do...?&quot; Szofia asks tearfully. Her mascara is running, but it&apos;s a warm, sunny Sunday morning, perhaps it was from the heat instead?
+
+You think how odd it is to be faced with such an emotional situation and not feeling a similar level of anguish.
+
+&quot;I haven&apos;t had a partner since I started,&quot; you say. &quot;Professional or otherwise.&quot;
+
+&quot;But what about your dates? Surely, they must get frustrated when you...&quot; Szofia trails off, already realizing the answer.
+
+&quot;I don&apos;t want to make anyone a target that doesn&apos;t need to be,&quot; you say.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b493a40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b493a40">
+    <command xml:space="preserve">ask sofia about past work</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a2faa80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a2faa80">
+    <command xml:space="preserve">ask szofia about past work</command>
+    <result xml:space="preserve">The current situation is not about you, and you don&apos;t want to change that. Regardless, it wouldn&apos;t be safe to discuss it in such a public place.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4a58d9b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4a58d9b0">
+    <command xml:space="preserve">ask szofia about pill case</command>
+    <result xml:space="preserve">You only carry two kinds of pills on you, and neither would be of much use in this situation, so you don&apos;t bring up the subject.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b585d40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b585d40">
+    <command xml:space="preserve">ask szofia about blue pill</command>
+    <result xml:space="preserve">You both know that it doesn&apos;t have much effect on cis women, and, based on the TMI conversations you&apos;ve been subjected to, you have no reason to believe Szofia is anything but.
+
+Besides, this is hardly the time or place for such a proposition.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae499a1230"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae499a1230">
+    <command xml:space="preserve">ask szofia about pain pills</command>
+    <result xml:space="preserve">There is no reply.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b5784b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b5784b0">
+    <command xml:space="preserve">ask szofia about pain pill</command>
+    <result xml:space="preserve">These are for physical pain, not emotional, so it would be of little use in this situation, so you don&apos;t mention it.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b197290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b197290">
+    <command xml:space="preserve">ask szofia about yourself</command>
+    <result xml:space="preserve">You consider asking Szofia Meszaros about the your former self and got this TODO: error text (maybe dont ask them lol).
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4bcf0140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4bcf0140">
+    <command xml:space="preserve">ask szofia about me</command>
+    <result xml:space="preserve">(medEx)
+You consider asking Szofia Meszaros about the medEx and got this TODO: error text (maybe dont ask them lol).
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b4cbd10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b4cbd10">
+    <command xml:space="preserve">ask szofia about player</command>
+    <result xml:space="preserve">There is no reply.
+
+this is brunch time.
+
+Szofia sighs, a heavy, exaggerated motion that makes her body shudder.
+
+&quot;I&apos;m sorry to have dragged you into this, it&apos;s just that&quot;
+Car
+ This is car init descript but fucky.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5dae4b8db880">
+    <command xml:space="preserve">ask szofia about amira</command>
+    <result xml:space="preserve">Szofia blinks, waits a moment, and then laughs.
+
+&quot;You always ask me the strangest questions, Amira! I don&apos;t think I can tell you anything about yourself that you don&apos;t already know.&quot;
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae490f8f60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae490f8f60">
+    <command xml:space="preserve">ask szofia about herself</command>
+    <result xml:space="preserve">There is no reply.
+
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b7f8f00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b7f8f00">
+    <command xml:space="preserve">ask szofia about szofia</command>
+    <result xml:space="preserve">She blinks.
+
+&quot;What a strange question,&quot; she says. &quot;I&apos;m the same Dr. Meszaros that you&apos;ve always known.&quot;
+
+You have to suppress your smile. All things in the universe are in a constant state of change, moment by moment, so no two things are ever quite the same as they once were. But brunch is hardly the place to discuss the realities of metaphysics.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5dae4b87c7c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5dae4b87c7c0">
+    <command xml:space="preserve">ask szofia about family</command>
+    <result xml:space="preserve">At this, Szofia visibly deflates.
+
+&quot;He hasn&apos;t shown any interest in seeing mine... Even after I told him I&apos;d pay for everything! But that started another fight...&quot;
+
+&quot;Perhaps he&apos;s not a fan of the cold?&quot; you offer.
+
+&quot;Which is why I suggested we go for midsummer. It would make up for the lack of sun we get here.&quot; Szofia gestures skyward, despite the unusually sunny day out.
+
+Perhaps he had seen the movie and gotten the wrong idea. Or perhaps he didn&apos;t want to spend seventeen-plus hours in an airplane to travel to an obscure Nordic region most have never heard of.
+this is brunch time.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>

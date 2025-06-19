@@ -15,7 +15,18 @@ the way out of the office being "unlocked" once all 3 pools' info is inspected
 friendlynesS? for the other animals
 interrogate tables
 vulture fren?
-set the in world time to evening]
+set the in world time to evening
+fix ewer syns (is the basin actually an ewer??? need research)
+make more steampunk/1800s-y from the start (in the work itself not me telling ppl)
+fix printed name of paperbat
+do a ask for/about to clarifiy which newspaper the player is talking about (and fix the syns)
+understand buy smth as buy smth form smwhr or ask for as buy
+the patrons in the cafe
+do i want the init descripts of the chars in the things?
+clean up text of the silly placeholders lmao
+cahnge printed names after interactions
+truth state var for the "door" to network so you cant go to a different room
+exit bed etc understood as exit]
 
 [the player]
 Platypus is a animal.
@@ -49,6 +60,7 @@ The description of webs is "Thin membranes stretch between each digit of your pa
 Unfortunately, it also means that you can't buy factory-made gloves and certain tools. You're able to manipulate items well enough, but every so often, you encounter a situation where you're reminded that this city wasn't designed for animals such as yourself."
 
 [buy rules]
+[FIXME: should prolly be "from [someone]"]
 Understand "buy [something]" as buying
 
 A thing can be buyable or unbuyable.
