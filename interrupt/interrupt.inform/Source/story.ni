@@ -10,6 +10,10 @@
 * timer for s1 should be longer...perhaps triggered by something instead?
 * phone works in p1, not 2
 * going nowhere rules
+* excuse as to why cant alter stuff
+* inspect verb, check for alterName, maybe some "trys" if its a named one?
+* the new bf is a they/them
+* need a reason why szofia was changed
 ]
 [
 ----------------------------STYLE RULES----------------------------------
@@ -37,7 +41,7 @@ The printed name of AmiraFerreira is "Amira Ferreira".
 
 Understand "Amira" and "Ferreira" and "Agent Ferreira" and "Miss Ferreira" and "Ms Ferreira" and "yourself" and "myself" as AmiraFerreira.
 
-The description of AmiraFerreira is "TODO: self descri. Needs blazer + chest/hands. needs if to be diff from room 1."
+The description of AmiraFerreira is "TODO: self descri. Needs blazer + chest/hands. needs if to be diff from room 1. needs name."
 
 [
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~PLAYER PARTS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -114,13 +118,30 @@ The description of amirasPhone is "TODO: ur phone descri.needs if to be diff fro
 [TODO: can write in it(doesnt save so lol)]
 notebookv1 is a thing in blazer. "notebook 1 init descri."
 
+notebookv1 is alterAmira.
+
 The printed name of notebookv1 is "your notebook".
 
 Understand "my notebook" and "notebook" and "notes" as notebookv1.
 
 The description of notebookv1 is "TODO: notebook1 descri."
 
+[TODO: real name][carried over]
+wsToken is a thing in blazer. "wsToken init."
 
+wsToken is alterStag.
+
+The printed name of wsToken is "Western Stags test item".
+
+Understand "ws test item" as wsToken.
+
+The description of wsToken is "wsToken long."
+
+[TODO: fill out + put in carry overs]
+[wallet][carried over]
+
+[govID][carried over]
+govID is alterAmira.
 [
 ~~~~~~~~~~~~~~~~~~~~~WORLD 2 STARTING STUFF~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ]
@@ -141,6 +162,8 @@ gun is a thing. "TODO: gun init descri."
 [notebookv2]
 [TODO: can write in it(doesnt save so lol)]
 notebookv2 is a thing in jacket. "notebook 2 init descri."
+
+notebook2 is alterAmira.
 
 The printed name of notebookv2 is "your notebook".
 
@@ -241,6 +264,79 @@ altering + alterables
 [
 ------------------------------New ones-----------------------------------
 ]
+
+[alter rules]
+A thing can be alterable or unalterable.
+A thing is usually unalterable.
+
+A thing can be alterAmira, alterKay, alterStag, or alterNone.
+A thing is usually alterNone.
+
+Altering is an action applying to one thing.
+
+Understand "alter [something]" as altering.
+
+Check altering:
+	if noun is alterAmira:
+		say "You have altered the [noun] in the past, leaving an indelible signature of energy that allows anyone else with this same, nameless power to recognize that it was you.
+		
+		You have no reason to alter the [noun] again, nor do you want to risk changing reality. You're here to stop others, not joining the problem.";
+		now alteredAmira is well-known;
+		stop the action;
+	if noun is alterKay:
+		if alteredKay is unknown:
+			say "Your hand brushes the [noun] and your nameless power inspects it.
+			
+			It's there, like crude oil on an everglade. The wisp of energy that's left when a person alters an object, forcing reality to be rewritten to accept this new truth.
+			
+			And it's not someone you already know. Your hand freezes, as if you could find more information about this person, this [italic type]threat[roman type].
+			
+			But if it contained things like a face or a name, then this would all be too easy. And it wasn't like any of this could possibly be admissible in court.
+			
+			You withdraw your hand.";
+			now alteredKay is known;
+			stop the action;
+		if alteredKay is known:
+			say "As your fingertips touch the [noun], you recognize the mark. The mystery person.
+			
+			The only strange quality, you note after some moments of additional inspection, is the energy signature. Specifically, it's strength, which is greater than you've ever encountered before.
+			
+			But it only makes sense. You don't seem to be all that different in this new reality, but Szofia is noticeably changed. It'll take you some time to get used to her suddenly-worse English and diminished subject matter expertise.
+			
+			But you know she couldn't be responsible. You were with her when the shift happened, and you can always sense when something is altered near you. It takes concentration...and she wasn't surprised by the two of you suddenly being in the car.
+			
+			Someone else did this...but why was Szofia changed?";
+			now alteredKay is well-known;
+			stop the action;
+		else:
+			say "You can sense the energy even before you touch the [noun].
+			
+			Already, you're thinking of the person who's altered all these things as the 'Gentleman Killer' themself.
+
+			The universe always resolves alterations as simply as possible. Your birth certificate was printed in error, which saved you the legal headache, instead of your body changing. A person bought a different make and model of car on a whim. The suspect touched the weapon without thinking.
+
+			So, for someone to create a new serial killer [italic type] and [roman type] have the bodies be displayed in such florid ways is...strange.
+
+			This person was both powerful and skilled. And dangerous. Even if they weren't the one who drove the knife into the victim, their alterations caused these deaths, so they were just as responsible.
+			.";
+			stop the action;
+	if noun is alterStag:
+		if alteredStag is known: [maybe an additional if if its the brought item? also need to double check who thisd actually be]
+			say "TODO: first string to intro players to WS.";
+			now alteredStag is well-known;
+			stop the action;
+		else:
+			say "TODO: WS well known.";
+			stop the action;
+
+
+Carry out altering:
+	say "TODO: altering is happening.";
+	now noun is alterAmira.
+
+Report altering:
+	say "TODO: thing has been altered."
+
 [inspect rules]
 
 Inspecting is an action applying to one thing.
@@ -355,6 +451,22 @@ The printed name of pastWork is "past careers".
 
 family is a thing.
 
+[below need to be filled out]
+
+alteredAmira is a thing.
+
+alteredAmira is known.
+
+alteredKay is a thing.
+
+alteredStag is a thing.
+
+alteredStag is known.
+
+alteredNone is a thing.
+
+alteredNone is known.
+
 [
 ===========================TEST ZONE=====================================
 ]
@@ -389,7 +501,7 @@ firstTransfer is false.
 =============================BRUNCH!!!!!!!!!!!!!!!!!!====================
 ]
 
-[TODO: mimosa item. flag waittress attn. szofia]
+[TODO: mimosa item. flag waittress attn. szofia. no dropping/losing items]
 
 Brunch is a scene.
 
@@ -406,6 +518,7 @@ When Brunch ends:
 	'I'm sorry to have dragged you into this, it's just that'";
 	now pillCase is in jacket;
 	now amirasPhone is in jacket;
+	now wsToken is in jacket;
 	now notebookv1 is nowhere;
 	now blazer is nowhere;
 	now testWidget1 is nowhere;
@@ -434,7 +547,7 @@ Every turn during Driving, say "this is driving time."
 
 Driving begins when Brunch ends.
 
-[Driving ends when ????????]
+[Driving ends when ???????? CANT DROP IN HERE]
 
 Car is a room. "[if unvisited] 'versary was today and-AIEEEEE!'
 
