@@ -16,5 +16,12 @@
 		"unmakable"
 	],
     "editor.insertSpaces": false,
-    "editor.detectIndentation": false
+	"editor.detectIndentation": false,
+	"[choicescript]": {
+		"editor.quickSuggestions": {
+			"comments": false,
+			"strings": false,
+			"other": false
+		}
+	}
 }

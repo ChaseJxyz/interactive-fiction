@@ -14,6 +14,7 @@
 * inspect verb, check for alterName, maybe some "trys" if its a named one?
 * the new bf is a they/them
 * need a reason why szofia was changed
+* make the alterState vars be bools + default no except none which is true
 ]
 [
 ----------------------------STYLE RULES----------------------------------
@@ -118,7 +119,7 @@ The description of amirasPhone is "TODO: ur phone descri.needs if to be diff fro
 [TODO: can write in it(doesnt save so lol)]
 notebookv1 is a thing in blazer. "notebook 1 init descri."
 
-notebookv1 is alterAmira.
+The alterState of notebookv1 is alterAmira.
 
 The printed name of notebookv1 is "your notebook".
 
@@ -141,6 +142,8 @@ The description of wsToken is "wsToken long."
 [wallet][carried over]
 
 [govID][carried over]
+govID is a thing. "gov id init."
+
 govID is alterAmira.
 [
 ~~~~~~~~~~~~~~~~~~~~~WORLD 2 STARTING STUFF~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -267,9 +270,11 @@ altering + alterables
 
 [alter rules]
 A thing can be alterable or unalterable.
+
 A thing is usually unalterable.
 
-A thing can be alterAmira, alterKay, alterStag, or alterNone.
+alterState is a kind of value. The alterState are alterNone, alterAmira, alterKay, or alterStag.
+
 A thing is usually alterNone.
 
 Altering is an action applying to one thing.
@@ -281,10 +286,10 @@ Check altering:
 		say "You have altered the [noun] in the past, leaving an indelible signature of energy that allows anyone else with this same, nameless power to recognize that it was you.
 		
 		You have no reason to alter the [noun] again, nor do you want to risk changing reality. You're here to stop others, not joining the problem.";
-		now alteredAmira is well-known;
+		now alterMarkAmira is well-known;
 		stop the action;
 	if noun is alterKay:
-		if alteredKay is unknown:
+		if alterMarkKay is unknown:
 			say "Your hand brushes the [noun] and your nameless power inspects it.
 			
 			It's there, like crude oil on an everglade. The wisp of energy that's left when a person alters an object, forcing reality to be rewritten to accept this new truth.
@@ -294,9 +299,9 @@ Check altering:
 			But if it contained things like a face or a name, then this would all be too easy. And it wasn't like any of this could possibly be admissible in court.
 			
 			You withdraw your hand.";
-			now alteredKay is known;
+			now alterMarkKay is known;
 			stop the action;
-		if alteredKay is known:
+		if alterMarkKay is known:
 			say "As your fingertips touch the [noun], you recognize the mark. The mystery person.
 			
 			The only strange quality, you note after some moments of additional inspection, is the energy signature. Specifically, it's strength, which is greater than you've ever encountered before.
@@ -306,7 +311,7 @@ Check altering:
 			But you know she couldn't be responsible. You were with her when the shift happened, and you can always sense when something is altered near you. It takes concentration...and she wasn't surprised by the two of you suddenly being in the car.
 			
 			Someone else did this...but why was Szofia changed?";
-			now alteredKay is well-known;
+			now alterMarkKay is well-known;
 			stop the action;
 		else:
 			say "You can sense the energy even before you touch the [noun].
@@ -321,9 +326,9 @@ Check altering:
 			.";
 			stop the action;
 	if noun is alterStag:
-		if alteredStag is known: [maybe an additional if if its the brought item? also need to double check who thisd actually be]
+		if alterMarkStag is known: [maybe an additional if if its the brought item? also need to double check who thisd actually be]
 			say "TODO: first string to intro players to WS.";
-			now alteredStag is well-known;
+			now alterMarkStag is well-known;
 			stop the action;
 		else:
 			say "TODO: WS well known.";
@@ -453,19 +458,19 @@ family is a thing.
 
 [below need to be filled out]
 
-alteredAmira is a thing.
+alterMarkAmira is a thing.
 
-alteredAmira is known.
+alterMarkAmira is known.
 
-alteredKay is a thing.
+alterMarkKay is a thing.
 
-alteredStag is a thing.
+alterMarkStag is a thing.
 
-alteredStag is known.
+alterMarkStag is known.
 
-alteredNone is a thing.
+alterMarkNone is a thing.
 
-alteredNone is known.
+alterMarkNone is known.
 
 [
 ===========================TEST ZONE=====================================

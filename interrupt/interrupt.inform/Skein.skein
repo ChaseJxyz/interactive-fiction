@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x5dae4c722a00" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x62cd47dacb30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x5dae4b671010"/>
-  <item nodeId="node-0x5dae4c722a00">
+  <activeNode nodeId="node-0x62cd47dacb30"/>
+  <item nodeId="node-0x62cd47dacb30">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -30,16 +30,16 @@ Szofia1 init.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a5a0580"/>
-      <child nodeId="node-0x5dae4b0de510"/>
-      <child nodeId="node-0x5dae4ba79d50"/>
-      <child nodeId="node-0x5dae4bc9fe60"/>
-      <child nodeId="node-0x5dae4b503640"/>
-      <child nodeId="node-0x5dae49f5d2e0"/>
-      <child nodeId="node-0x5dae4b8db880"/>
+      <child nodeId="node-0x62cd47d97580"/>
+      <child nodeId="node-0x62cd47ef4f70"/>
+      <child nodeId="node-0x62cd47f4e960"/>
+      <child nodeId="node-0x62cd4801b1b0"/>
+      <child nodeId="node-0x62cd47f97240"/>
+      <child nodeId="node-0x62cd480bf120"/>
+      <child nodeId="node-0x62cd47fd9740"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a5a0580">
+  <item nodeId="node-0x62cd47d97580">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   blazer (being worn and closed)
@@ -52,11 +52,11 @@ Szofia1 init.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b48aec0"/>
-      <child nodeId="node-0x5dae4afa09c0"/>
+      <child nodeId="node-0x62cd47ecd080"/>
+      <child nodeId="node-0x62cd47ee4260"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b48aec0">
+  <item nodeId="node-0x62cd47ecd080">
     <command xml:space="preserve">open blazer</command>
     <result xml:space="preserve">You open blazer, revealing pillCase.
 
@@ -67,10 +67,10 @@ Szofia1 init.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b0a7ad0"/>
+      <child nodeId="node-0x62cd47eda390"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b0a7ad0">
+  <item nodeId="node-0x62cd47eda390">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">before test string.
 
@@ -84,10 +84,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b0db930"/>
+      <child nodeId="node-0x62cd47ebd130"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b0db930">
+  <item nodeId="node-0x62cd47ebd130">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   jacket (being worn and closed)
@@ -100,10 +100,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b0eea90"/>
+      <child nodeId="node-0x62cd47ee0ff0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b0eea90">
+  <item nodeId="node-0x62cd47ee0ff0">
     <command xml:space="preserve">open jacket</command>
     <result xml:space="preserve">You open jacket.
 
@@ -114,7 +114,7 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4afa09c0">
+  <item nodeId="node-0x62cd47ee4260">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">TODO: self descri. Needs blazer + chest/hands. needs if to be diff from room 1.
 
@@ -125,10 +125,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a6ede70"/>
+      <child nodeId="node-0x62cd47ee7590"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a6ede70">
+  <item nodeId="node-0x62cd47ee7590">
     <command xml:space="preserve">inspect testWidget1</command>
     <result xml:space="preserve">TODO: You inspect the testWidget1, so now it&apos;s inspected.
 
@@ -139,10 +139,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b6325d0"/>
+      <child nodeId="node-0x62cd47eeb1f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b6325d0">
+  <item nodeId="node-0x62cd47eeb1f0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Restaurant
 This is the Restaurant init descript.
@@ -154,10 +154,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4996f590"/>
+      <child nodeId="node-0x62cd47ebcc00"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4996f590">
+  <item nodeId="node-0x62cd47ebcc00">
     <command xml:space="preserve">scene</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -168,10 +168,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4baed7b0"/>
+      <child nodeId="node-0x62cd47ef1b80"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4baed7b0">
+  <item nodeId="node-0x62cd47ef1b80">
     <command xml:space="preserve">inspect testWidget1</command>
     <result xml:space="preserve">You see nothing special about testWidget1.
 
@@ -182,7 +182,7 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4b0de510">
+  <item nodeId="node-0x62cd47ef4f70">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">TODO: self descri. Needs blazer + chest/hands. needs if to be diff from room 1.
 
@@ -195,14 +195,14 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b0e0c10"/>
-      <child nodeId="node-0x5dae4b10cd30"/>
-      <child nodeId="node-0x5dae4b10f430"/>
-      <child nodeId="node-0x5dae4958b100"/>
-      <child nodeId="node-0x5dae4998d5a0"/>
+      <child nodeId="node-0x62cd47ef8340"/>
+      <child nodeId="node-0x62cd47f2fa00"/>
+      <child nodeId="node-0x62cd47f83b50"/>
+      <child nodeId="node-0x62cd47fb4ff0"/>
+      <child nodeId="node-0x62cd47fd21b0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b0e0c10">
+  <item nodeId="node-0x62cd47ef8340">
     <command xml:space="preserve">x blazer</command>
     <result xml:space="preserve">TODO: blazer descri.
 
@@ -213,11 +213,11 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b0e3310"/>
-      <child nodeId="node-0x5dae4b0f6950"/>
+      <child nodeId="node-0x62cd47efb680"/>
+      <child nodeId="node-0x62cd47edc4e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b0e3310">
+  <item nodeId="node-0x62cd47efb680">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   blazer (being worn and closed)
@@ -230,7 +230,7 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4b0f6950">
+  <item nodeId="node-0x62cd47edc4e0">
     <command xml:space="preserve">open blazer</command>
     <result xml:space="preserve">You open blazer, revealing pill case, your phone and your notebook.
 
@@ -241,10 +241,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b0f9050"/>
+      <child nodeId="node-0x62cd47ed3dc0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b0f9050">
+  <item nodeId="node-0x62cd47ed3dc0">
     <command xml:space="preserve">x notebook</command>
     <result xml:space="preserve">TODO: notebook1 descri.
 
@@ -255,10 +255,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b0fb750"/>
+      <child nodeId="node-0x62cd47f00ce0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b0fb750">
+  <item nodeId="node-0x62cd47f00ce0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">before test string.
 
@@ -272,10 +272,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b0fe330"/>
+      <child nodeId="node-0x62cd47f039a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b0fe330">
+  <item nodeId="node-0x62cd47f039a0">
     <command xml:space="preserve">restart</command>
     <result xml:space="preserve">Are you sure you want to restart? </result>
     <commentary xml:space="preserve"></commentary>
@@ -284,10 +284,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b100a30"/>
+      <child nodeId="node-0x62cd47f06bd0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b100a30">
+  <item nodeId="node-0x62cd47f06bd0">
     <command xml:space="preserve">y</command>
     <result xml:space="preserve">
 
@@ -307,10 +307,10 @@ This is the test room init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b103610"/>
+      <child nodeId="node-0x62cd47f0c390"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b103610">
+  <item nodeId="node-0x62cd47f0c390">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   blazer (being worn and closed)
@@ -323,10 +323,10 @@ This is the test room init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b105d10"/>
+      <child nodeId="node-0x62cd47f0f5d0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b105d10">
+  <item nodeId="node-0x62cd47f0f5d0">
     <command xml:space="preserve">o blazer</command>
     <result xml:space="preserve">Sorry, that can&apos;t be corrected.
 
@@ -337,10 +337,10 @@ This is the test room init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b108410"/>
+      <child nodeId="node-0x62cd47f12870"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b108410">
+  <item nodeId="node-0x62cd47f12870">
     <command xml:space="preserve">restart</command>
     <result xml:space="preserve">Are you sure you want to restart? </result>
     <commentary xml:space="preserve"></commentary>
@@ -349,10 +349,10 @@ This is the test room init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b10ab10"/>
+      <child nodeId="node-0x62cd47f15b60"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b10ab10">
+  <item nodeId="node-0x62cd47f15b60">
     <command xml:space="preserve">y</command>
     <result xml:space="preserve">
 
@@ -372,10 +372,10 @@ This is the test room init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b10d210"/>
+      <child nodeId="node-0x62cd47f18ec0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b10d210">
+  <item nodeId="node-0x62cd47f18ec0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   blazer (being worn and closed)
@@ -388,10 +388,10 @@ This is the test room init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b10f910"/>
+      <child nodeId="node-0x62cd47f1c2f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b10f910">
+  <item nodeId="node-0x62cd47f1c2f0">
     <command xml:space="preserve">open blazer</command>
     <result xml:space="preserve">You open blazer, revealing pill case, your phone and your notebook.
 
@@ -402,10 +402,10 @@ This is the test room init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bc26300"/>
+      <child nodeId="node-0x62cd47f1f6f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bc26300">
+  <item nodeId="node-0x62cd47f1f6f0">
     <command xml:space="preserve">x notebook</command>
     <result xml:space="preserve">TODO: notebook1 descri.
 
@@ -416,10 +416,10 @@ This is the test room init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bb04540"/>
+      <child nodeId="node-0x62cd47f22ab0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bb04540">
+  <item nodeId="node-0x62cd47f22ab0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">before test string.
 
@@ -433,10 +433,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ba5d5c0"/>
+      <child nodeId="node-0x62cd47f25e90"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ba5d5c0">
+  <item nodeId="node-0x62cd47f25e90">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   testWidget2
@@ -449,10 +449,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ba3a8e0"/>
+      <child nodeId="node-0x62cd47f29240"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ba3a8e0">
+  <item nodeId="node-0x62cd47f29240">
     <command xml:space="preserve">open jacket</command>
     <result xml:space="preserve">You open jacket, revealing your phone, pill case and your notebook.
 
@@ -463,10 +463,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ba59a40"/>
+      <child nodeId="node-0x62cd47f2c640"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ba59a40">
+  <item nodeId="node-0x62cd47f2c640">
     <command xml:space="preserve">x notebook</command>
     <result xml:space="preserve">TODO: notebook2 descri.
 
@@ -477,7 +477,7 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4b10cd30">
+  <item nodeId="node-0x62cd47f2fa00">
     <command xml:space="preserve">x hands</command>
     <result xml:space="preserve">TODO: hand descri.needs if to be diff from room 1.
 
@@ -488,10 +488,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b6e3e80"/>
+      <child nodeId="node-0x62cd47f33830"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b6e3e80">
+  <item nodeId="node-0x62cd47f33830">
     <command xml:space="preserve">x chest</command>
     <result xml:space="preserve">TODO: chest descrineeds if to be diff from room 1..
 
@@ -502,10 +502,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b1266b0"/>
+      <child nodeId="node-0x62cd47f36920"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b1266b0">
+  <item nodeId="node-0x62cd47f36920">
     <command xml:space="preserve">open blazer</command>
     <result xml:space="preserve">You open blazer, revealing pill case, your phone and your notebook.
 
@@ -516,10 +516,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b124e50"/>
+      <child nodeId="node-0x62cd47f39cd0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b124e50">
+  <item nodeId="node-0x62cd47f39cd0">
     <command xml:space="preserve">x pill case</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -530,10 +530,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b1155b0"/>
+      <child nodeId="node-0x62cd47f3d0a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b1155b0">
+  <item nodeId="node-0x62cd47f3d0a0">
     <command xml:space="preserve">o pill case</command>
     <result xml:space="preserve">&quot;Oops&quot; can only correct a single word.
 
@@ -544,10 +544,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4caeaec0"/>
+      <child nodeId="node-0x62cd47f40480"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4caeaec0">
+  <item nodeId="node-0x62cd47f40480">
     <command xml:space="preserve">open pill case</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -558,10 +558,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a57f540"/>
+      <child nodeId="node-0x62cd47f43820"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a57f540">
+  <item nodeId="node-0x62cd47f43820">
     <command xml:space="preserve">take pill case</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -572,10 +572,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a5fdbf0"/>
+      <child nodeId="node-0x62cd47f46c30"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a5fdbf0">
+  <item nodeId="node-0x62cd47f46c30">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -586,10 +586,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a2b50f0"/>
+      <child nodeId="node-0x62cd47f49fd0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a2b50f0">
+  <item nodeId="node-0x62cd47f49fd0">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -600,10 +600,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae496e3670"/>
+      <child nodeId="node-0x62cd47f0af60"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae496e3670">
+  <item nodeId="node-0x62cd47f0af60">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -614,10 +614,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4c8a3410"/>
+      <child nodeId="node-0x62cd47f532c0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4c8a3410">
+  <item nodeId="node-0x62cd47f532c0">
     <command xml:space="preserve">turn</command>
     <result xml:space="preserve">What do you want to turn?
 
@@ -628,10 +628,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa2a760"/>
+      <child nodeId="node-0x62cd47f566d0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa2a760">
+  <item nodeId="node-0x62cd47f566d0">
     <command xml:space="preserve">time</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -642,10 +642,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b0c4fc0"/>
+      <child nodeId="node-0x62cd47f59ab0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b0c4fc0">
+  <item nodeId="node-0x62cd47f59ab0">
     <command xml:space="preserve">check time</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -656,10 +656,10 @@ This is TestRoom2 init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4afeb1f0"/>
+      <child nodeId="node-0x62cd47f5ce70"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4afeb1f0">
+  <item nodeId="node-0x62cd47f5ce70">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Restaurant
 This is the Restaurant init descript.
@@ -671,10 +671,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ba28a00"/>
+      <child nodeId="node-0x62cd47f60280"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ba28a00">
+  <item nodeId="node-0x62cd47f60280">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -685,10 +685,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b9d1960"/>
+      <child nodeId="node-0x62cd47f635c0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b9d1960">
+  <item nodeId="node-0x62cd47f635c0">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -699,10 +699,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bb91d60"/>
+      <child nodeId="node-0x62cd47f66970"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bb91d60">
+  <item nodeId="node-0x62cd47f66970">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -713,10 +713,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab01dc0"/>
+      <child nodeId="node-0x62cd47f69d20"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab01dc0">
+  <item nodeId="node-0x62cd47f69d20">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -727,10 +727,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bb6a4b0"/>
+      <child nodeId="node-0x62cd47f6d0d0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bb6a4b0">
+  <item nodeId="node-0x62cd47f6d0d0">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -741,10 +741,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a7c8b00"/>
+      <child nodeId="node-0x62cd47f70480"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a7c8b00">
+  <item nodeId="node-0x62cd47f70480">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -755,10 +755,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ba04370"/>
+      <child nodeId="node-0x62cd47f73830"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ba04370">
+  <item nodeId="node-0x62cd47f73830">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -769,10 +769,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b17c600"/>
+      <child nodeId="node-0x62cd47f76c10"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b17c600">
+  <item nodeId="node-0x62cd47f76c10">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -783,10 +783,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4af2cea0"/>
+      <child nodeId="node-0x62cd47f79fc0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4af2cea0">
+  <item nodeId="node-0x62cd47f79fc0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Restaurant
 This is the Restaurant init descript.
@@ -798,10 +798,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bb395f0"/>
+      <child nodeId="node-0x62cd47f7d3f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bb395f0">
+  <item nodeId="node-0x62cd47f7d3f0">
     <command xml:space="preserve">time</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -812,10 +812,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a5ca470"/>
+      <child nodeId="node-0x62cd47f80790"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a5ca470">
+  <item nodeId="node-0x62cd47f80790">
     <command xml:space="preserve">check time</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -826,7 +826,7 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4b10f430">
+  <item nodeId="node-0x62cd47f83b50">
     <command xml:space="preserve">x chest</command>
     <result xml:space="preserve">TODO: chest descrineeds if to be diff from room 1..
 
@@ -837,10 +837,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b3e8210"/>
+      <child nodeId="node-0x62cd47f86f60"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b3e8210">
+  <item nodeId="node-0x62cd47f86f60">
     <command xml:space="preserve">open blazer</command>
     <result xml:space="preserve">You open blazer, revealing pill case, your phone and your notebook.
 
@@ -851,10 +851,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bc727d0"/>
+      <child nodeId="node-0x62cd47f8a2e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bc727d0">
+  <item nodeId="node-0x62cd47f8a2e0">
     <command xml:space="preserve">open pill case</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -865,10 +865,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aea35f0"/>
+      <child nodeId="node-0x62cd47f8d6b0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aea35f0">
+  <item nodeId="node-0x62cd47f8d6b0">
     <command xml:space="preserve">take pill case</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -879,10 +879,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae49764750"/>
+      <child nodeId="node-0x62cd47f90ac0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae49764750">
+  <item nodeId="node-0x62cd47f90ac0">
     <command xml:space="preserve">take pillCase</command>
     <result xml:space="preserve">Taken.
 
@@ -893,10 +893,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b8086a0"/>
+      <child nodeId="node-0x62cd47f93e60"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b8086a0">
+  <item nodeId="node-0x62cd47f93e60">
     <command xml:space="preserve">open pillCase</command>
     <result xml:space="preserve">You open pill case, revealing the blue pill and pain pills.
 
@@ -907,10 +907,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abe1390"/>
+      <child nodeId="node-0x62cd47f33620"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abe1390">
+  <item nodeId="node-0x62cd47f33620">
     <command xml:space="preserve">eat blue pill</command>
     <result xml:space="preserve">(first taking the blue pill)
 You eat the blue pill. Not bad.
@@ -922,10 +922,10 @@ You eat the blue pill. Not bad.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aee10c0"/>
+      <child nodeId="node-0x62cd47f9abb0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aee10c0">
+  <item nodeId="node-0x62cd47f9abb0">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -936,10 +936,10 @@ You eat the blue pill. Not bad.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b0ee5b0"/>
+      <child nodeId="node-0x62cd47f9df30"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b0ee5b0">
+  <item nodeId="node-0x62cd47f9df30">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -950,10 +950,10 @@ You eat the blue pill. Not bad.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b0f6e30"/>
+      <child nodeId="node-0x62cd47f36620"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b0f6e30">
+  <item nodeId="node-0x62cd47f36620">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -964,10 +964,10 @@ You eat the blue pill. Not bad.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae496f3c70"/>
+      <child nodeId="node-0x62cd47fa4cd0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae496f3c70">
+  <item nodeId="node-0x62cd47fa4cd0">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -978,10 +978,10 @@ You eat the blue pill. Not bad.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9bae00"/>
+      <child nodeId="node-0x62cd47fa8080"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9bae00">
+  <item nodeId="node-0x62cd47fa8080">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -992,10 +992,10 @@ You eat the blue pill. Not bad.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bcd5da0"/>
+      <child nodeId="node-0x62cd47fab430"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bcd5da0">
+  <item nodeId="node-0x62cd47fab430">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Restaurant
 This is the Restaurant init descript.
@@ -1007,10 +1007,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b181e50"/>
+      <child nodeId="node-0x62cd47fae860"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b181e50">
+  <item nodeId="node-0x62cd47fae860">
     <command xml:space="preserve">turn count</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1021,10 +1021,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b695380"/>
+      <child nodeId="node-0x62cd47fb1c00"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b695380">
+  <item nodeId="node-0x62cd47fb1c00">
     <command xml:space="preserve">turns</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1035,7 +1035,7 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4958b100">
+  <item nodeId="node-0x62cd47fb4ff0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   blazer (being worn and closed)
@@ -1048,11 +1048,11 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a625900"/>
-      <child nodeId="node-0x5dae4aa6c9c0"/>
+      <child nodeId="node-0x62cd47fb83b0"/>
+      <child nodeId="node-0x62cd47fc86a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a625900">
+  <item nodeId="node-0x62cd47fb83b0">
     <command xml:space="preserve">x testWidget1</command>
     <result xml:space="preserve">You see nothing special about testWidget1.
 
@@ -1063,10 +1063,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4affa780"/>
+      <child nodeId="node-0x62cd47fbb760"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4affa780">
+  <item nodeId="node-0x62cd47fbb760">
     <command xml:space="preserve">insepct testWidget1</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1077,10 +1077,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b8e52a0"/>
+      <child nodeId="node-0x62cd47fbeb30"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b8e52a0">
+  <item nodeId="node-0x62cd47fbeb30">
     <command xml:space="preserve">inspect</command>
     <result xml:space="preserve">What do you want to inspect?
 
@@ -1091,10 +1091,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b1deab0"/>
+      <child nodeId="node-0x62cd47fc1f30"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b1deab0">
+  <item nodeId="node-0x62cd47fc1f30">
     <command xml:space="preserve">inspect blazer</command>
     <result xml:space="preserve">TODO: this is uninspectable
 &gt;</result>
@@ -1104,10 +1104,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b129500"/>
+      <child nodeId="node-0x62cd47fc5260"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b129500">
+  <item nodeId="node-0x62cd47fc5260">
     <command xml:space="preserve">inspect testWidget1</command>
     <result xml:space="preserve">TODO: this is uninspectable
 &gt;</result>
@@ -1117,7 +1117,7 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4aa6c9c0">
+  <item nodeId="node-0x62cd47fc86a0">
     <command xml:space="preserve">inspect testWidget1</command>
     <result xml:space="preserve">
 *** Run-time problem P10: Since testWidget1 is not allowed the property &quot;open&quot;, it is against the rules to try to use it.
@@ -1132,10 +1132,10 @@ TODO: You inspect the testWidget1, so now it&apos;s inspected.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac36a20"/>
+      <child nodeId="node-0x62cd47fcba50"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac36a20">
+  <item nodeId="node-0x62cd47fcba50">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Restaurant
 This is the Restaurant init descript.
@@ -1147,10 +1147,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b3e8880"/>
+      <child nodeId="node-0x62cd47fcee50"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b3e8880">
+  <item nodeId="node-0x62cd47fcee50">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   blazer (being worn and closed)
@@ -1163,7 +1163,7 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4998d5a0">
+  <item nodeId="node-0x62cd47fd21b0">
     <command xml:space="preserve">inspect testWidget1</command>
     <result xml:space="preserve">TODO: You inspect the testWidget1, so now it&apos;s inspected.
 
@@ -1181,7 +1181,7 @@ this is driving time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ba79d50">
+  <item nodeId="node-0x62cd47f4e960">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1194,10 +1194,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b286770"/>
+      <child nodeId="node-0x62cd47fdd910"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b286770">
+  <item nodeId="node-0x62cd47fdd910">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1210,10 +1210,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b127070"/>
+      <child nodeId="node-0x62cd47fe0c20"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b127070">
+  <item nodeId="node-0x62cd47fe0c20">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1226,10 +1226,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9ed9e0"/>
+      <child nodeId="node-0x62cd47fe4000"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9ed9e0">
+  <item nodeId="node-0x62cd47fe4000">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1242,10 +1242,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b912b10"/>
+      <child nodeId="node-0x62cd47fe73c0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b912b10">
+  <item nodeId="node-0x62cd47fe73c0">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1258,10 +1258,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bcfddf0"/>
+      <child nodeId="node-0x62cd47fea780"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bcfddf0">
+  <item nodeId="node-0x62cd47fea780">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1274,10 +1274,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b832020"/>
+      <child nodeId="node-0x62cd47fedb40"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b832020">
+  <item nodeId="node-0x62cd47fedb40">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1290,10 +1290,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4af65a90"/>
+      <child nodeId="node-0x62cd47ff0f00"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4af65a90">
+  <item nodeId="node-0x62cd47ff0f00">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1306,10 +1306,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab608c0"/>
+      <child nodeId="node-0x62cd47ff42c0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab608c0">
+  <item nodeId="node-0x62cd47ff42c0">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1322,10 +1322,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bbe0830"/>
+      <child nodeId="node-0x62cd47ff7680"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bbe0830">
+  <item nodeId="node-0x62cd47ff7680">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1344,11 +1344,11 @@ Car
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a6862c0"/>
-      <child nodeId="node-0x5dae4b1dc520"/>
+      <child nodeId="node-0x62cd47ffaa20"/>
+      <child nodeId="node-0x62cd48014a10"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a6862c0">
+  <item nodeId="node-0x62cd47ffaa20">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1361,11 +1361,11 @@ this is driving time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b974430"/>
-      <child nodeId="node-0x5dae4aa6c660"/>
+      <child nodeId="node-0x62cd47ffde20"/>
+      <child nodeId="node-0x62cd48007b00"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b974430">
+  <item nodeId="node-0x62cd47ffde20">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Restaurant
 This is the Restaurant init descript.
@@ -1377,10 +1377,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae49910270"/>
+      <child nodeId="node-0x62cd48001200"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae49910270">
+  <item nodeId="node-0x62cd48001200">
     <command xml:space="preserve">[scene &apos;Brunch&apos; ends]</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1391,10 +1391,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a289980"/>
+      <child nodeId="node-0x62cd480045a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a289980">
+  <item nodeId="node-0x62cd480045a0">
     <command xml:space="preserve">scene &apos;Brunch&apos; ends</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1405,7 +1405,7 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4aa6c660">
+  <item nodeId="node-0x62cd48007b00">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1416,10 +1416,10 @@ This is the Restaurant init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae497f5040"/>
+      <child nodeId="node-0x62cd4800aea0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae497f5040">
+  <item nodeId="node-0x62cd4800aea0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">TODO: self descri. Needs blazer + chest/hands. needs if to be diff from room 1.
 
@@ -1432,10 +1432,10 @@ this is driving time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abba2d0"/>
+      <child nodeId="node-0x62cd4800e090"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abba2d0">
+  <item nodeId="node-0x62cd4800e090">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   testWidget2
@@ -1450,10 +1450,10 @@ this is driving time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aab1080"/>
+      <child nodeId="node-0x62cd48011660"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aab1080">
+  <item nodeId="node-0x62cd48011660">
     <command xml:space="preserve">open jacket</command>
     <result xml:space="preserve">You open jacket, revealing your phone, pill case and your notebook.
 
@@ -1466,7 +1466,7 @@ this is driving time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4b1dc520">
+  <item nodeId="node-0x62cd48014a10">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Car
  this should be the second card innit.
@@ -1480,10 +1480,10 @@ this is driving time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b52e290"/>
+      <child nodeId="node-0x62cd48017e20"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b52e290">
+  <item nodeId="node-0x62cd48017e20">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Car
  this should be the second card innit.
@@ -1497,7 +1497,7 @@ this is driving time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4bc9fe60">
+  <item nodeId="node-0x62cd4801b1b0">
     <command xml:space="preserve">ask szofia about test1</command>
     <result xml:space="preserve">test1 response.
 this is brunch time.
@@ -1509,11 +1509,11 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b863960"/>
-      <child nodeId="node-0x5dae4ae4c6a0"/>
+      <child nodeId="node-0x62cd4801e560"/>
+      <child nodeId="node-0x62cd4802b6a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b863960">
+  <item nodeId="node-0x62cd4801e560">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Restaurant
 This is the Restaurant init descript.
@@ -1529,10 +1529,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b611140"/>
+      <child nodeId="node-0x62cd48021a10"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b611140">
+  <item nodeId="node-0x62cd48021a10">
     <command xml:space="preserve">talk to Szofia about testWidget2</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1543,10 +1543,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b4362b0"/>
+      <child nodeId="node-0x62cd48024d90"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b4362b0">
+  <item nodeId="node-0x62cd48024d90">
     <command xml:space="preserve">ask Szofia about testWidget1</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1557,10 +1557,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aacc990"/>
+      <child nodeId="node-0x62cd480282e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aacc990">
+  <item nodeId="node-0x62cd480282e0">
     <command xml:space="preserve">talk to Szofia</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1571,7 +1571,7 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ae4c6a0">
+  <item nodeId="node-0x62cd4802b6a0">
     <command xml:space="preserve">ask szofia about testWidget2</command>
     <result xml:space="preserve">i dont care for test widget one.
 this is brunch time.
@@ -1583,10 +1583,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4af354e0"/>
+      <child nodeId="node-0x62cd4802ebb0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4af354e0">
+  <item nodeId="node-0x62cd4802ebb0">
     <command xml:space="preserve">ask szofia about testWidget1</command>
     <result xml:space="preserve">i dont care for test widget one.
 this is brunch time.
@@ -1598,10 +1598,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b1c3a30"/>
+      <child nodeId="node-0x62cd48031fa0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b1c3a30">
+  <item nodeId="node-0x62cd48031fa0">
     <command xml:space="preserve">ask szofia about boyfriend</command>
     <result xml:space="preserve">&quot;I think this might be it for us,&quot; Szofia says. &quot;I know he&apos;s told me so many times to not talk about my work with him, but...it&apos;s difficult when I get excited. Do you understand?
 
@@ -1617,11 +1617,11 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a6bf820"/>
-      <child nodeId="node-0x5dae4b15ddc0"/>
+      <child nodeId="node-0x62cd48035260"/>
+      <child nodeId="node-0x62cd480422f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a6bf820">
+  <item nodeId="node-0x62cd48035260">
     <command xml:space="preserve">ask szofia about me</command>
     <result xml:space="preserve">(Szofia Meszaros)
 You ask Szofia Meszaros about Szofia Meszaros and got this TODO: text.
@@ -1635,10 +1635,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a6cc010"/>
+      <child nodeId="node-0x62cd48038600"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a6cc010">
+  <item nodeId="node-0x62cd48038600">
     <command xml:space="preserve">ask szofia about amira</command>
     <result xml:space="preserve">You ask Szofia Meszaros about yourself and got this TODO: text.
 
@@ -1651,10 +1651,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bab1160"/>
+      <child nodeId="node-0x62cd4803bb10"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bab1160">
+  <item nodeId="node-0x62cd4803bb10">
     <command xml:space="preserve">ask szofia about yourself</command>
     <result xml:space="preserve">You ask Szofia Meszaros about your former self and got this TODO: text.
 
@@ -1667,10 +1667,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b935a90"/>
+      <child nodeId="node-0x62cd4803ef50"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b935a90">
+  <item nodeId="node-0x62cd4803ef50">
     <command xml:space="preserve">ask szofia about szofia</command>
     <result xml:space="preserve">You ask Szofia Meszaros about Szofia Meszaros and got this TODO: text.
 
@@ -1683,7 +1683,7 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4b15ddc0">
+  <item nodeId="node-0x62cd480422f0">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1696,10 +1696,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b4cc2b0"/>
+      <child nodeId="node-0x62cd480456a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b4cc2b0">
+  <item nodeId="node-0x62cd480456a0">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1712,10 +1712,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b08e150"/>
+      <child nodeId="node-0x62cd48048980"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b08e150">
+  <item nodeId="node-0x62cd48048980">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1726,10 +1726,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a5c95f0"/>
+      <child nodeId="node-0x62cd4804bd00"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a5c95f0">
+  <item nodeId="node-0x62cd4804bd00">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1742,10 +1742,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ca198c0"/>
+      <child nodeId="node-0x62cd4804f010"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ca198c0">
+  <item nodeId="node-0x62cd4804f010">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1756,10 +1756,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b53e2d0"/>
+      <child nodeId="node-0x62cd48052450"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b53e2d0">
+  <item nodeId="node-0x62cd48052450">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1772,10 +1772,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b69a0e0"/>
+      <child nodeId="node-0x62cd48055760"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b69a0e0">
+  <item nodeId="node-0x62cd48055760">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1788,10 +1788,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b7c1ea0"/>
+      <child nodeId="node-0x62cd48058bf0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b7c1ea0">
+  <item nodeId="node-0x62cd48058bf0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1802,10 +1802,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae49f23f60"/>
+      <child nodeId="node-0x62cd4805bf70"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae49f23f60">
+  <item nodeId="node-0x62cd4805bf70">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1824,7 +1824,7 @@ Car
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4b503640">
+  <item nodeId="node-0x62cd47f97240">
     <command xml:space="preserve">x szofia</command>
     <result xml:space="preserve">She easily could have easily been a model, or a princess at a theme park, but Dr. Szofia Meszaros decided she&apos;d rather make a career from examining dead bodies instead.
 
@@ -1838,16 +1838,16 @@ this is brunch time.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b4961c0"/>
-      <child nodeId="node-0x5dae4ba805b0"/>
+      <child nodeId="node-0x62cd48063460"/>
+      <child nodeId="node-0x62cd48087fe0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b4961c0">
+  <item nodeId="node-0x62cd48063460">
     <command xml:space="preserve">talk to szofia about test1</command>
     <result xml:space="preserve">test1 response.
 this is brunch time.
@@ -1859,10 +1859,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b4c6070"/>
+      <child nodeId="node-0x62cd48066900"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b4c6070">
+  <item nodeId="node-0x62cd48066900">
     <command xml:space="preserve">ask szofia about testWidget2</command>
     <result xml:space="preserve">i dont care for test widget one.
 this is brunch time.
@@ -1874,10 +1874,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b5155e0"/>
+      <child nodeId="node-0x62cd48069db0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b5155e0">
+  <item nodeId="node-0x62cd48069db0">
     <command xml:space="preserve">talk to szofia about testWidget2</command>
     <result xml:space="preserve">i dont care for test widget one.
 this is brunch time.
@@ -1889,10 +1889,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b0aabe0"/>
+      <child nodeId="node-0x62cd4806d160"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b0aabe0">
+  <item nodeId="node-0x62cd4806d160">
     <command xml:space="preserve">talk to szofia about testWidget1</command>
     <result xml:space="preserve">i dont care for test widget one.
 this is brunch time.
@@ -1904,10 +1904,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ca9dfc0"/>
+      <child nodeId="node-0x62cd48070570"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ca9dfc0">
+  <item nodeId="node-0x62cd48070570">
     <command xml:space="preserve">talk to szofia about testWidget2</command>
     <result xml:space="preserve">i dont care for test widget one.
 this is brunch time.
@@ -1919,10 +1919,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b833750"/>
+      <child nodeId="node-0x62cd48073a00"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b833750">
+  <item nodeId="node-0x62cd48073a00">
     <command xml:space="preserve">x testWidget1</command>
     <result xml:space="preserve">You see nothing special about testWidget1.
 
@@ -1935,10 +1935,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b7f1fe0"/>
+      <child nodeId="node-0x62cd47fa1440"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b7f1fe0">
+  <item nodeId="node-0x62cd47fa1440">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1951,10 +1951,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4af13850"/>
+      <child nodeId="node-0x62cd4807b2c0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4af13850">
+  <item nodeId="node-0x62cd4807b2c0">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -1967,10 +1967,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae49559f60"/>
+      <child nodeId="node-0x62cd4807e5b0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae49559f60">
+  <item nodeId="node-0x62cd4807e5b0">
     <command xml:space="preserve">wwait</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1981,10 +1981,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bbb0620"/>
+      <child nodeId="node-0x62cd48081900"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bbb0620">
+  <item nodeId="node-0x62cd48081900">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
@@ -2002,10 +2002,10 @@ This is car init descript.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4babf170"/>
+      <child nodeId="node-0x62cd48084cf0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4babf170">
+  <item nodeId="node-0x62cd48084cf0">
     <command xml:space="preserve">x testWidget2</command>
     <result xml:space="preserve">You see nothing special about testWidget2.
 
@@ -2018,21 +2018,21 @@ this is driving time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ba805b0">
+  <item nodeId="node-0x62cd48087fe0">
     <command xml:space="preserve">talk to sophia about ME</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b5fcbd0"/>
+      <child nodeId="node-0x62cd4808b3a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b5fcbd0">
+  <item nodeId="node-0x62cd4808b3a0">
     <command xml:space="preserve">talk to szofia about boyfriend</command>
     <result xml:space="preserve">&quot;I think this might be it for us,&quot; Szofia says. &quot;I know he&apos;s told me so many times to not talk about my work with him, but...it&apos;s difficult when I get excited. Do you understand?
 
@@ -2043,29 +2043,29 @@ this is brunch time.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b4ec2a0"/>
+      <child nodeId="node-0x62cd4808e7d0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b4ec2a0">
+  <item nodeId="node-0x62cd4808e7d0">
     <command xml:space="preserve">talk to szofia about faily</command>
     <result xml:space="preserve">That noun did not make sense in this context.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b6a00d0"/>
+      <child nodeId="node-0x62cd48091c30"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b6a00d0">
+  <item nodeId="node-0x62cd48091c30">
     <command xml:space="preserve">talk to szofia about family</command>
     <result xml:space="preserve">At this, Szofia visibly deflates.
 
@@ -2080,29 +2080,29 @@ this is brunch time.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b4aa7c0"/>
+      <child nodeId="node-0x62cd48094fd0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b4aa7c0">
+  <item nodeId="node-0x62cd48094fd0">
     <command xml:space="preserve">talk to szofia about family amira</command>
     <result xml:space="preserve">I only understood you as far as wanting to talk to Szofia Meszaros about family.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bb5f310"/>
+      <child nodeId="node-0x62cd480982e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bb5f310">
+  <item nodeId="node-0x62cd480982e0">
     <command xml:space="preserve">talk to szofia about amira</command>
     <result xml:space="preserve">Szofia blinks, waits a moment, and then laughs.
 
@@ -2111,15 +2111,15 @@ this is brunch time.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae49967390"/>
+      <child nodeId="node-0x62cd4809b8c0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae49967390">
+  <item nodeId="node-0x62cd4809b8c0">
     <command xml:space="preserve">talk to szofia about szofia</command>
     <result xml:space="preserve">(Szofia Meszaros)
 She blinks.
@@ -2131,15 +2131,15 @@ this is brunch time.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a670fd0"/>
+      <child nodeId="node-0x62cd4809ee10"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a670fd0">
+  <item nodeId="node-0x62cd4809ee10">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Restaurant
  else descrip.  descrip for no matter what.
@@ -2150,15 +2150,15 @@ this is brunch time.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b4a9db0"/>
+      <child nodeId="node-0x62cd480a2070"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b4a9db0">
+  <item nodeId="node-0x62cd480a2070">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Restaurant
  else descrip.  descrip for no matter what.
@@ -2169,15 +2169,15 @@ this is brunch time.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b455700"/>
+      <child nodeId="node-0x62cd480a53a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b455700">
+  <item nodeId="node-0x62cd480a53a0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">TODO: self descri. Needs blazer + chest/hands. needs if to be diff from room 1.
 
@@ -2185,15 +2185,15 @@ this is brunch time.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b657fe0"/>
+      <child nodeId="node-0x62cd480a8650"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b657fe0">
+  <item nodeId="node-0x62cd480a8650">
     <command xml:space="preserve">open blazer</command>
     <result xml:space="preserve">You open blazer, revealing pill case, your phone and your notebook.
 
@@ -2201,15 +2201,15 @@ this is brunch time.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b9939e0"/>
+      <child nodeId="node-0x62cd480aba80"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b9939e0">
+  <item nodeId="node-0x62cd480aba80">
     <command xml:space="preserve">x blazer</command>
     <result xml:space="preserve">TODO: blazer descri.
 
@@ -2231,15 +2231,15 @@ szofia 2 innit descrip.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b7e5860"/>
+      <child nodeId="node-0x62cd480aecd0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b7e5860">
+  <item nodeId="node-0x62cd480aecd0">
     <command xml:space="preserve">x trees</command>
     <result xml:space="preserve">Thick trees line either side of the road. The coniferous rainforest&apos;s trees and rain block the existence of any other humans that might have ever existed.
 
@@ -2249,15 +2249,15 @@ this is driving time.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bb55bb0"/>
+      <child nodeId="node-0x62cd468c4590"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bb55bb0">
+  <item nodeId="node-0x62cd468c4590">
     <command xml:space="preserve">outside</command>
     <result xml:space="preserve">
 SideOfRoad
@@ -2267,15 +2267,15 @@ this is driving time.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bb43840"/>
+      <child nodeId="node-0x62cd480b55a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bb43840">
+  <item nodeId="node-0x62cd480b55a0">
     <command xml:space="preserve">inside</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2283,15 +2283,15 @@ this is driving time.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bb6df10"/>
+      <child nodeId="node-0x62cd480b8960"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bb6df10">
+  <item nodeId="node-0x62cd480b8960">
     <command xml:space="preserve">go inside</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2299,15 +2299,15 @@ this is driving time.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b671010"/>
+      <child nodeId="node-0x62cd480bbd30"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b671010">
+  <item nodeId="node-0x62cd480bbd30">
     <command xml:space="preserve">inside</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2315,12 +2315,12 @@ this is driving time.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae49f5d2e0">
+  <item nodeId="node-0x62cd480bf120">
     <command xml:space="preserve">ask szofia about boyfriend</command>
     <result xml:space="preserve">&quot;I think this might be it for us,&quot; Szofia says. &quot;I know he&apos;s told me so many times to not talk about my work with him, but...it&apos;s difficult when I get excited. Do you understand?
 
@@ -2336,10 +2336,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bb8e5c0"/>
+      <child nodeId="node-0x62cd480c23f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bb8e5c0">
+  <item nodeId="node-0x62cd480c23f0">
     <command xml:space="preserve">ask szofia about your partner</command>
     <result xml:space="preserve">&quot;What would you do...?&quot; Szofia asks tearfully. Her mascara is running, but it&apos;s a warm, sunny Sunday morning, perhaps it was from the heat instead?
 
@@ -2359,10 +2359,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b493a40"/>
+      <child nodeId="node-0x62cd480c57f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b493a40">
+  <item nodeId="node-0x62cd480c57f0">
     <command xml:space="preserve">ask sofia about past work</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2373,10 +2373,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a2faa80"/>
+      <child nodeId="node-0x62cd480c8c30"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a2faa80">
+  <item nodeId="node-0x62cd480c8c30">
     <command xml:space="preserve">ask szofia about past work</command>
     <result xml:space="preserve">The current situation is not about you, and you don&apos;t want to change that. Regardless, it wouldn&apos;t be safe to discuss it in such a public place.
 this is brunch time.
@@ -2388,10 +2388,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a58d9b0"/>
+      <child nodeId="node-0x62cd480cc0a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a58d9b0">
+  <item nodeId="node-0x62cd480cc0a0">
     <command xml:space="preserve">ask szofia about pill case</command>
     <result xml:space="preserve">You only carry two kinds of pills on you, and neither would be of much use in this situation, so you don&apos;t bring up the subject.
 this is brunch time.
@@ -2403,10 +2403,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b585d40"/>
+      <child nodeId="node-0x62cd480cf400"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b585d40">
+  <item nodeId="node-0x62cd480cf400">
     <command xml:space="preserve">ask szofia about blue pill</command>
     <result xml:space="preserve">You both know that it doesn&apos;t have much effect on cis women, and, based on the TMI conversations you&apos;ve been subjected to, you have no reason to believe Szofia is anything but.
 
@@ -2420,10 +2420,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae499a1230"/>
+      <child nodeId="node-0x62cd480d2710"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae499a1230">
+  <item nodeId="node-0x62cd480d2710">
     <command xml:space="preserve">ask szofia about pain pills</command>
     <result xml:space="preserve">There is no reply.
 
@@ -2436,10 +2436,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b5784b0"/>
+      <child nodeId="node-0x62cd480d5b30"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b5784b0">
+  <item nodeId="node-0x62cd480d5b30">
     <command xml:space="preserve">ask szofia about pain pill</command>
     <result xml:space="preserve">These are for physical pain, not emotional, so it would be of little use in this situation, so you don&apos;t mention it.
 this is brunch time.
@@ -2451,10 +2451,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b197290"/>
+      <child nodeId="node-0x62cd480d8fb0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b197290">
+  <item nodeId="node-0x62cd480d8fb0">
     <command xml:space="preserve">ask szofia about yourself</command>
     <result xml:space="preserve">You consider asking Szofia Meszaros about the your former self and got this TODO: error text (maybe dont ask them lol).
 
@@ -2467,10 +2467,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4bcf0140"/>
+      <child nodeId="node-0x62cd480dc470"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4bcf0140">
+  <item nodeId="node-0x62cd480dc470">
     <command xml:space="preserve">ask szofia about me</command>
     <result xml:space="preserve">(medEx)
 You consider asking Szofia Meszaros about the medEx and got this TODO: error text (maybe dont ask them lol).
@@ -2484,10 +2484,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b4cbd10"/>
+      <child nodeId="node-0x62cd47f4d880"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b4cbd10">
+  <item nodeId="node-0x62cd47f4d880">
     <command xml:space="preserve">ask szofia about player</command>
     <result xml:space="preserve">There is no reply.
 
@@ -2506,7 +2506,7 @@ Car
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4b8db880">
+  <item nodeId="node-0x62cd47fd9740">
     <command xml:space="preserve">ask szofia about amira</command>
     <result xml:space="preserve">Szofia blinks, waits a moment, and then laughs.
 
@@ -2520,10 +2520,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae490f8f60"/>
+      <child nodeId="node-0x62cd47fdcb70"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae490f8f60">
+  <item nodeId="node-0x62cd47fdcb70">
     <command xml:space="preserve">ask szofia about herself</command>
     <result xml:space="preserve">There is no reply.
 
@@ -2536,10 +2536,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b7f8f00"/>
+      <child nodeId="node-0x62cd480f36e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b7f8f00">
+  <item nodeId="node-0x62cd480f36e0">
     <command xml:space="preserve">ask szofia about szofia</command>
     <result xml:space="preserve">She blinks.
 
@@ -2555,10 +2555,10 @@ this is brunch time.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4b87c7c0"/>
+      <child nodeId="node-0x62cd480f6940"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4b87c7c0">
+  <item nodeId="node-0x62cd480f6940">
     <command xml:space="preserve">ask szofia about family</command>
     <result xml:space="preserve">At this, Szofia visibly deflates.
 
