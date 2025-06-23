@@ -4,9 +4,13 @@ all of my fun IF projects
 ### TOC
 
 
+### Moth\{er\}
+
+WIP An adaption of "Moth\{er\}" as an interactive fiction using Ink.
+
 #### interrupt
 
-WIP
+WIP Parser-based mystery game using Inform7.
 
 #### A (Partial) Day as a Platypus
 
