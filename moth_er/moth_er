@@ -1,10 +1,144 @@
 Moth\{er\}
-Test text
 
-Once upon a time...
+by Chase Anderson
 
- * There were two choices.
- * There were four lines of content.
+<i>originally published in 
+TODO:this</i>
 
-- They lived happily ever after.
+// GLOBALS
+
+VAR question = 0
+VAR accept = 0
+
+My first memory was of her room, white and bathed in light. I sat on the floor, trying to help Mother with the laundry.
+    // a
+    * [Fold.]I was folding towels much larger than me.
+    ~ accept++
+    // q
+    * [Look.]My eyes wandered the room. <>
+    ~ question++
+
+- The walls were clean, the hardwood floor shining. A breeze carrying birdsong filtered through the forest into the open space.
+
+Mother had studied color science at college, where she met Father. She taught me how glass prisms hung in the windows made the dancing rainbows on the wall. 
+
+The clear light held all the colors within, she said. It bounced from surfaces to your eyes to show you how something truly looked.
+
+    // q
+    * That didn't sound real[.], but <>
+    ~ question++
+    //a
+    * I didn't understand[.], but <>
+    ~accept++
+    
+-I liked how all the towels were blue, like the sky, like our eys.
+
+"You look just like me," she said, "when I was your age." Sometimes she would pull out photos of her brothers ad sisters, children lined up on a bench. I'd never met these people.
+
+    // a
+    * Which face was ours?[] I pointed to a person and asked if that was her.
+    "No, dear, this is me."
+    ~accept++
+    I searched her face hard for similarities but found none. <>
+    // q
+    * Why haven't I met them?[]
+    Mother gave me a strange look.
+    "Because they're not very nice," she said. "And it's not nice to ask questions like that."
+    ~ question++
+    I searched the photo for any signs of meanness but found none. <>
+-The picture was from a really, really long time ago. People changed. Maybe I'd be able to tell when I was older.
+
+// def accept
+{question > accept: | I stopped thinking about faces and listened to the soft birdsong instead.}
+
+TODO: TEXT DECORATION
+
+* NICE TRANSITION
+
+- They tried to teach me at preschool, but the teachers weren't as good as Mother. She'd already taught me all about color and light, so my finger-paints never turned into a brown, muddy mess. 
+Miss Teacher told us that pink was a color.
+    // a
+    * [Correct.] "No it's not," I blurted out. "It's a hue."
+    I was put in time-out because she wouldn't accept I knew more than her.
+    ~accept++
+    // q 
+    * [Wonder.] It was the first time I heard someone say something different from Mother. 
+    When we got home, I asked if pink really was a color. She got mad.
+    ~ question++
+    
+-"Preschool is just to learn how to get along with other kids," Mother said. "Or for kids with bad mothers who work all day."
+I had a good mother but bad teachers, I told her, cause they never taught me how to make friends.
+    // q
+    * [Ask.]
+    ~ question++
+    So how do I, I asked. <>
+    // a
+    * [Wait.] 
+    ~ accept++
+    I waited for Mother to tell me how, since she knew so much. <>
+    
+-She looked down at me from her seat on the bed. There was a white wicker chest between us, which always creaked when I touched it.
+"You're supposed to figure that out yourself," she finally said. "I can't do everything for you." 
+    // a
+    * [Listen.] She started talking about grown up stuff, like how people at work aren't really your friends, or your neighbors, or other parents. I tried to pay attention, but I must have looked bored, because Mother got angry.
+    ~ accept++
+    "Pay attention, <>
+    // q
+    * [Look.] She kept talking, and my gaze shifted to the prisms in the window. A coating of dust blocked the light from getting out, or maybe in. There weren't any rainbows on the walls. I walked over to fix that.
+    ~ question++
+    "What are you doing?" Mother snapped. "<>
+- I'm talking to you." She huffed. "Maybe this is why you don't have friends. You don't listen."
+
+// def accept
+{question > accept: I tried to think of the last time I saw Mother with a friend of her own, but I couldn't. Maybe grown up friends worked differently than kid friends and Mother didn't remember. Or maybe she never learned the difference. | She had to be right. If Mother got frustrated with me, the kids who didn't know me surely did, too. They wouldn't give me a chance if I didn't try harder. I'd show her I was smart, just like her, and could figure things out on my own. }
+{question > accept: I'll just have to figure it out on my own, I thought. Somehow.| }
+
+TODO: TEXT DECORATION
+
+* NICE TRANSITION
+
+- Miss Teacher pulled me aside. I flinched, ready to be scolded again. "You're going to be a big sister," she said.
+    // q
+    * [Doubt.] But she had been wrong about things before, so maybe she was wrong about this, too.<>
+    // a
+    * [Ask.] <>
+    
+- I asked how she knew. She smiled. "Grown-ups know these things."
+
+//def question
+{accept > question: | I was unconvinced.}
+
+//def question
+Mother and Father never said anything about it, so I { accept > question: guess | knew} Miss Teacher was wrong. A few months later, she mentioned it again.
+"I am?" It had been so long, I'd forgot the previous conversation.
+She laughed. Not a real laugh, but the kind people force to pretend to be feeling something else. "When your mom goes to the hospital to have the baby, we can make her a card to celebrate."
+//def question
+Mother and Father said nothing when I got home. {accept > question: | Miss Teacher is still wrong.}
+One day Father picked me up. "Where's Mother?" I asked.
+"She's in the hospital. For a litle vacation."
+    // a
+    * [It's for a surprise.] I knew grown-ups said things like that, to mean something else, so kids wouldn't know what they were talking about. They wanted to surprise me with the baby! That was why they'd kept it a secret.
+    When Mother came home, she went straight to her room and shut the door. I waited in my room, listening for her to come out, to tell me the surprise
+    // q
+    *[Something's wrong.] I knew grown-ups said things like that, to mean something else, so kids wouldn't know what they were talking about. My Mother was a good mother, so the only reason she wouldn't be here was if something's wrong.
+    I wanted to know why, but thinking about the words I'd have to say made my head feel funny and that feeling stayed all day. I didn't even eat dinner, but Father didn't notice.
+    When Mother came home, she went straight to her room and shut the door. I waited in my room, listening for her to come out, to tell me what happened
+
+-<>, but she didn't. I crept to her door and opened it.
+She was lying in bed, a big quilt on top of her. It was dusty from hanging on the wall, the bright oranges dulled to yellow, the white expanses greyed and fuzzy.
+
+//def question
+{accept > question: "Are you...sick?" I asked. She hadn't come home with a baby, and the only other reason you went to the hospital was because you were sick. | "Are you sick?" I asked. People went to the hospital or stayed in bed when they were sick.}
+// def accept
+"It's nothing," she said. It was dim, with the blinds drawn and the curtains askew. {question > accept: I wanted to ask more questions, but my throat was shaky and the words too soft to grab. I tried asking Father, but he only told me to go to bed. | I knew she was lying but I had no idea what was wrong. She didn't look sick, she didn't take medicine.}
+The next day at preschool, I asked Miss Teacher if we could make a "get well soon" card. Mother would like that.
+// def accept
+Miss Teacher got down to my level and looked me right in the face. "This isn't something a card can make better," she said. 
+{question > accept: I asked how she knew. "Grown-ups know these things." She smiled. Not a real smile, but the kind people force to try to make you feel something else. | <> I really wanted her to be wrong, but something told me this was the one time she was right.} It gave me a bad feeling im my stomach, like butterflies trying to escape.
+
+TODO: TEXT DECORATION
+
+* NICE TRANSITION
+
+- this is all i got for now lol
     -> END
