@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x5dae4a71ea20" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x5684e2ff31c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x5dae4a71ea20"/>
-  <item nodeId="node-0x5dae4a71ea20">
+  <activeNode nodeId="node-0x5684e2ff31c0"/>
+  <item nodeId="node-0x5684e2ff31c0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 
-platypus 2025
+A (Partial) Day as a Platypus
 An Interactive Fiction by Chase Anderson
-Release 1 / Serial number 250615 / Inform 7 v10.1.2 / D
+Release 1 / Serial number 250704 / Inform 7 v10.1.2 / D
 
 Apartment
   You are awoken by the shriek of your alarm. Your paw slaps around for the snooze button, condensation collecting on the webbings. Finally, you find your mark, and the whistling steam quiets.
 
 You&apos;re tempted to fall back asleep, but you recall the tenuous status you have with your boss. So, you pull yourself out of your bed to view your single-room home once more. It isn&apos;t much, but you don&apos;t want to lose it.
 
- There&apos;s a corner for your bathroom-slash-kitchen, complete with a washing basin atop a safe. There&apos;s also a brick fireplace, a small bookshelf, your bed, and your alarm clock. There is an additional steam hookup, currently unused. And, of course, the door that leads you OUTSIDE your apartment. 
+ There&apos;s a corner for your bathroom-slash-kitchen, complete with a washing basin atop a safe. There&apos;s also a brick fireplace, a small bookshelf, your bed, and your alarm clock. There is an additional steam hookup, currently unused. And, of course, the door that leads you OUTSIDE your apartment.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a7abc60"/>
-      <child nodeId="node-0x5dae4aa34c10"/>
-      <child nodeId="node-0x5dae4aa53560"/>
-      <child nodeId="node-0x5dae4aa936d0"/>
-      <child nodeId="node-0x5dae4ab2e510"/>
-      <child nodeId="node-0x5dae4a590c90"/>
-      <child nodeId="node-0x5dae4ab80450"/>
-      <child nodeId="node-0x5dae4ab8d3e0"/>
-      <child nodeId="node-0x5dae4abb7cc0"/>
-      <child nodeId="node-0x5dae4abc1d00"/>
-      <child nodeId="node-0x5dae4ac1e120"/>
-      <child nodeId="node-0x5dae4ac58960"/>
-      <child nodeId="node-0x5dae4ad08420"/>
-      <child nodeId="node-0x5dae4ad740e0"/>
-      <child nodeId="node-0x5dae4ad8b0b0"/>
-      <child nodeId="node-0x5dae4adb27a0"/>
-      <child nodeId="node-0x5dae4adc6030"/>
-      <child nodeId="node-0x5dae4add2e80"/>
-      <child nodeId="node-0x5dae4ade6ea0"/>
-      <child nodeId="node-0x5dae4ae25840"/>
-      <child nodeId="node-0x5dae4ae28b90"/>
-      <child nodeId="node-0x5dae4ae4dca0"/>
-      <child nodeId="node-0x5dae4ae65690"/>
+      <child nodeId="node-0x5684e3231e90"/>
+      <child nodeId="node-0x5684e32e9080"/>
+      <child nodeId="node-0x5684e33079d0"/>
+      <child nodeId="node-0x5684e3347b00"/>
+      <child nodeId="node-0x5684e33e2990"/>
+      <child nodeId="node-0x5684e3400000"/>
+      <child nodeId="node-0x5684e3434a30"/>
+      <child nodeId="node-0x5684e3441980"/>
+      <child nodeId="node-0x5684e346c260"/>
+      <child nodeId="node-0x5684e34762a0"/>
+      <child nodeId="node-0x5684e34d25b0"/>
+      <child nodeId="node-0x5684e350cd60"/>
+      <child nodeId="node-0x5684e35bc850"/>
+      <child nodeId="node-0x5684e3628510"/>
+      <child nodeId="node-0x5684e363f4d0"/>
+      <child nodeId="node-0x5684e3666bc0"/>
+      <child nodeId="node-0x5684e367a450"/>
+      <child nodeId="node-0x5684e36872a0"/>
+      <child nodeId="node-0x5684e369b2c0"/>
+      <child nodeId="node-0x5684e36d9c60"/>
+      <child nodeId="node-0x5684e36dcfd0"/>
+      <child nodeId="node-0x5684e37020d0"/>
+      <child nodeId="node-0x5684e3719ac0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a7abc60">
+  <item nodeId="node-0x5684e3231e90">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Apartment
   There&apos;s a corner for your bathroom-slash-kitchen, complete with a washing basin atop a safe. There&apos;s also a brick fireplace, a small bookshelf, your bed, and your alarm clock. There is an additional steam hookup, currently unused. And, of course, the door that leads you OUTSIDE your apartment. 
@@ -63,13 +63,13 @@ You&apos;re tempted to fall back asleep, but you recall the tenuous status you h
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a97b680"/>
-      <child nodeId="node-0x5dae4a998150"/>
-      <child nodeId="node-0x5dae4a9d3970"/>
-      <child nodeId="node-0x5dae4a9ea950"/>
+      <child nodeId="node-0x5684e2fcc550"/>
+      <child nodeId="node-0x5684e324cb50"/>
+      <child nodeId="node-0x5684e3287df0"/>
+      <child nodeId="node-0x5684e329ee00"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a97b680">
+  <item nodeId="node-0x5684e2fcc550">
     <command xml:space="preserve">go outside</command>
     <result xml:space="preserve">
 Street
@@ -82,10 +82,10 @@ this is placeholder for street.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a97f8e0"/>
+      <child nodeId="node-0x5684e3234740"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a97f8e0">
+  <item nodeId="node-0x5684e3234740">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">
 Office
@@ -98,10 +98,10 @@ this is placeholder for office.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a963070"/>
+      <child nodeId="node-0x5684e3217860"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a963070">
+  <item nodeId="node-0x5684e3217860">
     <command xml:space="preserve">where</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -112,10 +112,10 @@ this is placeholder for office.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a987410"/>
+      <child nodeId="node-0x5684e323bef0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a987410">
+  <item nodeId="node-0x5684e323bef0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Office
 this is placeholder for office.
@@ -127,10 +127,10 @@ this is placeholder for office.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a98a6f0"/>
+      <child nodeId="node-0x5684e323f190"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a98a6f0">
+  <item nodeId="node-0x5684e323f190">
     <command xml:space="preserve">go inside</command>
     <result xml:space="preserve">
 Cyberspace
@@ -143,10 +143,10 @@ this is placeholder for cyberspace.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a98da00"/>
+      <child nodeId="node-0x5684e3242480"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a98da00">
+  <item nodeId="node-0x5684e3242480">
     <command xml:space="preserve">go outside</command>
     <result xml:space="preserve">
 Office
@@ -159,10 +159,10 @@ this is placeholder for office.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a991650"/>
+      <child nodeId="node-0x5684e3246090"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a991650">
+  <item nodeId="node-0x5684e3246090">
     <command xml:space="preserve">go  south</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -173,10 +173,10 @@ this is placeholder for office.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9629a0"/>
+      <child nodeId="node-0x5684e3217490"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9629a0">
+  <item nodeId="node-0x5684e3217490">
     <command xml:space="preserve">go office</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -187,7 +187,7 @@ this is placeholder for office.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4a998150">
+  <item nodeId="node-0x5684e324cb50">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">You bump into the wall. You are swiftly reminded of how sensitive your beak is, and why it isn&apos;t a good idea to run into walls.
 
@@ -198,10 +198,10 @@ this is placeholder for office.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a982ba0"/>
+      <child nodeId="node-0x5684e322c2e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a982ba0">
+  <item nodeId="node-0x5684e322c2e0">
     <command xml:space="preserve">outside</command>
     <result xml:space="preserve">
 Street
@@ -224,10 +224,10 @@ It seems like you&apos;ll need to walk to work tonight.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9846e0"/>
+      <child nodeId="node-0x5684e324e320"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9846e0">
+  <item nodeId="node-0x5684e324e320">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Street
    A young bat stumbles on the sidewalk, calling out for buyers for the evening edition of the paper. He&apos;s emoting with his wings, which draws attention, but gives everyone reason to avoid him to stay out of range.
@@ -243,10 +243,10 @@ You decide to do the same.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a99cc60"/>
+      <child nodeId="node-0x5684e3251590"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a99cc60">
+  <item nodeId="node-0x5684e3251590">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Street
    A tram stops and a stream of creatures jump off, scattering in each direction as they headed to their evening activities. You plan to jump on yourself, but it takes off before you have the chance.
@@ -262,10 +262,10 @@ It seems like you&apos;ll need to walk to work tonight.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9a0030"/>
+      <child nodeId="node-0x5684e3254910"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9a0030">
+  <item nodeId="node-0x5684e3254910">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Street
    A young bat stumbles on the sidewalk, calling out for buyers for the evening edition of the paper. He&apos;s emoting with his wings, which draws attention, but gives everyone reason to avoid him to stay out of range.
@@ -281,10 +281,10 @@ You decide to do the same.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9a3100"/>
+      <child nodeId="node-0x5684e32579e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9a3100">
+  <item nodeId="node-0x5684e32579e0">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">  You walk for a short while, but are stopped by a road closure. It seems that some hapless laborer had dug without consulting city hall first, resulting in a damaged steam line...and most of the road being torn up.
 
@@ -298,10 +298,10 @@ You turn around and go back to your previous position.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9a6eb0"/>
+      <child nodeId="node-0x5684e325b790"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9a6eb0">
+  <item nodeId="node-0x5684e325b790">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">  You decide this would be a great evening to look for a shortcut to the office. You slip down an alleyway, but don&apos;t make it very far, as someone had decided this would make an excellent dumping ground for old furniture.
 
@@ -315,10 +315,10 @@ You make a note to tell your vulture friend later, and then turn around and retu
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9a9b40"/>
+      <child nodeId="node-0x5684e325e460"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9a9b40">
+  <item nodeId="node-0x5684e325e460">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">  You&apos;re running out of directions to go that are not the office. While slipping into the nearby bar for a drink is a compelling option, paying your rent takes priority.
 
@@ -332,10 +332,10 @@ You dejectedly shove your paws into your pockets and turn around.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9acee0"/>
+      <child nodeId="node-0x5684e3261720"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9acee0">
+  <item nodeId="node-0x5684e3261720">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">  You&apos;re running out of directions to go that are not the office. While slipping into the nearby bar for a drink is a compelling option, paying your rent takes priority.
 
@@ -349,10 +349,10 @@ You dejectedly shove your paws into your pockets and turn around.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9b2b20"/>
+      <child nodeId="node-0x5684e3267340"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9b2b20">
+  <item nodeId="node-0x5684e3267340">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Cafe
@@ -373,10 +373,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9b5dc0"/>
+      <child nodeId="node-0x5684e326a620"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9b5dc0">
+  <item nodeId="node-0x5684e326a620">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Cafe
  The bell above the door tinkles as you step inside.
@@ -396,10 +396,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9b90b0"/>
+      <child nodeId="node-0x5684e326d930"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9b90b0">
+  <item nodeId="node-0x5684e326d930">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Cafe
  The bell above the door tinkles as you step inside.
@@ -419,10 +419,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9bc3d0"/>
+      <child nodeId="node-0x5684e3270c50"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9bc3d0">
+  <item nodeId="node-0x5684e3270c50">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Cafe
  The bell above the door tinkles as you step inside.
@@ -442,10 +442,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9bf6d0"/>
+      <child nodeId="node-0x5684e3273f50"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9bf6d0">
+  <item nodeId="node-0x5684e3273f50">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Cafe
  The bell above the door tinkles as you step inside.
@@ -465,10 +465,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9c29d0"/>
+      <child nodeId="node-0x5684e3277260"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9c29d0">
+  <item nodeId="node-0x5684e3277260">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Cafe
  The bell above the door tinkles as you step inside.
@@ -488,10 +488,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9c60e0"/>
+      <child nodeId="node-0x5684e327a580"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9c60e0">
+  <item nodeId="node-0x5684e327a580">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">You consider it, but decide not to. It would be unwise to plow into someone&apos;s table and ruin their supper.
 
@@ -502,10 +502,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9c9400"/>
+      <child nodeId="node-0x5684e327d880"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9c9400">
+  <item nodeId="node-0x5684e327d880">
     <command xml:space="preserve">inside</command>
     <result xml:space="preserve">
 Network
@@ -524,10 +524,10 @@ There are various areas of color you could inspect, but you don&apos;t seem to r
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9ccb00"/>
+      <child nodeId="node-0x5684e3280f80"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9ccb00">
+  <item nodeId="node-0x5684e3280f80">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Network
   The leyline network is an abstract space, colors and intent swirling in place until a current of energy might rush by and take it from one place to another.
@@ -543,10 +543,10 @@ There are various areas of color you could inspect, but you don&apos;t seem to r
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9d0260"/>
+      <child nodeId="node-0x5684e32846e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9d0260">
+  <item nodeId="node-0x5684e32846e0">
     <command xml:space="preserve">outside</command>
     <result xml:space="preserve">
 Office
@@ -567,7 +567,7 @@ You&apos;re so amazing that you can go INSIDE the leyline network without an ite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4a9d3970">
+  <item nodeId="node-0x5684e3287df0">
     <command xml:space="preserve">examine alarm</command>
     <result xml:space="preserve">A steam-powered alarm clock. The newest model, it cost you a pretty penny, but it means you always wake up in time for work.
 
@@ -582,10 +582,10 @@ Alarm clock is currently switched off.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9d6c90"/>
+      <child nodeId="node-0x5684e328b110"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9d6c90">
+  <item nodeId="node-0x5684e328b110">
     <command xml:space="preserve">examine clock</command>
     <result xml:space="preserve">A steam-powered alarm clock. The newest model, it cost you a pretty penny, but it means you always wake up in time for work.
 
@@ -600,10 +600,10 @@ Alarm clock is currently switched off.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9daa30"/>
+      <child nodeId="node-0x5684e328eeb0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9daa30">
+  <item nodeId="node-0x5684e328eeb0">
     <command xml:space="preserve">examine alarm clock</command>
     <result xml:space="preserve">A steam-powered alarm clock. The newest model, it cost you a pretty penny, but it means you always wake up in time for work.
 
@@ -618,10 +618,10 @@ Alarm clock is currently switched off.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9ddc30"/>
+      <child nodeId="node-0x5684e32920b0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9ddc30">
+  <item nodeId="node-0x5684e32920b0">
     <command xml:space="preserve">take clock</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -632,10 +632,10 @@ Alarm clock is currently switched off.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9e0f00"/>
+      <child nodeId="node-0x5684e3295380"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9e0f00">
+  <item nodeId="node-0x5684e3295380">
     <command xml:space="preserve">ON alarm clock</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -646,10 +646,10 @@ Alarm clock is currently switched off.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9e4260"/>
+      <child nodeId="node-0x5684e3298710"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9e4260">
+  <item nodeId="node-0x5684e3298710">
     <command xml:space="preserve">switch on clock</command>
     <result xml:space="preserve">You switch alarm clock on.
 
@@ -660,10 +660,10 @@ Alarm clock is currently switched off.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9e7660"/>
+      <child nodeId="node-0x5684e329bb10"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9e7660">
+  <item nodeId="node-0x5684e329bb10">
     <command xml:space="preserve">examine clock</command>
     <result xml:space="preserve">A steam-powered alarm clock. The newest model, it cost you a pretty penny, but it means you always wake up in time for work.
 
@@ -678,7 +678,7 @@ Alarm clock is currently switched on.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4a9ea950">
+  <item nodeId="node-0x5684e329ee00">
     <command xml:space="preserve">examine bed</command>
     <result xml:space="preserve">Your bed, big enough for one not-too-large creature. The covers are askew, but, as you were never taught how to make the bed, it will need to remain messy for the time being.
 
@@ -689,10 +689,10 @@ Alarm clock is currently switched on.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9edd60"/>
+      <child nodeId="node-0x5684e32a2210"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9edd60">
+  <item nodeId="node-0x5684e32a2210">
     <command xml:space="preserve">enter bed</command>
     <result xml:space="preserve">You get into bed.
 
@@ -703,10 +703,10 @@ Alarm clock is currently switched on.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9f1000"/>
+      <child nodeId="node-0x5684e32a54b0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9f1000">
+  <item nodeId="node-0x5684e32a54b0">
     <command xml:space="preserve">leave bed</command>
     <result xml:space="preserve">I only understood you as far as wanting to leave.
 
@@ -717,10 +717,10 @@ Alarm clock is currently switched on.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9b1960"/>
+      <child nodeId="node-0x5684e3266180"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9b1960">
+  <item nodeId="node-0x5684e3266180">
     <command xml:space="preserve">exit bed</command>
     <result xml:space="preserve">I only understood you as far as wanting to exit.
 
@@ -731,10 +731,10 @@ Alarm clock is currently switched on.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9fa6a0"/>
+      <child nodeId="node-0x5684e32aeb50"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9fa6a0">
+  <item nodeId="node-0x5684e32aeb50">
     <command xml:space="preserve">unenter bed</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -745,10 +745,10 @@ Alarm clock is currently switched on.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9fda30"/>
+      <child nodeId="node-0x5684e32b1ee0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9fda30">
+  <item nodeId="node-0x5684e32b1ee0">
     <command xml:space="preserve">out bed</command>
     <result xml:space="preserve">I only understood you as far as wanting to out.
 
@@ -759,10 +759,10 @@ Alarm clock is currently switched on.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa00e40"/>
+      <child nodeId="node-0x5684e32b52f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa00e40">
+  <item nodeId="node-0x5684e32b52f0">
     <command xml:space="preserve">outside</command>
     <result xml:space="preserve">You would have to get out of bed first.
 
@@ -773,10 +773,10 @@ Alarm clock is currently switched on.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa041e0"/>
+      <child nodeId="node-0x5684e32b86a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa041e0">
+  <item nodeId="node-0x5684e32b86a0">
     <command xml:space="preserve">get out bed</command>
     <result xml:space="preserve">I only understood you as far as wanting to get outside.
 
@@ -787,10 +787,10 @@ Alarm clock is currently switched on.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa075d0"/>
+      <child nodeId="node-0x5684e32bba90"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa075d0">
+  <item nodeId="node-0x5684e32bba90">
     <command xml:space="preserve">get out of the bed</command>
     <result xml:space="preserve">I only understood you as far as wanting to get outside.
 
@@ -801,10 +801,10 @@ Alarm clock is currently switched on.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa0a9e0"/>
+      <child nodeId="node-0x5684e32beea0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa0a9e0">
+  <item nodeId="node-0x5684e32beea0">
     <command xml:space="preserve">exit bed</command>
     <result xml:space="preserve">I only understood you as far as wanting to exit.
 
@@ -815,10 +815,10 @@ Alarm clock is currently switched on.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa0de00"/>
+      <child nodeId="node-0x5684e32c22c0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa0de00">
+  <item nodeId="node-0x5684e32c22c0">
     <command xml:space="preserve">exit</command>
     <result xml:space="preserve">You get out of bed.
 
@@ -832,10 +832,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa112d0"/>
+      <child nodeId="node-0x5684e32c5790"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa112d0">
+  <item nodeId="node-0x5684e32c5790">
     <command xml:space="preserve">examine safe</command>
     <result xml:space="preserve">A pie safe. The tin panels on the front have holes punched in the design of eucalyptus trees.
 
@@ -846,10 +846,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa14700"/>
+      <child nodeId="node-0x5684e32c8bc0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa14700">
+  <item nodeId="node-0x5684e32c8bc0">
     <command xml:space="preserve">open safe</command>
     <result xml:space="preserve">You open safe, revealing pie.
 
@@ -860,10 +860,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa17a70"/>
+      <child nodeId="node-0x5684e32cbf30"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa17a70">
+  <item nodeId="node-0x5684e32cbf30">
     <command xml:space="preserve">examine pie</command>
     <result xml:space="preserve">A personal-sized mealworm pot pie. Makes a perfect start for your day-slash-night.
 
@@ -874,10 +874,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa1adf0"/>
+      <child nodeId="node-0x5684e32cf260"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa1adf0">
+  <item nodeId="node-0x5684e32cf260">
     <command xml:space="preserve">take pie</command>
     <result xml:space="preserve">Taken.
 
@@ -888,10 +888,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa1e1d0"/>
+      <child nodeId="node-0x5684e32d2640"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa1e1d0">
+  <item nodeId="node-0x5684e32d2640">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:
   pie
@@ -903,10 +903,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa21560"/>
+      <child nodeId="node-0x5684e32d59d0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa21560">
+  <item nodeId="node-0x5684e32d59d0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   pie
@@ -918,10 +918,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa24940"/>
+      <child nodeId="node-0x5684e32d8db0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa24940">
+  <item nodeId="node-0x5684e32d8db0">
     <command xml:space="preserve">examine sink</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -932,10 +932,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa27ce0"/>
+      <child nodeId="node-0x5684e32dc150"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa27ce0">
+  <item nodeId="node-0x5684e32dc150">
     <command xml:space="preserve">elook sink</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -946,10 +946,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa2b0f0"/>
+      <child nodeId="node-0x5684e32df560"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa2b0f0">
+  <item nodeId="node-0x5684e32df560">
     <command xml:space="preserve">look sink</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -960,10 +960,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa2e490"/>
+      <child nodeId="node-0x5684e32e2900"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa2e490">
+  <item nodeId="node-0x5684e32e2900">
     <command xml:space="preserve">look basin</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -974,10 +974,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa31840"/>
+      <child nodeId="node-0x5684e32e5cb0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa31840">
+  <item nodeId="node-0x5684e32e5cb0">
     <command xml:space="preserve">examine basin</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -988,7 +988,7 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4aa34c10">
+  <item nodeId="node-0x5684e32e9080">
     <command xml:space="preserve">go outside</command>
     <result xml:space="preserve">
 Street
@@ -1001,10 +1001,10 @@ this is placeholder for street.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa37ff0"/>
+      <child nodeId="node-0x5684e32ec460"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa37ff0">
+  <item nodeId="node-0x5684e32ec460">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">
 Office
@@ -1017,10 +1017,10 @@ this is placeholder for office.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa3b3c0"/>
+      <child nodeId="node-0x5684e32ef830"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa3b3c0">
+  <item nodeId="node-0x5684e32ef830">
     <command xml:space="preserve">go inside</command>
     <result xml:space="preserve">
 Cyberspace
@@ -1033,10 +1033,10 @@ this is placeholder for cyberspace.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa3e970"/>
+      <child nodeId="node-0x5684e32f2de0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa3e970">
+  <item nodeId="node-0x5684e32f2de0">
     <command xml:space="preserve">go outside</command>
     <result xml:space="preserve">
 Office
@@ -1049,10 +1049,10 @@ this is placeholder for office.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa42620"/>
+      <child nodeId="node-0x5684e32f6a90"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa42620">
+  <item nodeId="node-0x5684e32f6a90">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Street
@@ -1065,10 +1065,10 @@ this is placeholder for street.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa459a0"/>
+      <child nodeId="node-0x5684e32f9e10"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa459a0">
+  <item nodeId="node-0x5684e32f9e10">
     <command xml:space="preserve">go inside</command>
     <result xml:space="preserve">
 Apartment
@@ -1081,10 +1081,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa49d60"/>
+      <child nodeId="node-0x5684e32fe1d0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa49d60">
+  <item nodeId="node-0x5684e32fe1d0">
     <command xml:space="preserve">outside</command>
     <result xml:space="preserve">
 Street
@@ -1097,10 +1097,10 @@ this is placeholder for street.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa4ce30"/>
+      <child nodeId="node-0x5684e33012a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa4ce30">
+  <item nodeId="node-0x5684e33012a0">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Cafe
@@ -1113,10 +1113,10 @@ this is placeholder for cafe.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa501c0"/>
+      <child nodeId="node-0x5684e3304630"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa501c0">
+  <item nodeId="node-0x5684e3304630">
     <command xml:space="preserve">inside</command>
     <result xml:space="preserve">
 Cyberpsace
@@ -1128,7 +1128,7 @@ Cyberpsace
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4aa53560">
+  <item nodeId="node-0x5684e33079d0">
     <command xml:space="preserve">outside</command>
     <result xml:space="preserve">
 Street
@@ -1151,11 +1151,11 @@ You decide to do the same.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa56880"/>
-      <child nodeId="node-0x5dae4aa7a560"/>
+      <child nodeId="node-0x5684e330acf0"/>
+      <child nodeId="node-0x5684e332e990"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa56880">
+  <item nodeId="node-0x5684e330acf0">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Cafe
@@ -1176,11 +1176,11 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa59b40"/>
-      <child nodeId="node-0x5dae4aa706a0"/>
+      <child nodeId="node-0x5684e330dfb0"/>
+      <child nodeId="node-0x5684e3324ad0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa59b40">
+  <item nodeId="node-0x5684e330dfb0">
     <command xml:space="preserve">inside</command>
     <result xml:space="preserve">
 Cyberspace
@@ -1193,10 +1193,10 @@ this is placeholder for cyberspace.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa5cf90"/>
+      <child nodeId="node-0x5684e33113c0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa5cf90">
+  <item nodeId="node-0x5684e33113c0">
     <command xml:space="preserve">outside</command>
     <result xml:space="preserve">
 Office
@@ -1209,10 +1209,10 @@ this is placeholder for office.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa60380"/>
+      <child nodeId="node-0x5684e33147b0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa60380">
+  <item nodeId="node-0x5684e33147b0">
     <command xml:space="preserve">go inside</command>
     <result xml:space="preserve">
 Cyberspace
@@ -1225,10 +1225,10 @@ this is placeholder for cyberspace.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa63730"/>
+      <child nodeId="node-0x5684e3317b60"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa63730">
+  <item nodeId="node-0x5684e3317b60">
     <command xml:space="preserve">go outside cafe</command>
     <result xml:space="preserve">I only understood you as far as wanting to go outside.
 
@@ -1239,10 +1239,10 @@ this is placeholder for cyberspace.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa66b40"/>
+      <child nodeId="node-0x5684e331af70"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa66b40">
+  <item nodeId="node-0x5684e331af70">
     <command xml:space="preserve">go to cafe</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1253,10 +1253,10 @@ this is placeholder for cyberspace.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa69f40"/>
+      <child nodeId="node-0x5684e331e370"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa69f40">
+  <item nodeId="node-0x5684e331e370">
     <command xml:space="preserve">go  outside</command>
     <result xml:space="preserve">
 Office
@@ -1269,10 +1269,10 @@ this is placeholder for office.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa6d2d0"/>
+      <child nodeId="node-0x5684e3321700"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa6d2d0">
+  <item nodeId="node-0x5684e3321700">
     <command xml:space="preserve">inside</command>
     <result xml:space="preserve">
 Cyberspace
@@ -1285,7 +1285,7 @@ this is placeholder for cyberspace.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4aa706a0">
+  <item nodeId="node-0x5684e3324ad0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Cafe
  The bell above the door tinkles as you step inside.
@@ -1301,10 +1301,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa73d60"/>
+      <child nodeId="node-0x5684e3328190"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa73d60">
+  <item nodeId="node-0x5684e3328190">
     <command xml:space="preserve">inside</command>
     <result xml:space="preserve">
 Cyberspace
@@ -1317,10 +1317,10 @@ this is placeholder for cyberspace.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa77170"/>
+      <child nodeId="node-0x5684e332b5a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa77170">
+  <item nodeId="node-0x5684e332b5a0">
     <command xml:space="preserve">outside</command>
     <result xml:space="preserve">
 Office
@@ -1333,7 +1333,7 @@ this is placeholder for office.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4aa7a560">
+  <item nodeId="node-0x5684e332e990">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Office
@@ -1354,10 +1354,10 @@ You&apos;re so amazing that you can go INSIDE the leyline network without an ite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9f5a90"/>
+      <child nodeId="node-0x5684e32a9f40"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9f5a90">
+  <item nodeId="node-0x5684e32a9f40">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Office
   As you were never taught how to speak, you do not run into any creatures on the way to your closet. Lucky you!
@@ -1375,10 +1375,10 @@ You&apos;re so amazing that you can go INSIDE the leyline network without an ite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa86460"/>
+      <child nodeId="node-0x5684e333a890"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa86460">
+  <item nodeId="node-0x5684e333a890">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">If you clock out now, that&apos;ll surely cause issues with your boss. Unfortunately, you are stuck here for the time being.
 
@@ -1389,10 +1389,10 @@ You&apos;re so amazing that you can go INSIDE the leyline network without an ite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa898a0"/>
+      <child nodeId="node-0x5684e333dcf0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa898a0">
+  <item nodeId="node-0x5684e333dcf0">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">You move in the dark, but the faint crackle of magic tingles your beak. You remember that continuing in such a direction would result in becoming entangled with the cords and cause quite a mess for yourself.
 
@@ -1405,10 +1405,10 @@ You, wisely, decide not to.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa8ccb0"/>
+      <child nodeId="node-0x5684e33410e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa8ccb0">
+  <item nodeId="node-0x5684e33410e0">
     <command xml:space="preserve">inside</command>
     <result xml:space="preserve">
 Network
@@ -1427,10 +1427,10 @@ There are various areas of color you could inspect, but you don&apos;t seem to r
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa903c0"/>
+      <child nodeId="node-0x5684e3344810"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa903c0">
+  <item nodeId="node-0x5684e3344810">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">As the network is an abstract space, it really doesn&apos;t conform to concepts such as &quot;up&quot; and &quot;down.&quot; You waste time thinking about movement that isn&apos;t possible.
 
@@ -1441,7 +1441,7 @@ There are various areas of color you could inspect, but you don&apos;t seem to r
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4aa936d0">
+  <item nodeId="node-0x5684e3347b00">
     <command xml:space="preserve">o</command>
     <result xml:space="preserve">Sorry, that can&apos;t be corrected.
 
@@ -1452,11 +1452,11 @@ There are various areas of color you could inspect, but you don&apos;t seem to r
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa96a20"/>
-      <child nodeId="node-0x5dae4ab03480"/>
+      <child nodeId="node-0x5684e334ae50"/>
+      <child nodeId="node-0x5684e33b7900"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa96a20">
+  <item nodeId="node-0x5684e334ae50">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">
 Street
@@ -1481,12 +1481,12 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa9a130"/>
-      <child nodeId="node-0x5dae4aabc270"/>
-      <child nodeId="node-0x5dae4aada860"/>
+      <child nodeId="node-0x5684e334e560"/>
+      <child nodeId="node-0x5684e33706a0"/>
+      <child nodeId="node-0x5684e338ed20"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa9a130">
+  <item nodeId="node-0x5684e334e560">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Cafe
@@ -1507,10 +1507,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa9d8a0"/>
+      <child nodeId="node-0x5684e3351cd0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa9d8a0">
+  <item nodeId="node-0x5684e3351cd0">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">
 Network
@@ -1529,10 +1529,10 @@ There are various areas of color you could inspect, but you don&apos;t seem to r
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aaa0f80"/>
+      <child nodeId="node-0x5684e33553b0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aaa0f80">
+  <item nodeId="node-0x5684e33553b0">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">
 Office
@@ -1553,10 +1553,10 @@ You&apos;re so amazing that you can go INSIDE the leyline network without an ite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aaa46b0"/>
+      <child nodeId="node-0x5684e3358ae0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aaa46b0">
+  <item nodeId="node-0x5684e3358ae0">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Street
@@ -1569,10 +1569,10 @@ Street
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aaa7af0"/>
+      <child nodeId="node-0x5684e335bf20"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aaa7af0">
+  <item nodeId="node-0x5684e335bf20">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Office
@@ -1591,10 +1591,10 @@ You&apos;re so amazing that you can go INSIDE the leyline network without an ite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aaab1f0"/>
+      <child nodeId="node-0x5684e335f620"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aaab1f0">
+  <item nodeId="node-0x5684e335f620">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">
 Network
@@ -1611,10 +1611,10 @@ There are various areas of color you could inspect, but you don&apos;t seem to r
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aaae940"/>
+      <child nodeId="node-0x5684e3362d70"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aaae940">
+  <item nodeId="node-0x5684e3362d70">
     <command xml:space="preserve">outside</command>
     <result xml:space="preserve">
 Office
@@ -1633,10 +1633,10 @@ You&apos;re so amazing that you can go INSIDE the leyline network without an ite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aab2080"/>
+      <child nodeId="node-0x5684e33664b0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aab2080">
+  <item nodeId="node-0x5684e33664b0">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Street
@@ -1649,10 +1649,10 @@ Street
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aab5410"/>
+      <child nodeId="node-0x5684e3369840"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aab5410">
+  <item nodeId="node-0x5684e3369840">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Cafe
@@ -1669,10 +1669,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aab8b10"/>
+      <child nodeId="node-0x5684e336cf40"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aab8b10">
+  <item nodeId="node-0x5684e336cf40">
     <command xml:space="preserve">inside</command>
     <result xml:space="preserve">
 Network
@@ -1689,7 +1689,7 @@ There are various areas of color you could inspect, but you don&apos;t seem to r
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4aabc270">
+  <item nodeId="node-0x5684e33706a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -1710,10 +1710,10 @@ You&apos;re so amazing that you can go INSIDE the leyline network without an ite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aabfc50"/>
+      <child nodeId="node-0x5684e3374080"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aabfc50">
+  <item nodeId="node-0x5684e3374080">
     <command xml:space="preserve">examine clock</command>
     <result xml:space="preserve">A clockwork device used to mark your timecard and log your hours. A necessary evil of the office.
 
@@ -1724,10 +1724,10 @@ You&apos;re so amazing that you can go INSIDE the leyline network without an ite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aac3080"/>
+      <child nodeId="node-0x5684e33774b0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aac3080">
+  <item nodeId="node-0x5684e33774b0">
     <command xml:space="preserve">examine cords</command>
     <result xml:space="preserve">Thin filaments spun from materials harvested from monsters that allow magical energy to be transferred from one place to another. You had to memorize all the colors and the best materials for your certification exam, but you&apos;ve yet to need to craft your own cables.
 
@@ -1738,10 +1738,10 @@ You&apos;re so amazing that you can go INSIDE the leyline network without an ite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aac6310"/>
+      <child nodeId="node-0x5684e337a740"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aac6310">
+  <item nodeId="node-0x5684e337a740">
     <command xml:space="preserve">examine network</command>
     <result xml:space="preserve">The carefully-stacked and organized magitek that makes up they leyline network...or at least part of it. Like steam, a complex series of devices step down magic to an amount and strength that can be used by smaller businesses and homes.
 
@@ -1752,10 +1752,10 @@ You&apos;re so amazing that you can go INSIDE the leyline network without an ite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aac96f0"/>
+      <child nodeId="node-0x5684e337db20"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aac96f0">
+  <item nodeId="node-0x5684e337db20">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">
 Network
@@ -1780,10 +1780,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aacdae0"/>
+      <child nodeId="node-0x5684e3381f10"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aacdae0">
+  <item nodeId="node-0x5684e3381f10">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">There are none at all available!
 
@@ -1794,10 +1794,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aad0a20"/>
+      <child nodeId="node-0x5684e3384ef0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aad0a20">
+  <item nodeId="node-0x5684e3384ef0">
     <command xml:space="preserve">examine red</command>
     <result xml:space="preserve">A deep pool of tomato-bright energy. You can gauge that there&apos;s just about the right amount that had accumulated since your last shift.
 
@@ -1808,10 +1808,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aad3db0"/>
+      <child nodeId="node-0x5684e3388290"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aad3db0">
+  <item nodeId="node-0x5684e3388290">
     <command xml:space="preserve">examine blue</command>
     <result xml:space="preserve">A shallow pool of jay-blue energy. Like the bird, there&apos;s a wealth of barely-contained momentum just underneath the surface.
 
@@ -1822,10 +1822,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aad7400"/>
+      <child nodeId="node-0x5684e338b8c0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aad7400">
+  <item nodeId="node-0x5684e338b8c0">
     <command xml:space="preserve">examine green</command>
     <result xml:space="preserve">A deep, deep well of energy. It&apos;s more like a river, or an ocean current, and is the backbone of the leyline network...or at least the corner of it that exists within your closet.
 
@@ -1836,7 +1836,7 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4aada860">
+  <item nodeId="node-0x5684e338ed20">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Cafe
@@ -1859,10 +1859,10 @@ You can&apos;t help but notice the leyline jack is left unguarded on the SOUTH w
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aaddef0"/>
+      <child nodeId="node-0x5684e33923b0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aaddef0">
+  <item nodeId="node-0x5684e33923b0">
     <command xml:space="preserve">eat leyline jack</command>
     <result xml:space="preserve">You cannot eat something inserted into the wall.
 
@@ -1873,10 +1873,10 @@ You can&apos;t help but notice the leyline jack is left unguarded on the SOUTH w
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aae1410"/>
+      <child nodeId="node-0x5684e3395890"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aae1410">
+  <item nodeId="node-0x5684e3395890">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Street
@@ -1895,10 +1895,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aae4910"/>
+      <child nodeId="node-0x5684e3398d90"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aae4910">
+  <item nodeId="node-0x5684e3398d90">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -1921,10 +1921,10 @@ The leyline connector is awaiting the start of your shift.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aae80c0"/>
+      <child nodeId="node-0x5684e339c540"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aae80c0">
+  <item nodeId="node-0x5684e339c540">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">(connector)
 Taken.
@@ -1936,10 +1936,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aaeb620"/>
+      <child nodeId="node-0x5684e339faa0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aaeb620">
+  <item nodeId="node-0x5684e339faa0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Street
@@ -1958,10 +1958,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aaeeae0"/>
+      <child nodeId="node-0x5684e33a2f60"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aaeeae0">
+  <item nodeId="node-0x5684e33a2f60">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Cafe
@@ -1984,10 +1984,10 @@ You can&apos;t help but notice the leyline jack is left unguarded on the SOUTH w
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aaf2040"/>
+      <child nodeId="node-0x5684e33a64c0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aaf2040">
+  <item nodeId="node-0x5684e33a64c0">
     <command xml:space="preserve">unlock leyline jack with connector</command>
     <result xml:space="preserve">You unlock leyline jack.
 
@@ -1998,10 +1998,10 @@ You can&apos;t help but notice the leyline jack is left unguarded on the SOUTH w
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aaf54c0"/>
+      <child nodeId="node-0x5684e33a9940"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aaf54c0">
+  <item nodeId="node-0x5684e33a9940">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening leyline jack)
 
@@ -2029,10 +2029,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aaf9bb0"/>
+      <child nodeId="node-0x5684e33ae030"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aaf9bb0">
+  <item nodeId="node-0x5684e33ae030">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">
 Office
@@ -2051,10 +2051,10 @@ When you&apos;re ready to begin, you can go INSIDE the network. You can also lea
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aafcd00"/>
+      <child nodeId="node-0x5684e33b1180"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aafcd00">
+  <item nodeId="node-0x5684e33b1180">
     <command xml:space="preserve">eat cords</command>
     <result xml:space="preserve">While a very caprine idea, the hairs and heartstrings wouldn&apos;t be very appetizing, so you decline the idea.
 
@@ -2065,10 +2065,10 @@ When you&apos;re ready to begin, you can go INSIDE the network. You can also lea
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab000b0"/>
+      <child nodeId="node-0x5684e33b4530"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab000b0">
+  <item nodeId="node-0x5684e33b4530">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">test.
 
@@ -2079,7 +2079,7 @@ When you&apos;re ready to begin, you can go INSIDE the network. You can also lea
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ab03480">
+  <item nodeId="node-0x5684e33b7900">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You bump into the wall. You are swiftly reminded of how sensitive your beak is, and why it isn&apos;t a good idea to run into walls.
 
@@ -2090,10 +2090,10 @@ When you&apos;re ready to begin, you can go INSIDE the network. You can also lea
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab06860"/>
+      <child nodeId="node-0x5684e33bace0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab06860">
+  <item nodeId="node-0x5684e33bace0">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">
 Street
@@ -2118,10 +2118,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab09f90"/>
+      <child nodeId="node-0x5684e33be450"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab09f90">
+  <item nodeId="node-0x5684e33be450">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -2144,10 +2144,10 @@ The leyline connector is awaiting the start of your shift.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab0d9d0"/>
+      <child nodeId="node-0x5684e33c1e20"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab0d9d0">
+  <item nodeId="node-0x5684e33c1e20">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">(connector)
 Taken.
@@ -2159,10 +2159,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab12120"/>
+      <child nodeId="node-0x5684e33c65b0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab12120">
+  <item nodeId="node-0x5684e33c65b0">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">You take a moment to prepare yourself. You wrap one paw around the cable&apos;s end, close your eyes, and then plug it into the hardware.
 
@@ -2190,10 +2190,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab16560"/>
+      <child nodeId="node-0x5684e33ca9f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab16560">
+  <item nodeId="node-0x5684e33ca9f0">
     <command xml:space="preserve">inspect red</command>
     <result xml:space="preserve">You inspect the red pool, revealing the magic within.
 
@@ -2204,10 +2204,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab19510"/>
+      <child nodeId="node-0x5684e33cd9a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab19510">
+  <item nodeId="node-0x5684e33cd9a0">
     <command xml:space="preserve">use red</command>
     <result xml:space="preserve">You have already inspected this.
 
@@ -2218,10 +2218,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab1c8f0"/>
+      <child nodeId="node-0x5684e33d0d80"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab1c8f0">
+  <item nodeId="node-0x5684e33d0d80">
     <command xml:space="preserve">use blue</command>
     <result xml:space="preserve">You inspect the blue pool, revealing the magic within.
 
@@ -2232,10 +2232,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab1fca0"/>
+      <child nodeId="node-0x5684e33d4130"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab1fca0">
+  <item nodeId="node-0x5684e33d4130">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">
 Office
@@ -2254,10 +2254,10 @@ When you&apos;re ready to begin, you can go INSIDE the network. You can also lea
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab23120"/>
+      <child nodeId="node-0x5684e33d7570"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab23120">
+  <item nodeId="node-0x5684e33d7570">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Street
@@ -2276,10 +2276,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab27460"/>
+      <child nodeId="node-0x5684e33db8c0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab27460">
+  <item nodeId="node-0x5684e33db8c0">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">
 Apartment
@@ -2292,10 +2292,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab2b0e0"/>
+      <child nodeId="node-0x5684e33df540"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab2b0e0">
+  <item nodeId="node-0x5684e33df540">
     <command xml:space="preserve">examine bookshelf</command>
     <result xml:space="preserve">A small, rickety-looking bookshelf. Would be the perfect place to store your knick-knacks, if you had any.
 
@@ -2308,7 +2308,7 @@ In bookshelf are books and newspaper.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ab2e510">
+  <item nodeId="node-0x5684e33e2990">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">You bump into the wall. You are swiftly reminded of how sensitive your beak is, and why it isn&apos;t a good idea to run into walls.
 
@@ -2319,10 +2319,10 @@ In bookshelf are books and newspaper.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab31b00"/>
+      <child nodeId="node-0x5684e33e5fa0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab31b00">
+  <item nodeId="node-0x5684e33e5fa0">
     <command xml:space="preserve">outside</command>
     <result xml:space="preserve">
 Street
@@ -2341,10 +2341,10 @@ Telegraph was busy at all hours, which made finding sleep difficult.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab34da0"/>
+      <child nodeId="node-0x5684e33e9240"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab34da0">
+  <item nodeId="node-0x5684e33e9240">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">You walk for a short while, but are stopped by a road closure. It seems that some hapless laborer had dug without consulting city hall first, resulting in a damaged steam line...and most of the road being torn up.
 
@@ -2357,10 +2357,10 @@ You turn around and go back to your previous position.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab382c0"/>
+      <child nodeId="node-0x5684e33ec760"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab382c0">
+  <item nodeId="node-0x5684e33ec760">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Cafe
@@ -2381,10 +2381,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab3b5b0"/>
+      <child nodeId="node-0x5684e33efa50"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab3b5b0">
+  <item nodeId="node-0x5684e33efa50">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">You consider it, but decide not to. It would be unwise to plow into someone&apos;s table and ruin their supper.
 
@@ -2395,10 +2395,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab3e8c0"/>
+      <child nodeId="node-0x5684e33f2d60"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab3e8c0">
+  <item nodeId="node-0x5684e33f2d60">
     <command xml:space="preserve">inside</command>
     <result xml:space="preserve">
 Network
@@ -2417,10 +2417,10 @@ There are various areas of color you could inspect, but you don&apos;t seem to r
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab41bd0"/>
+      <child nodeId="node-0x5684e33f6070"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab41bd0">
+  <item nodeId="node-0x5684e33f6070">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">As the network is an abstract space, it really doesn&apos;t conform to concepts such as &quot;up&quot; and &quot;down.&quot; You waste time thinking about movement that isn&apos;t possible.
 
@@ -2431,10 +2431,10 @@ There are various areas of color you could inspect, but you don&apos;t seem to r
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab44fd0"/>
+      <child nodeId="node-0x5684e33f9520"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab44fd0">
+  <item nodeId="node-0x5684e33f9520">
     <command xml:space="preserve">outside</command>
     <result xml:space="preserve">
 Office
@@ -2455,10 +2455,10 @@ You&apos;re so amazing that you can go INSIDE the leyline network without an ite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab48590"/>
+      <child nodeId="node-0x5684e33fcae0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab48590">
+  <item nodeId="node-0x5684e33fcae0">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">You move in the dark, but the faint crackle of magic tingles your beak. You remember that continuing in such a direction would result in becoming entangled with the cords and cause quite a mess for yourself.
 
@@ -2471,7 +2471,7 @@ You, wisely, decide not to.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4a590c90">
+  <item nodeId="node-0x5684e3400000">
     <command xml:space="preserve">examine sink</command>
     <result xml:space="preserve">A shallow-ish bowl and matching ewer. Perfect for washing your face in the morning. Or, evening, depending on when you wake up.
 
@@ -2484,10 +2484,10 @@ In basin is ewer.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a593cd0"/>
+      <child nodeId="node-0x5684e2e47710"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a593cd0">
+  <item nodeId="node-0x5684e2e47710">
     <command xml:space="preserve">examine ewer</command>
     <result xml:space="preserve">A simple porcelain jug filled with water.
 
@@ -2498,10 +2498,10 @@ In basin is ewer.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a597150"/>
+      <child nodeId="node-0x5684e2e4ab00"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a597150">
+  <item nodeId="node-0x5684e2e4ab00">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">(ewer)
 Taken.
@@ -2513,10 +2513,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a59a4b0"/>
+      <child nodeId="node-0x5684e2e4de80"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a59a4b0">
+  <item nodeId="node-0x5684e2e4de80">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">There are none at all available!
 
@@ -2527,10 +2527,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a59d7a0"/>
+      <child nodeId="node-0x5684e2e51170"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a59d7a0">
+  <item nodeId="node-0x5684e2e51170">
     <command xml:space="preserve">examine pie safe</command>
     <result xml:space="preserve">A pie safe. The tin panels on the front have holes punched in the design of eucalyptus trees.
 
@@ -2541,10 +2541,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a5a0c90"/>
+      <child nodeId="node-0x5684e2e54660"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a5a0c90">
+  <item nodeId="node-0x5684e2e54660">
     <command xml:space="preserve">open</command>
     <result xml:space="preserve">(ewer)
 It isn&apos;t something you can open.
@@ -2556,10 +2556,10 @@ It isn&apos;t something you can open.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a5a4a70"/>
+      <child nodeId="node-0x5684e2e57a70"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a5a4a70">
+  <item nodeId="node-0x5684e2e57a70">
     <command xml:space="preserve">open pie safe</command>
     <result xml:space="preserve">You open safe, revealing pie.
 
@@ -2570,10 +2570,10 @@ It isn&apos;t something you can open.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab76980"/>
+      <child nodeId="node-0x5684e342af60"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab76980">
+  <item nodeId="node-0x5684e342af60">
     <command xml:space="preserve">take pie</command>
     <result xml:space="preserve">Taken.
 
@@ -2584,10 +2584,10 @@ It isn&apos;t something you can open.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab79d00"/>
+      <child nodeId="node-0x5684e342e2e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab79d00">
+  <item nodeId="node-0x5684e342e2e0">
     <command xml:space="preserve">eat pie</command>
     <result xml:space="preserve">You eat pie. Not bad.
 
@@ -2598,10 +2598,10 @@ It isn&apos;t something you can open.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab7d090"/>
+      <child nodeId="node-0x5684e3431670"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab7d090">
+  <item nodeId="node-0x5684e3431670">
     <command xml:space="preserve">examine pie</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2612,7 +2612,7 @@ It isn&apos;t something you can open.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ab80450">
+  <item nodeId="node-0x5684e3434a30">
     <command xml:space="preserve">examine pie safe</command>
     <result xml:space="preserve">A pie safe. The tin panels on the front have holes punched in the design of eucalyptus trees.
 
@@ -2623,10 +2623,10 @@ It isn&apos;t something you can open.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab83910"/>
+      <child nodeId="node-0x5684e3437ef0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab83910">
+  <item nodeId="node-0x5684e3437ef0">
     <command xml:space="preserve">open pie safe</command>
     <result xml:space="preserve">You open safe, revealing pie.
 
@@ -2637,10 +2637,10 @@ It isn&apos;t something you can open.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab86cc0"/>
+      <child nodeId="node-0x5684e343b260"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab86cc0">
+  <item nodeId="node-0x5684e343b260">
     <command xml:space="preserve">examine pie</command>
     <result xml:space="preserve">A personal-sized mealworm pot pie. Makes a perfect start for your day-slash-night.
 
@@ -2651,10 +2651,10 @@ It isn&apos;t something you can open.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab89fd0"/>
+      <child nodeId="node-0x5684e343e570"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab89fd0">
+  <item nodeId="node-0x5684e343e570">
     <command xml:space="preserve">eat pie</command>
     <result xml:space="preserve">(first taking pie)
 You eat pie. Not bad.
@@ -2666,7 +2666,7 @@ You eat pie. Not bad.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ab8d3e0">
+  <item nodeId="node-0x5684e3441980">
     <command xml:space="preserve">examine bookshelf</command>
     <result xml:space="preserve">A small, rickety-looking bookshelf. Would be the perfect place to store your knick-knacks, if you had any.
 
@@ -2679,10 +2679,10 @@ In bookshelf are books and newspaper.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab90820"/>
+      <child nodeId="node-0x5684e3444dc0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab90820">
+  <item nodeId="node-0x5684e3444dc0">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">ewer: Taken.
 books: Taken.
@@ -2695,10 +2695,10 @@ newspaper: Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab93cf0"/>
+      <child nodeId="node-0x5684e3448290"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab93cf0">
+  <item nodeId="node-0x5684e3448290">
     <command xml:space="preserve">examine hookup</command>
     <result xml:space="preserve">One of the ingenious inventions of modern living, it permits pressurized steam into compatible appliances to give them kinetic power.
 
@@ -2711,10 +2711,10 @@ Some engineer surely lost many nights worth of sleep to design a connection that
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab96f80"/>
+      <child nodeId="node-0x5684e344b540"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab96f80">
+  <item nodeId="node-0x5684e344b540">
     <command xml:space="preserve">examine fire place</command>
     <result xml:space="preserve">A brick fireplace. It&apos;s the summer, so you won&apos;t be needing to use it anytime soon.
 
@@ -2725,10 +2725,10 @@ Some engineer surely lost many nights worth of sleep to design a connection that
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab9a300"/>
+      <child nodeId="node-0x5684e344e8a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab9a300">
+  <item nodeId="node-0x5684e344e8a0">
     <command xml:space="preserve">take fireplace</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -2739,10 +2739,10 @@ Some engineer surely lost many nights worth of sleep to design a connection that
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab9d730"/>
+      <child nodeId="node-0x5684e3451cd0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab9d730">
+  <item nodeId="node-0x5684e3451cd0">
     <command xml:space="preserve">take bookshelf</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -2753,10 +2753,10 @@ Some engineer surely lost many nights worth of sleep to design a connection that
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aba0b60"/>
+      <child nodeId="node-0x5684e3455100"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aba0b60">
+  <item nodeId="node-0x5684e3455100">
     <command xml:space="preserve">look bookshelf</command>
     <result xml:space="preserve">A small, rickety-looking bookshelf. Would be the perfect place to store your knick-knacks, if you had any.
 
@@ -2767,10 +2767,10 @@ Some engineer surely lost many nights worth of sleep to design a connection that
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a9f4a00"/>
+      <child nodeId="node-0x5684e32a8eb0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a9f4a00">
+  <item nodeId="node-0x5684e32a8eb0">
     <command xml:space="preserve">examine book</command>
     <result xml:space="preserve">Several books, none notable. There&apos;s dime novels, old almanacs, and random volumes of encyclopedias on obscure subjects.
 
@@ -2783,10 +2783,10 @@ You remind yourself to stop accepting &quot;gifts&quot; from your vulture friend
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa81eb0"/>
+      <child nodeId="node-0x5684e33362e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa81eb0">
+  <item nodeId="node-0x5684e33362e0">
     <command xml:space="preserve">examine paper</command>
     <result xml:space="preserve">Months-old newspapers that you&apos;re only holding on to for lighting the fireplace. You haven&apos;t needed to in some time, so they&apos;re beginning to yellow.
 
@@ -2797,10 +2797,10 @@ You remind yourself to stop accepting &quot;gifts&quot; from your vulture friend
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa85250"/>
+      <child nodeId="node-0x5684e3339680"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa85250">
+  <item nodeId="node-0x5684e3339680">
     <command xml:space="preserve">examine book</command>
     <result xml:space="preserve">Several books, none notable. There&apos;s dime novels, old almanacs, and random volumes of encyclopedias on obscure subjects.
 
@@ -2813,7 +2813,7 @@ You remind yourself to stop accepting &quot;gifts&quot; from your vulture friend
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4abb7cc0">
+  <item nodeId="node-0x5684e346c260">
     <command xml:space="preserve">examine clock</command>
     <result xml:space="preserve">A steam-powered alarm clock. The newest model, it costed you a pretty penny, but it means you always wake up in time for work.  Your neighbors aren&apos;t super appreciative of this modern convenience, though. Probably because they keep entirely different hours than you do.  
 
@@ -2826,10 +2826,10 @@ Alarm clock is currently switched off.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abbb1c0"/>
+      <child nodeId="node-0x5684e346f760"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abbb1c0">
+  <item nodeId="node-0x5684e346f760">
     <command xml:space="preserve">examine alarm</command>
     <result xml:space="preserve">A steam-powered alarm clock. The newest model, it costed you a pretty penny, but it means you always wake up in time for work.  Your neighbors aren&apos;t super appreciative of this modern convenience, though. Probably because they keep entirely different hours than you do.  
 
@@ -2842,10 +2842,10 @@ Alarm clock is currently switched off.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abbe820"/>
+      <child nodeId="node-0x5684e3472dc0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abbe820">
+  <item nodeId="node-0x5684e3472dc0">
     <command xml:space="preserve">look books</command>
     <result xml:space="preserve">Several books, none notable. There&apos;s dime novels, old almanacs, and random volumes of encyclopedias on obscure subjects.  You remind yourself to stop accepting &quot;gifts&quot; from your vulture friend.  
 
@@ -2856,7 +2856,7 @@ Alarm clock is currently switched off.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4abc1d00">
+  <item nodeId="node-0x5684e34762a0">
     <command xml:space="preserve">examine safe</command>
     <result xml:space="preserve">A pie safe. The tin panels on the front have holes punched in the design of eucalyptus trees.
 
@@ -2867,10 +2867,10 @@ Alarm clock is currently switched off.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abc51b0"/>
+      <child nodeId="node-0x5684e3479750"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abc51b0">
+  <item nodeId="node-0x5684e3479750">
     <command xml:space="preserve">open safe</command>
     <result xml:space="preserve">You open safe, revealing pie.
 
@@ -2881,10 +2881,10 @@ Alarm clock is currently switched off.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abc84d0"/>
+      <child nodeId="node-0x5684e347ca70"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abc84d0">
+  <item nodeId="node-0x5684e347ca70">
     <command xml:space="preserve">take pie</command>
     <result xml:space="preserve">Taken.
 
@@ -2895,10 +2895,10 @@ Alarm clock is currently switched off.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abcb890"/>
+      <child nodeId="node-0x5684e347fe00"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abcb890">
+  <item nodeId="node-0x5684e347fe00">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">ewer: Taken.
 books: Taken.
@@ -2911,10 +2911,10 @@ newspaper: Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abcec60"/>
+      <child nodeId="node-0x5684e34831d0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abcec60">
+  <item nodeId="node-0x5684e34831d0">
     <command xml:space="preserve">examine hookup</command>
     <result xml:space="preserve">One of the ingenious inventions of modern living, it permits pressurized steam into compatible appliances to give them kinetic power.  Some engineer surely lost many nights worth of sleep to design a connection that only allows the emission of steam when a authorized connecting cable is used. Granted, only the utility company has the tools to add or remove the connections, as well as hold the patent for the cables. You understand the issue with this, but you&apos;re also not interested in designing your own tools and risking steam burns.  
 
@@ -2925,10 +2925,10 @@ newspaper: Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abd2350"/>
+      <child nodeId="node-0x5684e34868c0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abd2350">
+  <item nodeId="node-0x5684e34868c0">
     <command xml:space="preserve">outside</command>
     <result xml:space="preserve">
 Street
@@ -2953,10 +2953,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abd5b00"/>
+      <child nodeId="node-0x5684e348a070"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abd5b00">
+  <item nodeId="node-0x5684e348a070">
     <command xml:space="preserve">examine building</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2967,10 +2967,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abd8e60"/>
+      <child nodeId="node-0x5684e348d3d0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abd8e60">
+  <item nodeId="node-0x5684e348d3d0">
     <command xml:space="preserve">examine apartment</command>
     <result xml:space="preserve">Your apartment building. It used to be a sizable home, but has since been divided into smaller units.
 
@@ -2981,10 +2981,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abdc240"/>
+      <child nodeId="node-0x5684e34907b0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abdc240">
+  <item nodeId="node-0x5684e34907b0">
     <command xml:space="preserve">take apartment</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -2995,10 +2995,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abdf660"/>
+      <child nodeId="node-0x5684e3493bd0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abdf660">
+  <item nodeId="node-0x5684e3493bd0">
     <command xml:space="preserve">examine crowd</command>
     <result xml:space="preserve">An ever-moving throng of animals going about their day. There&apos;re beings from nearly every part of the world who live here, but you don&apos;t spot anyone else from Australis.
 
@@ -3009,10 +3009,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abe2bf0"/>
+      <child nodeId="node-0x5684e3497160"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abe2bf0">
+  <item nodeId="node-0x5684e3497160">
     <command xml:space="preserve">take crowd</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -3023,10 +3023,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abe5e50"/>
+      <child nodeId="node-0x5684e349a3c0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abe5e50">
+  <item nodeId="node-0x5684e349a3c0">
     <command xml:space="preserve">eat crowd</command>
     <result xml:space="preserve">That&apos;s plainly inedible.
 
@@ -3037,10 +3037,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abe9210"/>
+      <child nodeId="node-0x5684e349d780"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abe9210">
+  <item nodeId="node-0x5684e349d780">
     <command xml:space="preserve">examine tram</command>
     <result xml:space="preserve">The tram is long gone, but its tracks and the pneumatic tube that powers it remain. If you weren&apos;t sensitive to magic, you&apos;d like to think that you&apos;d be a tram operator instead.
 
@@ -3051,10 +3051,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abec760"/>
+      <child nodeId="node-0x5684e34a0ca0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abec760">
+  <item nodeId="node-0x5684e34a0ca0">
     <command xml:space="preserve">take tram</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -3065,10 +3065,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abefac0"/>
+      <child nodeId="node-0x5684e34a4000"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abefac0">
+  <item nodeId="node-0x5684e34a4000">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">There are none at all available!
 
@@ -3079,10 +3079,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abf2e70"/>
+      <child nodeId="node-0x5684e34a73b0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abf2e70">
+  <item nodeId="node-0x5684e34a73b0">
     <command xml:space="preserve">examine cafe</command>
     <result xml:space="preserve">A popular cafe. There&apos;s several tables out front and animals enjoying an evening meal. A quick peak through the windows shows that, while busy, there&apos;s still a few open tables and no line.
 
@@ -3093,10 +3093,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abf6300"/>
+      <child nodeId="node-0x5684e34aa840"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abf6300">
+  <item nodeId="node-0x5684e34aa840">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Cafe
@@ -3117,10 +3117,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abf9d90"/>
+      <child nodeId="node-0x5684e34ae2d0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abf9d90">
+  <item nodeId="node-0x5684e34ae2d0">
     <command xml:space="preserve">examine counter</command>
     <result xml:space="preserve">A long wooden counter with a clerk standing behind. A pastry case filled with treats invitingly displays its wares.
 
@@ -3131,10 +3131,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abfd0f0"/>
+      <child nodeId="node-0x5684e34b1630"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abfd0f0">
+  <item nodeId="node-0x5684e34b1630">
     <command xml:space="preserve">examine pastry case</command>
     <result xml:space="preserve">A glass case with shiny brass fittings, both displaying and protecting the delectable treats within.
 
@@ -3147,10 +3147,10 @@ In pastry case are another pie, pepper tart, wax bottle, grass galette and starg
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac00670"/>
+      <child nodeId="node-0x5684e34b4bb0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac00670">
+  <item nodeId="node-0x5684e34b4bb0">
     <command xml:space="preserve">examine pie</command>
     <result xml:space="preserve">(pie)
 A personal-sized mealworm pot pie. Makes a perfect start for your day-slash-night.
@@ -3162,10 +3162,10 @@ A personal-sized mealworm pot pie. Makes a perfect start for your day-slash-nigh
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac03b50"/>
+      <child nodeId="node-0x5684e34b8090"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac03b50">
+  <item nodeId="node-0x5684e34b8090">
     <command xml:space="preserve">examine another pie</command>
     <result xml:space="preserve">(pie)
 A personal-sized mealworm pot pie. Makes a perfect start for your day-slash-night.
@@ -3177,10 +3177,10 @@ A personal-sized mealworm pot pie. Makes a perfect start for your day-slash-nigh
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac06ec0"/>
+      <child nodeId="node-0x5684e34bb400"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac06ec0">
+  <item nodeId="node-0x5684e34bb400">
     <command xml:space="preserve">examine  tart</command>
     <result xml:space="preserve">A flaky pastry shell filled with bright-red peppers. Extremely spicy, and only suitable for an avian palate.
 
@@ -3191,10 +3191,10 @@ A personal-sized mealworm pot pie. Makes a perfect start for your day-slash-nigh
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac0a2c0"/>
+      <child nodeId="node-0x5684e34be780"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac0a2c0">
+  <item nodeId="node-0x5684e34be780">
     <command xml:space="preserve">examine bottle</command>
     <result xml:space="preserve">Edible wax formed in the shape of a bottle. Inside is a pale yellow liquid. The nectar is a favorite of hummingbirds, lories, and bears.
 
@@ -3205,10 +3205,10 @@ A personal-sized mealworm pot pie. Makes a perfect start for your day-slash-nigh
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac0d7d0"/>
+      <child nodeId="node-0x5684e34c1c60"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac0d7d0">
+  <item nodeId="node-0x5684e34c1c60">
     <command xml:space="preserve">examine galette</command>
     <result xml:space="preserve">Folded pastry around artfully arranged grasses. Aggressively herbaceous and rough on the teeth. Luckily for you, you have none.
 
@@ -3219,10 +3219,10 @@ A personal-sized mealworm pot pie. Makes a perfect start for your day-slash-nigh
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac10cc0"/>
+      <child nodeId="node-0x5684e34c5150"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac10cc0">
+  <item nodeId="node-0x5684e34c5150">
     <command xml:space="preserve">examine roll</command>
     <result xml:space="preserve">Flaky pastry rolled around a fish, leaving its head exposed. Probably an unnerving sight for herbivores.
 
@@ -3233,10 +3233,10 @@ A personal-sized mealworm pot pie. Makes a perfect start for your day-slash-nigh
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac14040"/>
+      <child nodeId="node-0x5684e34c84d0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac14040">
+  <item nodeId="node-0x5684e34c84d0">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">another pie: Pastry case isn&apos;t open.
 pepper tart: Pastry case isn&apos;t open.
@@ -3251,10 +3251,10 @@ stargazy roll: Pastry case isn&apos;t open.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac174d0"/>
+      <child nodeId="node-0x5684e34cb960"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac174d0">
+  <item nodeId="node-0x5684e34cb960">
     <command xml:space="preserve">examine jack</command>
     <result xml:space="preserve">A port to the leyline network. Probably not a good idea that anyone can access it, but not everyone has the capacity to do so.
 
@@ -3265,10 +3265,10 @@ stargazy roll: Pastry case isn&apos;t open.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac1a9c0"/>
+      <child nodeId="node-0x5684e34cee50"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac1a9c0">
+  <item nodeId="node-0x5684e34cee50">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Cafe
  The bell above the door tinkles as you step inside.
@@ -3288,7 +3288,7 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ac1e120">
+  <item nodeId="node-0x5684e34d25b0">
     <command xml:space="preserve">switch on alarm</command>
     <result xml:space="preserve">You reset your alarm. Now at least you won&apos;t need to worry about doing it when you get home after work.
 
@@ -3299,10 +3299,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac21470"/>
+      <child nodeId="node-0x5684e34d5900"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac21470">
+  <item nodeId="node-0x5684e34d5900">
     <command xml:space="preserve">switch off clock</command>
     <result xml:space="preserve">You enjoy the click of the clockwork, but you&apos;ll need to turn it back on eventually. Or maybe you&apos;ll enjoy the risk of sleeping in tomorrow.
 
@@ -3313,10 +3313,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac249c0"/>
+      <child nodeId="node-0x5684e34d8e50"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac249c0">
+  <item nodeId="node-0x5684e34d8e50">
     <command xml:space="preserve">eat clock</command>
     <result xml:space="preserve">While a very caprine idea, the steam burns wouldn&apos;t be very appetizing, so you decline the idea.
 
@@ -3327,10 +3327,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac27e60"/>
+      <child nodeId="node-0x5684e34dc2f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac27e60">
+  <item nodeId="node-0x5684e34dc2f0">
     <command xml:space="preserve">eat bed</command>
     <result xml:space="preserve">While you had a dream like this once, it wasn&apos;t a very pleasant one. Besides, you already have food available.
 
@@ -3341,10 +3341,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac2b150"/>
+      <child nodeId="node-0x5684e34df5e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac2b150">
+  <item nodeId="node-0x5684e34df5e0">
     <command xml:space="preserve">eat pie safe</command>
     <result xml:space="preserve">Pie safes are for storing food, not being food!
 
@@ -3355,10 +3355,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac2e580"/>
+      <child nodeId="node-0x5684e34e29d0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac2e580">
+  <item nodeId="node-0x5684e34e29d0">
     <command xml:space="preserve">open pie safe</command>
     <result xml:space="preserve">You open safe, revealing pie.
 
@@ -3369,10 +3369,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac31960"/>
+      <child nodeId="node-0x5684e34e5db0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac31960">
+  <item nodeId="node-0x5684e34e5db0">
     <command xml:space="preserve">take pie</command>
     <result xml:space="preserve">Taken.
 
@@ -3383,10 +3383,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac34d00"/>
+      <child nodeId="node-0x5684e34e9150"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac34d00">
+  <item nodeId="node-0x5684e34e9150">
     <command xml:space="preserve">eat pie</command>
     <result xml:space="preserve">Yum! Protein is the best way to start the day, as your mum always said.
 
@@ -3397,10 +3397,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac38040"/>
+      <child nodeId="node-0x5684e34ec490"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac38040">
+  <item nodeId="node-0x5684e34ec490">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.
 
@@ -3411,10 +3411,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac3b430"/>
+      <child nodeId="node-0x5684e34ef880"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac3b430">
+  <item nodeId="node-0x5684e34ef880">
     <command xml:space="preserve">x basin</command>
     <result xml:space="preserve">A shallow-ish bowl and matching ewer. Perfect for washing your face in the morning. Or, evening, depending on when you wake up.
 
@@ -3427,10 +3427,10 @@ In basin is ewer.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac3e8b0"/>
+      <child nodeId="node-0x5684e34f2d00"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac3e8b0">
+  <item nodeId="node-0x5684e34f2d00">
     <command xml:space="preserve">eat basin</command>
     <result xml:space="preserve">While a very caprine idea, the porcelain wouldn&apos;t be very appetizing, so you decline the idea.
 
@@ -3441,10 +3441,10 @@ In basin is ewer.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac41d90"/>
+      <child nodeId="node-0x5684e34f61e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac41d90">
+  <item nodeId="node-0x5684e34f61e0">
     <command xml:space="preserve">eat ewer</command>
     <result xml:space="preserve">While a very caprine idea, the porcelain wouldn&apos;t be very appetizing, so you decline the idea.
 
@@ -3455,10 +3455,10 @@ In basin is ewer.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac45140"/>
+      <child nodeId="node-0x5684e34f9590"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac45140">
+  <item nodeId="node-0x5684e34f9590">
     <command xml:space="preserve">eat fireplace</command>
     <result xml:space="preserve">While a very caprine idea, the brick wouldn&apos;t be very appetizing, so you decline the idea.
 
@@ -3469,10 +3469,10 @@ In basin is ewer.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac48520"/>
+      <child nodeId="node-0x5684e34fc970"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac48520">
+  <item nodeId="node-0x5684e34fc970">
     <command xml:space="preserve">eat bookshelf</command>
     <result xml:space="preserve">While a very caprine idea, the splinters wouldn&apos;t be very appetizing, so you decline the idea.
 
@@ -3483,10 +3483,10 @@ In basin is ewer.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac4b950"/>
+      <child nodeId="node-0x5684e34ffda0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac4b950">
+  <item nodeId="node-0x5684e34ffda0">
     <command xml:space="preserve">eat hookup</command>
     <result xml:space="preserve">While a very caprine idea, the steam burns wouldn&apos;t be very appetizing, so you decline the idea.
 
@@ -3497,10 +3497,10 @@ In basin is ewer.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac4eda0"/>
+      <child nodeId="node-0x5684e35031a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac4eda0">
+  <item nodeId="node-0x5684e35031a0">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">ewer: Taken.
 books: Taken.
@@ -3513,10 +3513,10 @@ newspaper: Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac52140"/>
+      <child nodeId="node-0x5684e3506540"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac52140">
+  <item nodeId="node-0x5684e3506540">
     <command xml:space="preserve">eat books</command>
     <result xml:space="preserve">While a very caprine idea, the paper cuts wouldn&apos;t be very appetizing, so you decline the idea.
 
@@ -3527,10 +3527,10 @@ newspaper: Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac55590"/>
+      <child nodeId="node-0x5684e3509990"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac55590">
+  <item nodeId="node-0x5684e3509990">
     <command xml:space="preserve">eat newspaper</command>
     <result xml:space="preserve">While a very caprine idea, the paper cuts wouldn&apos;t be very appetizing, so you decline the idea.
 
@@ -3541,7 +3541,7 @@ newspaper: Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ac58960">
+  <item nodeId="node-0x5684e350cd60">
     <command xml:space="preserve">open safe</command>
     <result xml:space="preserve">You open safe, revealing pie.
 
@@ -3552,10 +3552,10 @@ newspaper: Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac5bcf0"/>
+      <child nodeId="node-0x5684e35100f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac5bcf0">
+  <item nodeId="node-0x5684e35100f0">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">pie: Taken.
 ewer: Taken.
@@ -3569,10 +3569,10 @@ newspaper: Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac5f0e0"/>
+      <child nodeId="node-0x5684e35134e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac5f0e0">
+  <item nodeId="node-0x5684e35134e0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">You bump into the wall. You are swiftly reminded of how sensitive your beak is, and why it isn&apos;t a good idea to run into walls.
 
@@ -3583,10 +3583,10 @@ newspaper: Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac625a0"/>
+      <child nodeId="node-0x5684e35169a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac625a0">
+  <item nodeId="node-0x5684e35169a0">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">
 Street
@@ -3611,10 +3611,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac65cd0"/>
+      <child nodeId="node-0x5684e351a0d0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac65cd0">
+  <item nodeId="node-0x5684e351a0d0">
     <command xml:space="preserve">eat building</command>
     <result xml:space="preserve">While a very caprine idea, the concrete wouldn&apos;t be very appetizing, so you decline the idea.
 
@@ -3625,10 +3625,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac69120"/>
+      <child nodeId="node-0x5684e351d520"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac69120">
+  <item nodeId="node-0x5684e351d520">
     <command xml:space="preserve">eat crowd</command>
     <result xml:space="preserve">That&apos;s plainly inedible.
 
@@ -3639,10 +3639,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac6c470"/>
+      <child nodeId="node-0x5684e3520870"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac6c470">
+  <item nodeId="node-0x5684e3520870">
     <command xml:space="preserve">eat trams</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3653,10 +3653,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac6f800"/>
+      <child nodeId="node-0x5684e3523c00"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac6f800">
+  <item nodeId="node-0x5684e3523c00">
     <command xml:space="preserve">eat tram</command>
     <result xml:space="preserve">While a very caprine idea, the steel wouldn&apos;t be very appetizing, so you decline the idea.
 
@@ -3667,10 +3667,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac72c90"/>
+      <child nodeId="node-0x5684e3527090"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac72c90">
+  <item nodeId="node-0x5684e3527090">
     <command xml:space="preserve">eat cafe</command>
     <result xml:space="preserve">While a very caprine idea, the concrete wouldn&apos;t be very appetizing, so you decline the idea.
 
@@ -3681,10 +3681,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac76020"/>
+      <child nodeId="node-0x5684e352a420"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac76020">
+  <item nodeId="node-0x5684e352a420">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">  You walk for a short while, but are stopped by a road closure. It seems that some hapless laborer had dug without consulting city hall first, resulting in a damaged steam line...and most of the road being torn up.
 
@@ -3698,10 +3698,10 @@ You turn around and go back to your previous position.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ac794c0"/>
+      <child nodeId="node-0x5684e352d820"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ac794c0">
+  <item nodeId="node-0x5684e352d820">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Cafe
@@ -3724,10 +3724,10 @@ You can&apos;t help but notice the leyline jack is left unguarded.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a5f7be0"/>
+      <child nodeId="node-0x5684e2eabe00"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a5f7be0">
+  <item nodeId="node-0x5684e2eabe00">
     <command xml:space="preserve">eat counter</command>
     <result xml:space="preserve">While a very caprine idea, the splinters wouldn&apos;t be very appetizing, so you decline the idea.
 
@@ -3738,10 +3738,10 @@ You can&apos;t help but notice the leyline jack is left unguarded.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a5fb080"/>
+      <child nodeId="node-0x5684e2eaf2a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a5fb080">
+  <item nodeId="node-0x5684e2eaf2a0">
     <command xml:space="preserve">eat jack</command>
     <result xml:space="preserve">That&apos;s plainly inedible.
 
@@ -3752,10 +3752,10 @@ You can&apos;t help but notice the leyline jack is left unguarded.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a5fe4b0"/>
+      <child nodeId="node-0x5684e2eb26d0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a5fe4b0">
+  <item nodeId="node-0x5684e2eb26d0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You consider it, but decide not to. It would be unwise to plow into someone&apos;s table and ruin their supper.
 
@@ -3766,10 +3766,10 @@ You can&apos;t help but notice the leyline jack is left unguarded.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a601940"/>
+      <child nodeId="node-0x5684e2eb5b60"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a601940">
+  <item nodeId="node-0x5684e2eb5b60">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Street
@@ -3788,10 +3788,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a605090"/>
+      <child nodeId="node-0x5684e2eb92b0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a605090">
+  <item nodeId="node-0x5684e2eb92b0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -3814,10 +3814,10 @@ The leyline connector is awaiting the start of your shift.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a608880"/>
+      <child nodeId="node-0x5684e2ebcaa0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a608880">
+  <item nodeId="node-0x5684e2ebcaa0">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">connector: Taken.
 
@@ -3828,10 +3828,10 @@ The leyline connector is awaiting the start of your shift.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a60bc60"/>
+      <child nodeId="node-0x5684e2ebfe80"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a60bc60">
+  <item nodeId="node-0x5684e2ebfe80">
     <command xml:space="preserve">inside</command>
     <result xml:space="preserve">test.
 
@@ -3842,10 +3842,10 @@ The leyline connector is awaiting the start of your shift.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a60f1f0"/>
+      <child nodeId="node-0x5684e2ec3410"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a60f1f0">
+  <item nodeId="node-0x5684e2ec3410">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Street
@@ -3864,10 +3864,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a612800"/>
+      <child nodeId="node-0x5684e2ec6a20"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a612800">
+  <item nodeId="node-0x5684e2ec6a20">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Cafe
@@ -3890,10 +3890,10 @@ You can&apos;t help but notice the leyline jack is left unguarded.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a615dd0"/>
+      <child nodeId="node-0x5684e2ec9ff0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a615dd0">
+  <item nodeId="node-0x5684e2ec9ff0">
     <command xml:space="preserve">unlock leyline jack with connector</command>
     <result xml:space="preserve">You unlock leyline jack.
 
@@ -3904,10 +3904,10 @@ You can&apos;t help but notice the leyline jack is left unguarded.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a6192d0"/>
+      <child nodeId="node-0x5684e2ecd4f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a6192d0">
+  <item nodeId="node-0x5684e2ecd4f0">
     <command xml:space="preserve">leyline jack</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -3918,10 +3918,10 @@ You can&apos;t help but notice the leyline jack is left unguarded.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a61c860"/>
+      <child nodeId="node-0x5684e2ed0a80"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a61c860">
+  <item nodeId="node-0x5684e2ed0a80">
     <command xml:space="preserve">go inside</command>
     <result xml:space="preserve">You consider it, but decide not to. It would be unwise to plow into someone&apos;s table and ruin their supper.
 
@@ -3932,10 +3932,10 @@ You can&apos;t help but notice the leyline jack is left unguarded.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a61fc50"/>
+      <child nodeId="node-0x5684e2ed3e70"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a61fc50">
+  <item nodeId="node-0x5684e2ed3e70">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening leyline jack)
 
@@ -3963,10 +3963,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4a623fd0"/>
+      <child nodeId="node-0x5684e2ed8c90"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4a623fd0">
+  <item nodeId="node-0x5684e2ed8c90">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">What do you want to examine?
 
@@ -3977,10 +3977,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4acdc0a0"/>
+      <child nodeId="node-0x5684e3590410"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4acdc0a0">
+  <item nodeId="node-0x5684e3590410">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">
 Office
@@ -3999,10 +3999,10 @@ When you&apos;re ready to begin, you can go INSIDE the network. You can also lea
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4acdf6d0"/>
+      <child nodeId="node-0x5684e3593b10"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4acdf6d0">
+  <item nodeId="node-0x5684e3593b10">
     <command xml:space="preserve">eat clock</command>
     <result xml:space="preserve">While it would resolve your issues with the device itself, you would then need to greet your boss to manage your hours. As you have yet to learn how to speak, this is impossible, so it&apos;d be best to table this idea.
 
@@ -4013,10 +4013,10 @@ When you&apos;re ready to begin, you can go INSIDE the network. You can also lea
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ace29f0"/>
+      <child nodeId="node-0x5684e3596e30"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ace29f0">
+  <item nodeId="node-0x5684e3596e30">
     <command xml:space="preserve">eat cords</command>
     <result xml:space="preserve">That&apos;s plainly inedible.
 
@@ -4027,10 +4027,10 @@ When you&apos;re ready to begin, you can go INSIDE the network. You can also lea
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ace5df0"/>
+      <child nodeId="node-0x5684e359a230"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ace5df0">
+  <item nodeId="node-0x5684e359a230">
     <command xml:space="preserve">eat connector</command>
     <result xml:space="preserve">This singular cable is worth more than your yearly salary, so that would be a very unwise decision.
 
@@ -4041,10 +4041,10 @@ When you&apos;re ready to begin, you can go INSIDE the network. You can also lea
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ace9260"/>
+      <child nodeId="node-0x5684e359d6a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ace9260">
+  <item nodeId="node-0x5684e359d6a0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   connector
@@ -4060,10 +4060,10 @@ When you&apos;re ready to begin, you can go INSIDE the network. You can also lea
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4acee0c0"/>
+      <child nodeId="node-0x5684e35a2500"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4acee0c0">
+  <item nodeId="node-0x5684e35a2500">
     <command xml:space="preserve">eat network</command>
     <result xml:space="preserve">As it is many times your volume and mass, this would be impossible.
 
@@ -4074,10 +4074,10 @@ When you&apos;re ready to begin, you can go INSIDE the network. You can also lea
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4acf1470"/>
+      <child nodeId="node-0x5684e35a58b0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4acf1470">
+  <item nodeId="node-0x5684e35a58b0">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">test.
 
@@ -4088,10 +4088,10 @@ When you&apos;re ready to begin, you can go INSIDE the network. You can also lea
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4acf49b0"/>
+      <child nodeId="node-0x5684e35a8df0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4acf49b0">
+  <item nodeId="node-0x5684e35a8df0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Street
@@ -4110,10 +4110,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4acf8010"/>
+      <child nodeId="node-0x5684e35ac450"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4acf8010">
+  <item nodeId="node-0x5684e35ac450">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Cafe
@@ -4136,10 +4136,10 @@ The cafe has several patrons sitting at different tables, a clerk standing behin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4acfb180"/>
+      <child nodeId="node-0x5684e35af5c0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4acfb180">
+  <item nodeId="node-0x5684e35af5c0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 The Network
@@ -4164,10 +4164,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4acfe8a0"/>
+      <child nodeId="node-0x5684e35b2cd0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4acfe8a0">
+  <item nodeId="node-0x5684e35b2cd0">
     <command xml:space="preserve">eat red</command>
     <result xml:space="preserve">You cannot eat an abstract concept.
 
@@ -4178,10 +4178,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad01ca0"/>
+      <child nodeId="node-0x5684e35b60d0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad01ca0">
+  <item nodeId="node-0x5684e35b60d0">
     <command xml:space="preserve">eat green</command>
     <result xml:space="preserve">You cannot eat an abstract concept.
 
@@ -4192,10 +4192,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad05060"/>
+      <child nodeId="node-0x5684e35b9490"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad05060">
+  <item nodeId="node-0x5684e35b9490">
     <command xml:space="preserve">eat blue</command>
     <result xml:space="preserve">You cannot eat an abstract concept.
 
@@ -4206,7 +4206,7 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ad08420">
+  <item nodeId="node-0x5684e35bc850">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">
 Street
@@ -4231,11 +4231,11 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad0bb00"/>
-      <child nodeId="node-0x5dae4ad24600"/>
+      <child nodeId="node-0x5684e35bff30"/>
+      <child nodeId="node-0x5684e35d8a30"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad0bb00">
+  <item nodeId="node-0x5684e35bff30">
     <command xml:space="preserve">eat crowd</command>
     <result xml:space="preserve">Platypi aren&apos;t known for being apex predators...besides you&apos;re not hungry.
 
@@ -4246,10 +4246,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad0ee90"/>
+      <child nodeId="node-0x5684e35c32c0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad0ee90">
+  <item nodeId="node-0x5684e35c32c0">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">
 Apartment
@@ -4262,10 +4262,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad12520"/>
+      <child nodeId="node-0x5684e35c6950"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad12520">
+  <item nodeId="node-0x5684e35c6950">
     <command xml:space="preserve">use safe</command>
     <result xml:space="preserve">You open safe, revealing pie.
 
@@ -4276,10 +4276,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad158d0"/>
+      <child nodeId="node-0x5684e35c9d00"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad158d0">
+  <item nodeId="node-0x5684e35c9d00">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">pie: Taken.
 ewer: Taken.
@@ -4293,10 +4293,10 @@ newspaper: Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad18cf0"/>
+      <child nodeId="node-0x5684e35cd120"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad18cf0">
+  <item nodeId="node-0x5684e35cd120">
     <command xml:space="preserve">eat pie</command>
     <result xml:space="preserve">Yum! Protein is the best way to start the day, as your mum always said.
 
@@ -4307,10 +4307,10 @@ newspaper: Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ab26d90"/>
+      <child nodeId="node-0x5684e33db1f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ab26d90">
+  <item nodeId="node-0x5684e33db1f0">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">
 Street
@@ -4329,10 +4329,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad21400"/>
+      <child nodeId="node-0x5684e35d5830"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad21400">
+  <item nodeId="node-0x5684e35d5830">
     <command xml:space="preserve">eat crowd</command>
     <result xml:space="preserve">Platypi aren&apos;t known for being apex predators...besides you&apos;re not hungry.
 
@@ -4343,7 +4343,7 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ad24600">
+  <item nodeId="node-0x5684e35d8a30">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -4366,11 +4366,11 @@ The leyline connector is awaiting the start of your shift.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad28020"/>
-      <child nodeId="node-0x5dae4ad45e50"/>
+      <child nodeId="node-0x5684e35dc450"/>
+      <child nodeId="node-0x5684e35fa280"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad28020">
+  <item nodeId="node-0x5684e35dc450">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">(connector)
 Taken.
@@ -4382,10 +4382,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad2b3d0"/>
+      <child nodeId="node-0x5684e35df800"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad2b3d0">
+  <item nodeId="node-0x5684e35df800">
     <command xml:space="preserve">use connector</command>
     <result xml:space="preserve">This is merely a cable, so it needs to be used to &quot;unlock&quot; access to a leyline jack.
 
@@ -4396,10 +4396,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad2e780"/>
+      <child nodeId="node-0x5684e35e2bb0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad2e780">
+  <item nodeId="node-0x5684e35e2bb0">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">You take a moment to prepare yourself. You wrap one paw around the cable&apos;s end, close your eyes, and then plug it into the hardware.
 
@@ -4427,10 +4427,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad32bc0"/>
+      <child nodeId="node-0x5684e35e6ff0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad32bc0">
+  <item nodeId="node-0x5684e35e6ff0">
     <command xml:space="preserve">use red</command>
     <result xml:space="preserve">You cannot use red pool.
 
@@ -4441,10 +4441,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad35af0"/>
+      <child nodeId="node-0x5684e35e9f20"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad35af0">
+  <item nodeId="node-0x5684e35e9f20">
     <command xml:space="preserve">inspect red</command>
     <result xml:space="preserve">You inspect the red pool, revealing the magic within.
 
@@ -4455,10 +4455,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad38f10"/>
+      <child nodeId="node-0x5684e35ed340"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad38f10">
+  <item nodeId="node-0x5684e35ed340">
     <command xml:space="preserve">x red</command>
     <result xml:space="preserve">A deep pool of tomato-bright energy. You can gauge that there&apos;s just about the right amount that had accumulated since your last shift.
 
@@ -4469,10 +4469,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad3c2e0"/>
+      <child nodeId="node-0x5684e35f0710"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad3c2e0">
+  <item nodeId="node-0x5684e35f0710">
     <command xml:space="preserve">close red</command>
     <result xml:space="preserve">It isn&apos;t something you can close.
 
@@ -4483,10 +4483,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad3f6a0"/>
+      <child nodeId="node-0x5684e35f3ab0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad3f6a0">
+  <item nodeId="node-0x5684e35f3ab0">
     <command xml:space="preserve">open red</command>
     <result xml:space="preserve">It isn&apos;t something you can open.
 
@@ -4497,10 +4497,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad42a70"/>
+      <child nodeId="node-0x5684e35f6ea0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad42a70">
+  <item nodeId="node-0x5684e35f6ea0">
     <command xml:space="preserve">inspect red</command>
     <result xml:space="preserve">You inspect the red pool, revealing the magic within.
 
@@ -4511,7 +4511,7 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ad45e50">
+  <item nodeId="node-0x5684e35fa280">
     <command xml:space="preserve">take</command>
     <result xml:space="preserve">(connector)
 Taken.
@@ -4523,10 +4523,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad49200"/>
+      <child nodeId="node-0x5684e35fd630"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad49200">
+  <item nodeId="node-0x5684e35fd630">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">You take a moment to prepare yourself. You wrap one paw around the cable&apos;s end, close your eyes, and then plug it into the hardware.
 
@@ -4554,12 +4554,12 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad4d610"/>
-      <child nodeId="node-0x5dae4ad56d50"/>
-      <child nodeId="node-0x5dae4ad63dc0"/>
+      <child nodeId="node-0x5684e3601a40"/>
+      <child nodeId="node-0x5684e360b180"/>
+      <child nodeId="node-0x5684e36181f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad4d610">
+  <item nodeId="node-0x5684e3601a40">
     <command xml:space="preserve">inspect red</command>
     <result xml:space="preserve">You inspect the red pool, revealing the magic within.
 
@@ -4570,10 +4570,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad505f0"/>
+      <child nodeId="node-0x5684e3604a20"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad505f0">
+  <item nodeId="node-0x5684e3604a20">
     <command xml:space="preserve">inspect red</command>
     <result xml:space="preserve">You have already inspected this.
 
@@ -4584,10 +4584,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad539b0"/>
+      <child nodeId="node-0x5684e3607de0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad539b0">
+  <item nodeId="node-0x5684e3607de0">
     <command xml:space="preserve">examine red</command>
     <result xml:space="preserve">A deep pool of tomato-bright energy. You can gauge that there&apos;s just about the right amount that had accumulated since your last shift.
 
@@ -4600,7 +4600,7 @@ In red pool is redInfo.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ad56d50">
+  <item nodeId="node-0x5684e360b180">
     <command xml:space="preserve">x red</command>
     <result xml:space="preserve">A deep pool of tomato-bright energy. You can gauge that there&apos;s just about the right amount that had accumulated since your last shift.
 
@@ -4611,10 +4611,10 @@ In red pool is redInfo.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad5a160"/>
+      <child nodeId="node-0x5684e360e590"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad5a160">
+  <item nodeId="node-0x5684e360e590">
     <command xml:space="preserve">inspect red</command>
     <result xml:space="preserve">You inspect the red pool, revealing the magic within.
 
@@ -4625,10 +4625,10 @@ In red pool is redInfo.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad5d550"/>
+      <child nodeId="node-0x5684e3611980"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad5d550">
+  <item nodeId="node-0x5684e3611980">
     <command xml:space="preserve">inspect red</command>
     <result xml:space="preserve">You have already inspected this.
 
@@ -4639,10 +4639,10 @@ In red pool is redInfo.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad60930"/>
+      <child nodeId="node-0x5684e3614d60"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad60930">
+  <item nodeId="node-0x5684e3614d60">
     <command xml:space="preserve">use red</command>
     <result xml:space="preserve">A deep pool of tomato-bright energy. You can gauge that there&apos;s just about the right amount that had accumulated since your last shift.
 
@@ -4655,7 +4655,7 @@ In red pool is redInfo.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ad63dc0">
+  <item nodeId="node-0x5684e36181f0">
     <command xml:space="preserve">use red</command>
     <result xml:space="preserve">You inspect the red pool, revealing the magic within.
 
@@ -4666,10 +4666,10 @@ In red pool is redInfo.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad671c0"/>
+      <child nodeId="node-0x5684e361b5f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad671c0">
+  <item nodeId="node-0x5684e361b5f0">
     <command xml:space="preserve">use red</command>
     <result xml:space="preserve">(red pool)
 A deep pool of tomato-bright energy. You can gauge that there&apos;s just about the right amount that had accumulated since your last shift.
@@ -4683,10 +4683,10 @@ In red pool is red magic.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad6a6d0"/>
+      <child nodeId="node-0x5684e361eb00"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad6a6d0">
+  <item nodeId="node-0x5684e361eb00">
     <command xml:space="preserve">examine red info</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -4697,10 +4697,10 @@ In red pool is red magic.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad6da30"/>
+      <child nodeId="node-0x5684e3621e60"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad6da30">
+  <item nodeId="node-0x5684e3621e60">
     <command xml:space="preserve">examine redInfo</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -4711,10 +4711,10 @@ In red pool is red magic.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad70e70"/>
+      <child nodeId="node-0x5684e36252a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad70e70">
+  <item nodeId="node-0x5684e36252a0">
     <command xml:space="preserve">x red magic</command>
     <result xml:space="preserve">This is a long descript.
 
@@ -4725,7 +4725,7 @@ In red pool is red magic.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ad740e0">
+  <item nodeId="node-0x5684e3628510">
     <command xml:space="preserve">enter bed</command>
     <result xml:space="preserve">You slip under the covers. Your bed is still warm from your sleeping body.
 
@@ -4741,12 +4741,12 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad77850"/>
-      <child nodeId="node-0x5dae4ad7ad50"/>
-      <child nodeId="node-0x5dae4ad848e0"/>
+      <child nodeId="node-0x5684e362bc80"/>
+      <child nodeId="node-0x5684e362f180"/>
+      <child nodeId="node-0x5684e3638d00"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad77850">
+  <item nodeId="node-0x5684e362bc80">
     <command xml:space="preserve">exit</command>
     <result xml:space="preserve">You get out of bed.
 
@@ -4760,7 +4760,7 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ad7ad50">
+  <item nodeId="node-0x5684e362f180">
     <command xml:space="preserve">exit </command>
     <result xml:space="preserve">You leave your bed, messing up the covers once again.
 
@@ -4771,10 +4771,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad7e160"/>
+      <child nodeId="node-0x5684e3632590"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad7e160">
+  <item nodeId="node-0x5684e3632590">
     <command xml:space="preserve">make bed</command>
     <result xml:space="preserve">I only understood you as far as wanting to make.
 
@@ -4785,10 +4785,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad81540"/>
+      <child nodeId="node-0x5684e3635960"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad81540">
+  <item nodeId="node-0x5684e3635960">
     <command xml:space="preserve">making bed</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -4799,7 +4799,7 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ad848e0">
+  <item nodeId="node-0x5684e3638d00">
     <command xml:space="preserve">exit bed</command>
     <result xml:space="preserve">I only understood you as far as wanting to exit.
 
@@ -4810,10 +4810,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad87cf0"/>
+      <child nodeId="node-0x5684e363c110"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad87cf0">
+  <item nodeId="node-0x5684e363c110">
     <command xml:space="preserve">exit</command>
     <result xml:space="preserve">You leave your bed, messing up the covers once again.
 
@@ -4824,7 +4824,7 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ad8b0b0">
+  <item nodeId="node-0x5684e363f4d0">
     <command xml:space="preserve">make bed</command>
     <result xml:space="preserve">You made your bed! Your mother would be very proud.
 
@@ -4835,11 +4835,11 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad8e470"/>
-      <child nodeId="node-0x5dae4ad9b4c0"/>
+      <child nodeId="node-0x5684e3642890"/>
+      <child nodeId="node-0x5684e364f8e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad8e470">
+  <item nodeId="node-0x5684e3642890">
     <command xml:space="preserve">make</command>
     <result xml:space="preserve">You must supply a noun.
 
@@ -4850,10 +4850,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad91830"/>
+      <child nodeId="node-0x5684e3645c50"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad91830">
+  <item nodeId="node-0x5684e3645c50">
     <command xml:space="preserve">make bed</command>
     <result xml:space="preserve">I only understood you as far as wanting to make.
 
@@ -4864,10 +4864,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad94bf0"/>
+      <child nodeId="node-0x5684e3649010"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad94bf0">
+  <item nodeId="node-0x5684e3649010">
     <command xml:space="preserve">make the bed</command>
     <result xml:space="preserve">I only understood you as far as wanting to make.
 
@@ -4878,10 +4878,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad97fe0"/>
+      <child nodeId="node-0x5684e364c400"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad97fe0">
+  <item nodeId="node-0x5684e364c400">
     <command xml:space="preserve">enter bed</command>
     <result xml:space="preserve">You slip under the covers. Your bed is still warm from your sleeping body.
 
@@ -4897,7 +4897,7 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ad9b4c0">
+  <item nodeId="node-0x5684e364f8e0">
     <command xml:space="preserve">enter bed</command>
     <result xml:space="preserve">You slip under the covers. Your bed is still warm from your sleeping body.
 
@@ -4913,10 +4913,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ad9e9c0"/>
+      <child nodeId="node-0x5684e3652de0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ad9e9c0">
+  <item nodeId="node-0x5684e3652de0">
     <command xml:space="preserve">exit</command>
     <result xml:space="preserve">You leave your bed, messing up the covers once again.
 
@@ -4927,10 +4927,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ada1df0"/>
+      <child nodeId="node-0x5684e3656210"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ada1df0">
+  <item nodeId="node-0x5684e3656210">
     <command xml:space="preserve">make bed</command>
     <result xml:space="preserve">You made your bed! Your mother would be very proud.
 
@@ -4941,10 +4941,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ada5190"/>
+      <child nodeId="node-0x5684e36595b0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ada5190">
+  <item nodeId="node-0x5684e36595b0">
     <command xml:space="preserve">make bed</command>
     <result xml:space="preserve">You cannot make the bed, as it is not an unmade bed.
 
@@ -4955,10 +4955,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ada8580"/>
+      <child nodeId="node-0x5684e365c9a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ada8580">
+  <item nodeId="node-0x5684e365c9a0">
     <command xml:space="preserve">sleep</command>
     <result xml:space="preserve">You are not sleepy. Besides, you need to go to work, so sleeping is a poor choice.
 
@@ -4969,10 +4969,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4adab8b0"/>
+      <child nodeId="node-0x5684e365fcd0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4adab8b0">
+  <item nodeId="node-0x5684e365fcd0">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">
 Street
@@ -4997,10 +4997,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4adaf380"/>
+      <child nodeId="node-0x5684e36637a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4adaf380">
+  <item nodeId="node-0x5684e36637a0">
     <command xml:space="preserve">sleep</command>
     <result xml:space="preserve">This isn&apos;t a suitable place to fall asleep.
 
@@ -5011,7 +5011,7 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4adb27a0">
+  <item nodeId="node-0x5684e3666bc0">
     <command xml:space="preserve">use fireplace</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -5020,10 +5020,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4adb5b20"/>
+      <child nodeId="node-0x5684e3669f40"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4adb5b20">
+  <item nodeId="node-0x5684e3669f40">
     <command xml:space="preserve">use bed</command>
     <result xml:space="preserve">You slip under the covers. Your bed is still warm from your sleeping body.
 
@@ -5039,10 +5039,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4adb9070"/>
+      <child nodeId="node-0x5684e366d490"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4adb9070">
+  <item nodeId="node-0x5684e366d490">
     <command xml:space="preserve">exit bed</command>
     <result xml:space="preserve">I only understood you as far as wanting to exit.
 
@@ -5053,10 +5053,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4adbc430"/>
+      <child nodeId="node-0x5684e3670850"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4adbc430">
+  <item nodeId="node-0x5684e3670850">
     <command xml:space="preserve">exit</command>
     <result xml:space="preserve">You leave your bed, messing up the covers once again.
 
@@ -5067,10 +5067,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4adbf820"/>
+      <child nodeId="node-0x5684e3673c40"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4adbf820">
+  <item nodeId="node-0x5684e3673c40">
     <command xml:space="preserve">use alarm clock</command>
     <result xml:space="preserve">You reset your alarm. Now at least you won&apos;t need to worry about doing it when you get home after work.
 
@@ -5081,10 +5081,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4adc2be0"/>
+      <child nodeId="node-0x5684e3677000"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4adc2be0">
+  <item nodeId="node-0x5684e3677000">
     <command xml:space="preserve">use alarm clock</command>
     <result xml:space="preserve">That&apos;s already on.
 
@@ -5095,7 +5095,7 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4adc6030">
+  <item nodeId="node-0x5684e367a450">
     <command xml:space="preserve">use basin</command>
     <result xml:space="preserve">You cannot use basin.
 
@@ -5106,10 +5106,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4adc93f0"/>
+      <child nodeId="node-0x5684e367d810"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4adc93f0">
+  <item nodeId="node-0x5684e367d810">
     <command xml:space="preserve">use ewer</command>
     <result xml:space="preserve">You pour water into the basin.
 
@@ -5120,10 +5120,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4adcc750"/>
+      <child nodeId="node-0x5684e3680b70"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4adcc750">
+  <item nodeId="node-0x5684e3680b70">
     <command xml:space="preserve">use basin</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -5132,10 +5132,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4adcfad0"/>
+      <child nodeId="node-0x5684e3683ef0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4adcfad0">
+  <item nodeId="node-0x5684e3683ef0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -5146,7 +5146,7 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4add2e80">
+  <item nodeId="node-0x5684e36872a0">
     <command xml:space="preserve">take ewer</command>
     <result xml:space="preserve">Taken.
 
@@ -5157,10 +5157,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4add6120"/>
+      <child nodeId="node-0x5684e368a540"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4add6120">
+  <item nodeId="node-0x5684e368a540">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">
 Street
@@ -5185,10 +5185,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4add9d00"/>
+      <child nodeId="node-0x5684e368e120"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4add9d00">
+  <item nodeId="node-0x5684e368e120">
     <command xml:space="preserve">use ewer</command>
     <result xml:space="preserve">Pouring out the water would be terribly rude, so you decide not to.
 
@@ -5199,10 +5199,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4addd110"/>
+      <child nodeId="node-0x5684e3691530"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4addd110">
+  <item nodeId="node-0x5684e3691530">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">
 Apartment
@@ -5215,10 +5215,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ade0730"/>
+      <child nodeId="node-0x5684e3694b50"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ade0730">
+  <item nodeId="node-0x5684e3694b50">
     <command xml:space="preserve">use ewer</command>
     <result xml:space="preserve">You pour water into the basin.
 
@@ -5229,10 +5229,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ade3b00"/>
+      <child nodeId="node-0x5684e3697f20"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ade3b00">
+  <item nodeId="node-0x5684e3697f20">
     <command xml:space="preserve">use ewer</command>
     <result xml:space="preserve">You cannot use ewer.
 
@@ -5243,7 +5243,7 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ade6ea0">
+  <item nodeId="node-0x5684e369b2c0">
     <command xml:space="preserve">use ewer</command>
     <result xml:space="preserve">You pour water into the basin.
 
@@ -5254,10 +5254,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4adea270"/>
+      <child nodeId="node-0x5684e369e690"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4adea270">
+  <item nodeId="node-0x5684e369e690">
     <command xml:space="preserve">use ewer</command>
     <result xml:space="preserve">There&apos;s nothing to pour out.
 
@@ -5268,11 +5268,11 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aded630"/>
-      <child nodeId="node-0x5dae4ae18830"/>
+      <child nodeId="node-0x5684e36a1a50"/>
+      <child nodeId="node-0x5684e36ccc50"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aded630">
+  <item nodeId="node-0x5684e36a1a50">
     <command xml:space="preserve">use fireplace</command>
     <result xml:space="preserve">you cannot use fireplace.
 
@@ -5283,10 +5283,10 @@ Apartment
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4adf09f0"/>
+      <child nodeId="node-0x5684e36a4e10"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4adf09f0">
+  <item nodeId="node-0x5684e36a4e10">
     <command xml:space="preserve">use bed</command>
     <result xml:space="preserve">You slip under the covers. Your bed is still warm from your sleeping body.
 
@@ -5302,10 +5302,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4aa7db60"/>
+      <child nodeId="node-0x5684e3331f90"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4aa7db60">
+  <item nodeId="node-0x5684e3331f90">
     <command xml:space="preserve">exit bed</command>
     <result xml:space="preserve">I only understood you as far as wanting to exit.
 
@@ -5316,10 +5316,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4abb1c00"/>
+      <child nodeId="node-0x5684e34661a0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4abb1c00">
+  <item nodeId="node-0x5684e34661a0">
     <command xml:space="preserve">use safe</command>
     <result xml:space="preserve">You open safe, revealing pie.
 
@@ -5330,10 +5330,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae0ed10"/>
+      <child nodeId="node-0x5684e36c3130"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae0ed10">
+  <item nodeId="node-0x5684e36c3130">
     <command xml:space="preserve">use safe</command>
     <result xml:space="preserve">That&apos;s already open.
 
@@ -5344,10 +5344,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae12050"/>
+      <child nodeId="node-0x5684e36c6470"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae12050">
+  <item nodeId="node-0x5684e36c6470">
     <command xml:space="preserve">use clock</command>
     <result xml:space="preserve">You reset your alarm. Now at least you won&apos;t need to worry about doing it when you get home after work.
 
@@ -5358,10 +5358,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae15440"/>
+      <child nodeId="node-0x5684e36c9860"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae15440">
+  <item nodeId="node-0x5684e36c9860">
     <command xml:space="preserve">use bookshelf</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -5370,7 +5370,7 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ae18830">
+  <item nodeId="node-0x5684e36ccc50">
     <command xml:space="preserve">use basin</command>
     <result xml:space="preserve">You splash water onto your face. Refreshing!
 
@@ -5381,10 +5381,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae1bc30"/>
+      <child nodeId="node-0x5684e36d0050"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae1bc30">
+  <item nodeId="node-0x5684e36d0050">
     <command xml:space="preserve">use basin</command>
     <result xml:space="preserve">You&apos;ve already use this. Splashing dirty water onto your face wouldn&apos;t be very productive.
 
@@ -5395,10 +5395,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae1f0a0"/>
+      <child nodeId="node-0x5684e36d34c0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae1f0a0">
+  <item nodeId="node-0x5684e36d34c0">
     <command xml:space="preserve">use safe</command>
     <result xml:space="preserve">You open safe, revealing pie.
 
@@ -5409,10 +5409,10 @@ But you&apos;re already in bed.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae223d0"/>
+      <child nodeId="node-0x5684e36d67f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae223d0">
+  <item nodeId="node-0x5684e36d67f0">
     <command xml:space="preserve">use pie</command>
     <result xml:space="preserve">(first taking pie)
 Yum! Protein is the best way to start the day, as your mum always said.
@@ -5424,7 +5424,7 @@ Yum! Protein is the best way to start the day, as your mum always said.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ae25840">
+  <item nodeId="node-0x5684e36d9c60">
     <command xml:space="preserve">inspect bed</command>
     <result xml:space="preserve">You can only inspect magic.
 
@@ -5435,7 +5435,7 @@ Yum! Protein is the best way to start the day, as your mum always said.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ae28b90">
+  <item nodeId="node-0x5684e36dcfd0">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">ewer: Taken.
 books: Taken.
@@ -5448,10 +5448,10 @@ newspaper: Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae2bfa0"/>
+      <child nodeId="node-0x5684e36e03d0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae2bfa0">
+  <item nodeId="node-0x5684e36e03d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You bump into the wall. You are swiftly reminded of how sensitive your beak is, and why it isn&apos;t a good idea to run into walls.
 
@@ -5462,10 +5462,10 @@ newspaper: Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae2f350"/>
+      <child nodeId="node-0x5684e36e3780"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae2f350">
+  <item nodeId="node-0x5684e36e3780">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">
 Street
@@ -5490,10 +5490,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae32a80"/>
+      <child nodeId="node-0x5684e36e6eb0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae32a80">
+  <item nodeId="node-0x5684e36e6eb0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -5516,10 +5516,10 @@ The leyline connector is awaiting the start of your shift.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae364c0"/>
+      <child nodeId="node-0x5684e36ea8f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae364c0">
+  <item nodeId="node-0x5684e36ea8f0">
     <command xml:space="preserve">take</command>
     <result xml:space="preserve">(connector)
 Taken.
@@ -5531,10 +5531,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae397c0"/>
+      <child nodeId="node-0x5684e36edbf0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae397c0">
+  <item nodeId="node-0x5684e36edbf0">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">You take a moment to prepare yourself. You wrap one paw around the cable&apos;s end, close your eyes, and then plug it into the hardware.
 
@@ -5562,10 +5562,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae3dc00"/>
+      <child nodeId="node-0x5684e36f2030"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae3dc00">
+  <item nodeId="node-0x5684e36f2030">
     <command xml:space="preserve">inspect red</command>
     <result xml:space="preserve">You inspect the red pool, revealing the magic within.
 
@@ -5576,10 +5576,10 @@ A green pool of energy is constantly churning and can easily pull you under if y
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae40be0"/>
+      <child nodeId="node-0x5684e36f5010"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae40be0">
+  <item nodeId="node-0x5684e36f5010">
     <command xml:space="preserve">inspect red</command>
     <result xml:space="preserve">(red pool)
 A deep pool of tomato-bright energy. You can gauge that there&apos;s just about the right amount that had accumulated since your last shift.
@@ -5593,10 +5593,10 @@ In red pool is red magic.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae44130"/>
+      <child nodeId="node-0x5684e36f8560"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae44130">
+  <item nodeId="node-0x5684e36f8560">
     <command xml:space="preserve">x red magic</command>
     <result xml:space="preserve">You imagine your paw dipping into the red magic. Each drop feels as it should; they accumulate, like dewdrops on a spiderweb, as magic moves through the leylines. Too much or too little would be a sign that something is wrong, but there&apos;s just the amount that you&apos;d expect between your shifts.
 
@@ -5607,10 +5607,10 @@ In red pool is red magic.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae474b0"/>
+      <child nodeId="node-0x5684e36fb8e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae474b0">
+  <item nodeId="node-0x5684e36fb8e0">
     <command xml:space="preserve">x green pool</command>
     <result xml:space="preserve">A deep, deep well of energy. It&apos;s more like a river, or an ocean current, and is the backbone of the leyline network...or at least the corner of it that exists within your closet.
 
@@ -5623,10 +5623,10 @@ In green pool is green magic.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae4a8d0"/>
+      <child nodeId="node-0x5684e36fed00"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae4a8d0">
+  <item nodeId="node-0x5684e36fed00">
     <command xml:space="preserve">x green magic</command>
     <result xml:space="preserve">bbbbbbbbbb.
 
@@ -5637,7 +5637,7 @@ In green pool is green magic.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ae4dca0">
+  <item nodeId="node-0x5684e37020d0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You are a platypus, one of the two kinds of egg-laying mammals. Like all mammals, you stand tall on two legs and can manipulate objects with your paws.
 
@@ -5650,10 +5650,10 @@ You, though, have webbed paws, which can make manipulations difficult. But you d
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae511a0"/>
+      <child nodeId="node-0x5684e37055d0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae511a0">
+  <item nodeId="node-0x5684e37055d0">
     <command xml:space="preserve">x webs</command>
     <result xml:space="preserve">Thin membranes stretch between each digit of your paws, making you very good at swimming and scooping water.
 
@@ -5666,10 +5666,10 @@ Unfortunately, it also means that you can&apos;t buy factory-made gloves and cer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae54810"/>
+      <child nodeId="node-0x5684e3708c40"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae54810">
+  <item nodeId="node-0x5684e3708c40">
     <command xml:space="preserve">x beak</command>
     <result xml:space="preserve">A slightly-rubbery blunt beak makes up the end of your face. It&apos;s a little like a duck&apos;s, but dark and highly sensitive.
 
@@ -5682,10 +5682,10 @@ Your ancient ancestors used their beaks to hunt for prey in the water, sensing t
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae57eb0"/>
+      <child nodeId="node-0x5684e370c2e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae57eb0">
+  <item nodeId="node-0x5684e370c2e0">
     <command xml:space="preserve">take beak</command>
     <result xml:space="preserve">That seems to be a part of yourself.
 
@@ -5696,10 +5696,10 @@ Your ancient ancestors used their beaks to hunt for prey in the water, sensing t
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae5b110"/>
+      <child nodeId="node-0x5684e370f540"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae5b110">
+  <item nodeId="node-0x5684e370f540">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">
 Street
@@ -5724,10 +5724,10 @@ Across the street to the WEST is the cafe you often frequent.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae5e830"/>
+      <child nodeId="node-0x5684e3712c60"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae5e830">
+  <item nodeId="node-0x5684e3712c60">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You are a platypus, one of the two kinds of egg-laying mammals. Like all mammals, you stand tall on two legs and can manipulate objects with your paws.
 
@@ -5740,10 +5740,10 @@ You, though, have webbed paws, which can make manipulations difficult. But you d
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae61fc0"/>
+      <child nodeId="node-0x5684e37163f0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae61fc0">
+  <item nodeId="node-0x5684e37163f0">
     <command xml:space="preserve">x beak</command>
     <result xml:space="preserve">A slightly-rubbery blunt beak makes up the end of your face. It&apos;s a little like a duck&apos;s, but dark and highly sensitive.
 
@@ -5756,7 +5756,7 @@ Your ancient ancestors used their beaks to hunt for prey in the water, sensing t
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x5dae4ae65690">
+  <item nodeId="node-0x5684e3719ac0">
     <command xml:space="preserve">examine self</command>
     <result xml:space="preserve">You are a platypus, one of the two kinds of egg-laying mammals. Like all mammals, you stand tall on two legs and can manipulate objects with your paws.
 
@@ -5769,10 +5769,10 @@ You, though, have webbed paws, which can make manipulations difficult. But you d
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae68ae0"/>
+      <child nodeId="node-0x5684e371cf10"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae68ae0">
+  <item nodeId="node-0x5684e371cf10">
     <command xml:space="preserve">examine paws</command>
     <result xml:space="preserve">Thin membranes stretch between each digit of your paws, making you very good at swimming and scooping water.
 
@@ -5785,10 +5785,10 @@ Unfortunately, it also means that you can&apos;t buy factory-made gloves and cer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae6c1b0"/>
+      <child nodeId="node-0x5684e37205e0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae6c1b0">
+  <item nodeId="node-0x5684e37205e0">
     <command xml:space="preserve">examine beak</command>
     <result xml:space="preserve">A slightly-rubbery blunt beak makes up the end of your face. It&apos;s a little like a duck&apos;s, but dark and highly sensitive.
 
@@ -5801,10 +5801,10 @@ Your ancient ancestors used their beaks to hunt for prey in the water, sensing t
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae6f860"/>
+      <child nodeId="node-0x5684e3723c90"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae6f860">
+  <item nodeId="node-0x5684e3723c90">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">
 Street
@@ -5831,10 +5831,10 @@ You can also see paperbat here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae731e0"/>
+      <child nodeId="node-0x5684e3727610"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae731e0">
+  <item nodeId="node-0x5684e3727610">
     <command xml:space="preserve">examine bat</command>
     <result xml:space="preserve">A young fruitbat wearing ink-stained overalls and a sling filled with rolled-up newspapers.
 
@@ -5847,10 +5847,10 @@ Due to his wings, he only has one long, thumb-like appendage to work with, but h
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae766c0"/>
+      <child nodeId="node-0x5684e372aaf0"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae766c0">
+  <item nodeId="node-0x5684e372aaf0">
     <command xml:space="preserve">talk bat</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -5861,10 +5861,10 @@ Due to his wings, he only has one long, thumb-like appendage to work with, but h
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae79af0"/>
+      <child nodeId="node-0x5684e372df20"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae79af0">
+  <item nodeId="node-0x5684e372df20">
     <command xml:space="preserve">talk to bat</command>
     <result xml:space="preserve">The paperbat&apos;s ears perk up.
 
@@ -5878,10 +5878,10 @@ Buying things hasn&apos;t been implemented yet, so you&apos;ll just have to deal
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae7ced0"/>
+      <child nodeId="node-0x5684e3731300"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae7ced0">
+  <item nodeId="node-0x5684e3731300">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Cafe
@@ -5904,10 +5904,10 @@ You can&apos;t help but notice the leyline jack is left unguarded on the SOUTH w
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae80630"/>
+      <child nodeId="node-0x5684e3734a60"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae80630">
+  <item nodeId="node-0x5684e3734a60">
     <command xml:space="preserve">look clerk</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -5918,10 +5918,10 @@ You can&apos;t help but notice the leyline jack is left unguarded on the SOUTH w
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae839e0"/>
+      <child nodeId="node-0x5684e3737e10"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae839e0">
+  <item nodeId="node-0x5684e3737e10">
     <command xml:space="preserve">examine clerk</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -5932,10 +5932,10 @@ You can&apos;t help but notice the leyline jack is left unguarded on the SOUTH w
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x5dae4ae86df0"/>
+      <child nodeId="node-0x5684e373b220"/>
     </children>
   </item>
-  <item nodeId="node-0x5dae4ae86df0">
+  <item nodeId="node-0x5684e373b220">
     <command xml:space="preserve">examine Clerk</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
