@@ -1,0 +1,14 @@
+[done] make test rooms
+[done] make test scenery: t_volcano t_ocean t_caldera
+t_ entries for [yes]room/item/[yes]scenery/synonym dicts
+t_ while trigger for going from room 2 to 1
+t_tp command to manually set rooms
+
+transfer over the shitty flochart on p 119
+
+fix refs from scenery to visuals (cause i can spell that lol)
+
+fill out dicts
+rm teleport
+chekc/update standard verbs list
+put in/test story locks
