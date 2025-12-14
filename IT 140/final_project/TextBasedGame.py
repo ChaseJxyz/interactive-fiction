@@ -52,7 +52,7 @@ class Items:
         return self.take_descript
 
 
-t_item = Items(
+t_item = Items(  # something about deleting this breaks the function for capturing the item from player input, so I'm leaving it in
     "test item",
     "t_room_2",
     "a mystery widget glints in the ash",
@@ -182,7 +182,7 @@ rooms = {
         descript for room per turn,
         item
 	"""
-    "t_room_1": {
+    "t_room_1": {  # same thing with these two test rooms. Something about deleting them makes the init_descript lookup fail for the start of turn function. So I'm keeping it in (despite the rooms being inaccessible to the player)
         "north": ["fail", "north fail descript"],
         "south": ["fail", "south fail descript"],
         "east": ["t_room_2", "you go east to t room 2 and see stuff"],
