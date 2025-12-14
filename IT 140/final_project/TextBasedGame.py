@@ -7,21 +7,12 @@
 MODULES
 """
 
+# For text prettifying
 import textwrap
 
 width = 88
 
 separator = "-" * width
-
-"""
-TEST STUFF ONLY TODO: REMOVE COMMENT OUT
-"""
-
-
-def teleport(endpoint):
-    player.set_location(endpoint)
-    print(f"you just teleported to {player.get_location()}")
-
 
 """
 ITEMS
@@ -169,9 +160,10 @@ item_lookup = {
 ROOMS
 """
 # room dict template
-""" connected room (if any, else fail),move descript
-	"name" : {
+"""
+	"name" : { # num in planning docs
 		"print_name": "",
+        # directions: connected room (if any, else fail), move descript
 		"north": ["",""],
 		"south": ["",""],
 		"east": ["",""],
@@ -181,7 +173,6 @@ ROOMS
 	},
 """
 
-# room[dir][0] = connected room [1] move descript
 rooms = {
     # TEST ROOMS
     """
@@ -205,7 +196,7 @@ rooms = {
         "east": ["fail", " east fail 2"],
         "west": ["t_room_1", "you go west to t room 1 and see other stuff"],
         "init_descript": "you are currently in room 2 its east of the volcano and closer to the tidepools",
-        "item": t_item,
+        "item": "",
     },
     #
     "valley": {  # room0
@@ -306,7 +297,7 @@ rooms = {
         "west": [
             "bank",
             "Carefully, you find new footholds to get back up and onto dry land.",
-        ],  # fail for stretch
+        ],
         "init_descript": [
             "The river is still cool, despite its shallowness. It's perfect for the crow, it seems, who starts splashing in the water.",
             "The river's source is to the NORTH, while it continues to flow SOUTH. To the EAST is the bank by the forest, and the bank to the WEST has the mouth of a dark cave.",
@@ -417,7 +408,7 @@ rooms = {
                 "'Not yet!' it says. 'Gifts!'",
                 "You're annoyed, but you know you need to collect enough gifts before you're allowed to return home.",
             ],
-        ],  # exit for story locks
+        ],
         "south": [
             "fail",
             "The ocean quietly laps at the sand to the SOUTH. Perhaps at one time it could reach the fjord; perhaps it, too, is weaker than it once was.",
@@ -436,62 +427,9 @@ rooms = {
         ],
         "item": fossil,
     },
-    # "exit": {  # room9/exit
-    #    "print_name": "the wedding",
-    #    "north": ["fail", "%%%"],
-    #    "south": ["fail", "%%%"],
-    #    "east": ["fail", "%%%"],
-    #    "west": ["fail", "%%%"],
-    #    "init_descript": "%%%",
-    #    "item": "",
-    # },
 }
 
 direction_synonyms = {"n": "north", "s": "south", "e": "east", "w": "west"}
-
-
-# !synonyms dict #TODO: another obv thing to cut back
-synonyms = {"test_room_1": "t_room_1", "test_room_2": "t_room_2", "test_item": "t_item"}
-
-# ! scenery/look/examine dict #TODO: this is the one thing to cut if anythings gonna be cut lol but any item/room should be in here plus obv terms from descripts
-""" template
-"visible_rooms": [""],
-"visual_description": ""
-"""
-visuals = {
-    "t_volcano": {
-        "visible_rooms": ["t_room_1", "t_room_2"],
-        "visual_description": "the very cool test version of the volcano",
-    },
-    "t_ocean": {
-        "visible_rooms": ["t_room_1"],
-        "visual_description": "you can only see the ocean from room 1",
-    },
-    "t_caldera": {
-        "visible_rooms": ["t_room_2"],
-        "visual_description": "you can only see teh caldera from room 2",
-    },
-    "t_item": {
-        "visible_rooms": t_item.get_location(),
-        "visual_description": "crow friend is holding a shiny thing in his beak",
-    },
-}
-
-# standard verb list TODO: make sure its up tod ate
-"""
-standard_verbs = [
-    "move",
-    "take",
-    "examine",
-    "help",
-    "eat",
-    "drop",
-    "speak",
-    "throw",
-    "wear",
-]
-"""
-# story lock sets TODO: put in
 
 """
 CHARACTERS
@@ -529,7 +467,7 @@ class Character:
         return self.inventory_count
 
 
-player = Character("", [])
+player = Character("valley", [])
 
 """
 PROMPT MANAGEMENT
@@ -568,7 +506,6 @@ player_prompt = Parsed_Prompt("")
 """
 FUNCTIONS
 """
-# TODO: remove testing print, double-check prompt wording, double-check synonyms, update text for each non-friend_crow choice. also maybe something better than a big elif lol, formatting output
 
 """
 SYSTEM
@@ -591,36 +528,23 @@ VERBS
 """
 
 
-# move(dir)
 def move(direction):
     """
     Takes noun from prompt, checks room dict, prints movement descript, updates player location (if possible)
-    """  # Update player's location to new room and calls initializations, if any #TODO: implement the checks
-    # """
-    # if location = riverbank and dir = east --> check story lock 1 is in inv otherwise print special string from friendcrow
-    # elif "" = fjord and dir = north --> story lock 2 "" ""
-    # also tehse will leave the func
-    # """
+    """
     if direction in ["n", "s", "e", "w"]:
         direction = direction_synonyms[direction]
     text_wrapper(rooms[player.get_location()][direction][1])
     if rooms[player.get_location()][direction][0] != "fail":
         player.set_location(rooms[player.get_location()][direction][0])
-    # lookup room[direction] key + print move dsecript entry of list. if room == fail then no set location
-    # print(f"this is the part where u go {direction}")
-    # print("this will be the init descript for the new room")
 
 
-# take(noun) TODO: could prolly clean up
 def take(noun):
     """
     Takes noun from prompt, looks up str noun for matching item instance
             if noun is valid item: set local item variable, checks item's location and sets item location/player inventory with new item (or error if already in inventory or item is in different room)
                 else if noun is not valid item: print error message
     """
-    # Update item location from room to inventory.
-    # if noun in ["all","everything"]:
-    # print("that's cheating lol do some reading")
     if noun in item_lookup:
         item = item_lookup[noun]
         if item.get_location == "inventory":
@@ -632,104 +556,33 @@ def take(noun):
             item.set_location("inventory")
             player.set_inventory(noun)
             rooms[player.get_location()]["item"] = ""
-            # print(f"you pick up the {noun} with friend crows help")
             text_wrapper(item.get_take_descript())
-            # print(f"Inventory is now: {player.get_inventory}")
         else:
             print(f"You can't see a {noun} to pick up.")
     else:
         print("The crow doesn't know what you want it to get.")
 
 
-# examine(noun) TODO: update flavor text also axe
-def examine(noun):  # Look at room/item/scenery for flavor/plot/clues
-    print(f"your gonna look up the descript for {noun}")
-    if noun in visuals and player.get_location() in visuals[noun]["visible_rooms"]:
-        print(
-            "heres the",
-            noun,
-            "descript:",
-            visuals[noun]["visual_description"],
-            "! waow",
-        )
-    else:
-        print("you cant see shit from here")
-
-
-# inventory() TODO: prettify/flavor TODO: can axe this
-def display_inventory():
-    print(f"The player has {player.get_inventory()}")
-
-
-# def help():  # Give player clues on what they can/should do #FIXME: flavor text + list of implemented verbs
-#    print("yes i am friend crow i am helping look i can even say stuff")
-#    print(
-#        "friend crow does something cute and says yes well you cant do much what with the hooves and all, but you have me! should i tell you what i can do?"
-#    )
-#    crow_answer = input("↦ How do you respond?\n").lower()
-#    if crow_answer in ["yes", "Yes", "Y", "y", "sure", "please"]:
-#        print(
-#            "i can --insert list of verbs with newlines between--. but im not a mind reader so if you want me to take something specific, you have to tell me!\n\ncourse your the one moving and looking at stuff, and you can read your own mind, but you still need to decide where to go or what to look at!"
-#        )
-#    else:
-#        print(
-#            "friend crow does something slightly less cute. well, okay! but im always here if you need help! just have to ask!"
-#        )
-
-
-# the following are just "fails" in case player tries, dont worry about synonyms #FIXME: flavor text
-# def eat(noun):
-#    print(f"its not a good idea to eat {noun}, cause plot reasons lol")
-
-
-# def drop(noun):
-#    print(f"youre not allowed to do drop {noun} for plot reasons")
-
-
-""" #TOFIX: do i even wanna do this anymore
-def speak(character):
-	subject = character[1]
-	if character[1] in ["to"]:
-		subject = character[2]
-	print(f"you try to ask the {subject} something but ur not the same typa critter so it dont work")
+"""
+GAME FUNCTIONS
 """
 
 
-# def throw(noun):
-#    print(f"even friend crow does not have hands to throw a {noun}")
-
-
-# def wear(noun):
-#    print(f"since your both critters, you have no idea how to wear a {noun}")
-
-
-# Game functions
-
-
-# Parser | breaks up multi-word prompts into array (if applicable), then checks for matching verbs/nouns, ends with asking for next prompt #TODO: synonym dict
 def parsing(
     prompt,
-):  # TODO: if prompt in standard_verbs then can skip the synonym looker upper but need the synonynizer to rewrite
+):
     """
     Takes input captured in next_prompt() and breaks into verb (player action) and noun (target of action). Checks verb for synonym matches and passes through noun if the verb is an available action.
 
     After the verb function runs, it checks for win/loss conditions and runs the proper actions to end the game. Otherwise it asks for the next prompt and goes again.
     """
-    # """
-    # if prompt != in standard_verbs --> search syn dict for matching key then turn prompt into value and then run parsing again ELSE(not in dict) --> prompt for a better word)
-    # """
-    # TODO: FOR TESTING ONLY
-    # print(f"--->This is the raw prompt:{prompt}<---")
     player_prompt.set_prompt(prompt)
-    verb = player_prompt.get_prompt(0)
+    verb = player_prompt.get_prompt(0).lower()
     noun = ""
     if player_prompt.get_prompt_len() > 1:
-        noun = player_prompt.get_prompt(1)
+        noun = player_prompt.get_prompt(1).lower()
         if noun in ["the", "a", "an"]:
-            noun = player_prompt.get_prompt(2)
-    ####### 1 word prompts
-    #    if verb in ["help", "halp", "help plz", "plz", "pls", "clue", "hint", "h"]:
-    #        help()
+            noun = player_prompt.get_prompt(2).lower()
     if verb in ["move", "go"] and noun in [
         "north",
         "south",
@@ -743,41 +596,11 @@ def parsing(
         move(noun)
     elif verb in ["move", "go"]:
         print("That's not a valid direction for movement.")
-    # elif verb in ["inventory", "i"]:
-    #    display_inventory()
-    # elif verb in ["sleep", "wait", "z"]:
-    #    print("if there were turn counters, this would matter!")
-    # elif verb in ["about", "credits"]:
-    #    print("its just me lol")
-    # elif verb in ["load", "save", "score"]:
-    #    print("this is a pretty simple game, so there's none of that here! sorry :(")
-    # elif verb in ["quit", "exit"]:
-    #    print(
-    #        "idk what ur using lol but if this is bash/zsh you can ctrl+C, but you probably already knew that!"
-    #    )
-    #######
-    ####### 2+ word prompts
-    # elif verb in ["examine", "x"]:
-    #    examine(noun)
-    # elif verb in ["eat", "drink"]:
-    #    eat(noun)
-    # elif verb in ["drop"]:
-    #    drop(noun)
     elif verb in ["take", "t", "get", "g", "collect"]:
         take(noun)
-    # elif verb in ["talk","greet","speak","ask"]:
-    # speak(split_prompt)
-    # elif verb in ["throw", "toss"]:
-    #    throw(noun)
-    # elif verb in ["wear"]:
-    #    wear(noun)
-    # elif len(player_prompt.prompt_len) >= 2 and player_prompt.get_prompt(1) in ["north","south","east","west","n","s","e","w"]:
-    # move(noun)
-    # elif verb == "teleport":
-    #    teleport(noun)
     else:
         text_wrapper("The crow doesn't know what it is you'd like to do.")
-    #######
+    # end condition checks
     if player.get_location() == "cave":
         bad_end_1()
     elif player.get_inventory_count() == 7:
@@ -787,20 +610,15 @@ def parsing(
 
 # prompt()
 def next_prompt():
-    # TODO: test only so remove or at least rename/format nicer
     """
     Inits start of new turn by printing current location, inventory, and prompt for next input. Sends captured str to be parsed.
     """
     inventory_message: str = ""
     print(separator)
-    # Room description
+    # Room description + item description (if any)
     text_wrapper(rooms[player.get_location()]["init_descript"])
     if rooms[player.get_location()]["item"] != "":
-        # item = rooms[player.get_location()]["item"]
-        text_wrapper(
-            rooms[player.get_location()]["item"].get_init_descript()
-            # item.get_init_descript()
-        )
+        text_wrapper(rooms[player.get_location()]["item"].get_init_descript())
     # Player status message
     if len(player.get_inventory()) == 0:
         inventory_message = ". Your inventory is empty."
@@ -817,14 +635,11 @@ def next_prompt():
     parsing(prompt)
 
 
-# main()
-
 """
 GAME LOGIC
 """
 
-
-# intit process
+# Intro
 intro_text = [
     "You've lived many seasons, more than you have stripes on your legs, so the cycle of give and take of the world is a familiar one. The bad will soon fade into the good, you'd tell the others, the expectant mothers, their worried wives. Nothing is forever.",
     "But the bad seasons have grown more frequent, the reprieves more rare. When the first foal was born with a coat white as snow, eyes pale as the moon, it was seen as a portent of change. Even after it died a few days later, it had to be a sign.",
@@ -903,15 +718,6 @@ def true_end():
     quit()
 
 
-# just_a_string = "this is just a single string but very long aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-
-
-# print(
-#    f"{list_loop(intro_text)}"
-# textwrap.fill("\n".join(intro_text), width=width)
-#        text=f"this is the pretty world init aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa{newlines()}is this gonna be a new line",
-#    + "\n"
-# )
 """
 GAME START
 """
@@ -924,12 +730,3 @@ print(separator)
 text_wrapper(intro_text)
 player.set_location("valley")
 next_prompt()
-
-# whiles for rooms
-"""
-while player location = exit room --> ending process
-"""
-"""
-while player location = cave --> bad end process
-"""
-# end process
