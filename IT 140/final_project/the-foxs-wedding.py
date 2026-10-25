@@ -1,8 +1,3 @@
-# Chase Anderson
-# chase.anderson5@snhu.edu
-# IT-140-11893-M01 Introduction to Scripting 2025 C-6 (Oct – Dec)
-# Module 7 Project
-
 """
 MODULES
 """
